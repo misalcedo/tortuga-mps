@@ -9,11 +9,29 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
-  public static final int Module = 0;
+  public static final int Constant = 0;
+  public static final int Expression = 1;
+  public static final int Function = 2;
+  public static final int Integer32Bit = 3;
+  public static final int Integer64Bit = 4;
+  public static final int Module = 5;
+  public static final int Parameter = 6;
+  public static final int ParameterList = 7;
+  public static final int Result = 8;
+  public static final int ValueType = 9;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x3858ffa4421444acL, 0x99984ee1e7b8b797L);
+    builder.put(0x1759765b97fe8c0L, Constant);
+    builder.put(0x1759765b97fe8e1L, Expression);
+    builder.put(0x1759765b97f4cd9L, Function);
+    builder.put(0x1759765b97fd1cdL, Integer32Bit);
+    builder.put(0x1759765b97fd1ceL, Integer64Bit);
     builder.put(0x2b6ee5a45d33423dL, Module);
+    builder.put(0x1759765b97fc1f1L, Parameter);
+    builder.put(0x1759765b97fc1f0L, ParameterList);
+    builder.put(0x1759765b97fc1f3L, Result);
+    builder.put(0x1759765b97fd1ccL, ValueType);
     myIndex = builder.seal();
   }
 

@@ -11,6 +11,8 @@ public class Module_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("(module");
+    tgs.increaseIndent();
+    tgs.decreaseIndent();
     tgs.newLine();
     tgs.append(")");
   }

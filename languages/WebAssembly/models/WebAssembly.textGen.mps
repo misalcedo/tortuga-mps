@@ -38,6 +38,8 @@
         <child id="7991274449437422201" name="extension" index="33IsuW" />
       </concept>
       <concept id="1233749247888" name="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" flags="in" index="11bSqf" />
+      <concept id="1233752719417" name="jetbrains.mps.lang.textGen.structure.IncreaseDepthOperation" flags="nn" index="11p84A" />
+      <concept id="1233752780875" name="jetbrains.mps.lang.textGen.structure.DecreaseDepthOperation" flags="nn" index="11pn5k" />
     </language>
   </registry>
   <node concept="WtQ9Q" id="2HITqhtdy9W">
@@ -58,11 +60,11 @@
             <property role="lacIc" value="(module" />
           </node>
         </node>
-        <node concept="lc7rE" id="2HITqhtdABL" role="3cqZAp">
-          <node concept="l8MVK" id="2HITqhtdAC9" role="lcghm" />
-        </node>
-        <node concept="lc7rE" id="2HITqhtdADL" role="3cqZAp">
-          <node concept="la8eA" id="2HITqhtdAEb" role="lcghm">
+        <node concept="11p84A" id="5P_QmTvGni" role="3cqZAp" />
+        <node concept="11pn5k" id="5P_QmTvGnZ" role="3cqZAp" />
+        <node concept="lc7rE" id="5P_QmTvGl3" role="3cqZAp">
+          <node concept="l8MVK" id="5P_QmTvGm1" role="lcghm" />
+          <node concept="la8eA" id="5P_QmTvGmr" role="lcghm">
             <property role="lacIc" value=")" />
           </node>
         </node>

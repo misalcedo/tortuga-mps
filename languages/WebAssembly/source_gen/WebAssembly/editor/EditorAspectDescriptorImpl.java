@@ -18,7 +18,19 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     SAbstractConcept cncpt = ((SAbstractConcept) concept);
     switch (conceptIndex.index(cncpt)) {
       case 0:
+        return Collections.<ConceptEditor>singletonList(new Constant_Editor());
+      case 1:
+        return Collections.<ConceptEditor>singletonList(new Function_Editor());
+      case 2:
+        return Collections.<ConceptEditor>singletonList(new Integer32Bit_Editor());
+      case 3:
+        return Collections.<ConceptEditor>singletonList(new Integer64Bit_Editor());
+      case 4:
         return Collections.<ConceptEditor>singletonList(new Module_Editor());
+      case 5:
+        return Collections.<ConceptEditor>singletonList(new Parameter_Editor());
+      case 6:
+        return Collections.<ConceptEditor>singletonList(new ParameterList_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -26,5 +38,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
 
 
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x2b6ee5a45d33423dL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fe8c0L), MetaIdFactory.conceptId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97f4cd9L), MetaIdFactory.conceptId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1cdL), MetaIdFactory.conceptId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1ceL), MetaIdFactory.conceptId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x2b6ee5a45d33423dL), MetaIdFactory.conceptId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f1L), MetaIdFactory.conceptId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f0L)).seal();
 }
