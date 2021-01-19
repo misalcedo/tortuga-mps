@@ -4,25 +4,22 @@ package WebAssembly.structure;
 
 import jetbrains.mps.smodel.runtime.BaseStructureAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
+import jetbrains.mps.smodel.runtime.EnumerationDescriptor;
 import java.util.Collection;
 import java.util.Arrays;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.adapter.ids.SConceptId;
+import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
-import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
+import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  /*package*/ final ConceptDescriptor myConceptConstant = createDescriptorForConstant();
-  /*package*/ final ConceptDescriptor myConceptExpression = createDescriptorForExpression();
-  /*package*/ final ConceptDescriptor myConceptFunction = createDescriptorForFunction();
-  /*package*/ final ConceptDescriptor myConceptInteger32Bit = createDescriptorForInteger32Bit();
-  /*package*/ final ConceptDescriptor myConceptInteger64Bit = createDescriptorForInteger64Bit();
+  /*package*/ final ConceptDescriptor myConceptFunctionType = createDescriptorForFunctionType();
   /*package*/ final ConceptDescriptor myConceptModule = createDescriptorForModule();
   /*package*/ final ConceptDescriptor myConceptParameter = createDescriptorForParameter();
-  /*package*/ final ConceptDescriptor myConceptParameterList = createDescriptorForParameterList();
   /*package*/ final ConceptDescriptor myConceptResult = createDescriptorForResult();
-  /*package*/ final ConceptDescriptor myConceptValueType = createDescriptorForValueType();
+  /*package*/ final EnumerationDescriptor myEnumerationValueTypes = new EnumerationDescriptor_ValueTypes();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -37,88 +34,44 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptConstant, myConceptExpression, myConceptFunction, myConceptInteger32Bit, myConceptInteger64Bit, myConceptModule, myConceptParameter, myConceptParameterList, myConceptResult, myConceptValueType);
+    return Arrays.asList(myConceptFunctionType, myConceptModule, myConceptParameter, myConceptResult);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
-      case LanguageConceptSwitch.Constant:
-        return myConceptConstant;
-      case LanguageConceptSwitch.Expression:
-        return myConceptExpression;
-      case LanguageConceptSwitch.Function:
-        return myConceptFunction;
-      case LanguageConceptSwitch.Integer32Bit:
-        return myConceptInteger32Bit;
-      case LanguageConceptSwitch.Integer64Bit:
-        return myConceptInteger64Bit;
+      case LanguageConceptSwitch.FunctionType:
+        return myConceptFunctionType;
       case LanguageConceptSwitch.Module:
         return myConceptModule;
       case LanguageConceptSwitch.Parameter:
         return myConceptParameter;
-      case LanguageConceptSwitch.ParameterList:
-        return myConceptParameterList;
       case LanguageConceptSwitch.Result:
         return myConceptResult;
-      case LanguageConceptSwitch.ValueType:
-        return myConceptValueType;
       default:
         return null;
     }
   }
 
+  @Override
+  public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
+    return Arrays.asList(myEnumerationValueTypes);
+  }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
     return myIndexSwitch.index(c);
   }
 
-  private static ConceptDescriptor createDescriptorForConstant() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Constant", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fe8c0L);
-    b.class_(false, false, false);
-    b.parent(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fe8e1L);
-    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/105156629472733376");
-    b.version(2);
-    b.property("value", 0x1759765b98058c3L).type(PrimitiveTypeId.INTEGER).origin("105156629472762051").done();
-    b.aggregate("type", 0x1759765b9803393L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1ccL).optional(false).ordered(true).multiple(false).origin("105156629472752531").done();
-    b.alias("constant");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForExpression() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Expression", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fe8e1L);
-    b.interface_();
-    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/105156629472733409");
-    b.version(2);
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForFunction() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Function", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97f4cd9L);
+  private static ConceptDescriptor createDescriptorForFunctionType() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "FunctionType", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4633L);
     b.class_(false, false, false);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
-    b.parent(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fe8e1L);
-    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/105156629472693465");
+    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/2168606229993768499");
     b.version(2);
-    b.aggregate("parameters", 0x1759765b980998eL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f0L).optional(false).ordered(true).multiple(false).origin("105156629472778638").done();
-    b.alias("function");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForInteger32Bit() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Integer32Bit", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1cdL);
-    b.class_(false, false, false);
-    b.super_("WebAssembly.structure.ValueType", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1ccL);
-    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/105156629472727501");
-    b.version(2);
-    b.alias("i32");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForInteger64Bit() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Integer64Bit", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1ceL);
-    b.class_(false, false, false);
-    b.super_("WebAssembly.structure.ValueType", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1ccL);
-    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/105156629472727502");
-    b.version(2);
-    b.alias("i64");
+    b.aggregate("parameters", 0x1e186fe05c7a463bL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f1L).optional(true).ordered(true).multiple(true).origin("2168606229993768507").done();
+    b.aggregate("results", 0x1e186fe05c7a463dL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4640L).optional(true).ordered(true).multiple(false).origin("2168606229993768509").done();
+    b.alias("functype");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForModule() {
@@ -127,42 +80,26 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3129691285170111037");
     b.version(2);
-    b.aggregate("expressions", 0x1759765b97fe8e2L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fe8e1L).optional(true).ordered(true).multiple(true).origin("105156629472733410").done();
+    b.aggregate("types", 0x1e186fe05c7a4634L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4633L).optional(true).ordered(true).multiple(true).origin("2168606229993768500").done();
     b.alias("module");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForParameter() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Parameter", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f1L);
     b.class_(false, false, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/105156629472723441");
     b.version(2);
-    b.aggregate("type", 0x1759765b9807853L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1ccL).optional(false).ordered(true).multiple(false).origin("105156629472770131").done();
+    b.property("type", 0x1e186fe05c7a46bcL).type(MetaIdFactory.dataTypeId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4625L)).origin("2168606229993768636").done();
     b.alias("parameter");
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForParameterList() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "ParameterList", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f0L);
-    b.class_(false, false, false);
-    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/105156629472723440");
-    b.version(2);
-    b.aggregate("parameters", 0x1759765b980999dL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f1L).optional(true).ordered(true).multiple(true).origin("105156629472778653").done();
-    b.alias("parameters");
-    return b.create();
-  }
   private static ConceptDescriptor createDescriptorForResult() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Result", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f3L);
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Result", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4640L);
     b.class_(false, false, false);
-    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/105156629472723443");
+    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/2168606229993768512");
     b.version(2);
-    b.associate("results", 0x1759765b97fd1c7L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1ccL).optional(true).origin("105156629472727495").done();
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForValueType() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "ValueType", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fd1ccL);
-    b.class_(false, true, false);
-    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/105156629472727500");
-    b.version(2);
+    b.property("type", 0x1e186fe05c7a4641L).type(MetaIdFactory.dataTypeId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4625L)).origin("2168606229993768513").done();
+    b.alias("result");
     return b.create();
   }
 }

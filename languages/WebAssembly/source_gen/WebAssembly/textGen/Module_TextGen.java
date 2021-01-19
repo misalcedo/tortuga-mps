@@ -5,6 +5,10 @@ package WebAssembly.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class Module_TextGen extends TextGenDescriptorBase {
   @Override
@@ -12,8 +16,15 @@ public class Module_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("(module");
     tgs.increaseIndent();
+    for (SNode item : SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.types$Q8Wu)) {
+      tgs.appendNode(item);
+    }
     tgs.decreaseIndent();
     tgs.newLine();
     tgs.append(")");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink types$Q8Wu = MetaAdapterFactory.getContainmentLink(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x2b6ee5a45d33423dL, 0x1e186fe05c7a4634L, "types");
   }
 }

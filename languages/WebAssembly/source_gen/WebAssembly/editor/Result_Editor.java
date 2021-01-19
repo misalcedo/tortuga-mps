@@ -7,8 +7,8 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class Integer64Bit_Editor extends DefaultNodeEditor {
+public class Result_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Integer64Bit_EditorBuilder_a(editorContext, node).createCell();
+    return new Result_EditorBuilder_a(editorContext, node).createCell();
   }
 }

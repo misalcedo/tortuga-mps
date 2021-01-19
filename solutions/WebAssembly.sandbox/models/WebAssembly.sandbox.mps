@@ -7,22 +7,18 @@
   <imports />
   <registry>
     <language id="3858ffa4-4214-44ac-9998-4ee1e7b8b797" name="WebAssembly">
-      <concept id="105156629472727501" name="WebAssembly.structure.Integer32Bit" flags="ng" index="2S2$qC" />
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
-        <child id="105156629472770131" name="type" index="2SXuWQ" />
+        <property id="2168606229993768636" name="type" index="12oy_s" />
       </concept>
-      <concept id="105156629472723440" name="WebAssembly.structure.ParameterList" flags="ng" index="2S2_ql">
-        <child id="105156629472778653" name="parameters" index="2SXgVS" />
+      <concept id="2168606229993768512" name="WebAssembly.structure.Result" flags="ng" index="12oyAw">
+        <property id="2168606229993768513" name="type" index="12oyAx" />
       </concept>
-      <concept id="105156629472733376" name="WebAssembly.structure.Constant" flags="ng" index="2S2BY_">
-        <property id="105156629472762051" name="value" index="2SXsYA" />
-        <child id="105156629472752531" name="type" index="2SXqjQ" />
-      </concept>
-      <concept id="105156629472693465" name="WebAssembly.structure.Function" flags="ng" index="2S2HIW">
-        <child id="105156629472778638" name="parameters" index="2SXgVF" />
+      <concept id="2168606229993768499" name="WebAssembly.structure.FunctionType" flags="ng" index="12oyBj">
+        <child id="2168606229993768507" name="parameters" index="12oyBr" />
+        <child id="2168606229993768509" name="results" index="12oyBt" />
       </concept>
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
-        <child id="105156629472733410" name="expressions" index="2S2BY7" />
+        <child id="2168606229993768500" name="types" index="12oyBk" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -31,24 +27,22 @@
       </concept>
     </language>
   </registry>
-  <node concept="1Qnqup" id="2HITqhtdr7S">
+  <node concept="1Qnqup" id="1SorY1suU63">
     <property role="TrG5h" value="echo" />
-    <node concept="2S2BY_" id="5P_QmTw5aY" role="2S2BY7">
-      <property role="2SXsYA" value="42" />
-      <node concept="2S2$qC" id="5P_QmTw5ym" role="2SXqjQ" />
-    </node>
-    <node concept="2S2HIW" id="5P_QmTwxeh" role="2S2BY7">
-      <property role="TrG5h" value="foo" />
-      <node concept="2S2_ql" id="5P_QmTwxej" role="2SXgVF">
-        <node concept="2S2_qk" id="5P_QmTwzN3" role="2SXgVS">
-          <property role="TrG5h" value="x" />
-          <node concept="2S2$qC" id="5P_QmTwzN7" role="2SXuWQ" />
-        </node>
-        <node concept="2S2_qk" id="5P_QmTwzNa" role="2SXgVS">
-          <property role="TrG5h" value="y" />
-          <node concept="2S2$qC" id="5P_QmTwzNg" role="2SXuWQ" />
-        </node>
+    <node concept="12oyBj" id="1SorY1suU64" role="12oyBk">
+      <property role="TrG5h" value="send" />
+      <node concept="2S2_qk" id="1SorY1suU66" role="12oyBr">
+        <property role="12oy_s" value="1SorY1su$oB/i64" />
       </node>
+      <node concept="2S2_qk" id="1SorY1suU68" role="12oyBr">
+        <property role="12oy_s" value="1SorY1su$oB/i64" />
+      </node>
+      <node concept="12oyAw" id="1SorY1suU6b" role="12oyBt">
+        <property role="12oyAx" value="1SorY1su$oA/i32" />
+      </node>
+    </node>
+    <node concept="12oyBj" id="1SorY1svH4f" role="12oyBk">
+      <property role="TrG5h" value="reply" />
     </node>
   </node>
 </model>
