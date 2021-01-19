@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/Tortuga/Tortuga.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Tortuga/sandbox/Tortuga.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/WebAssembly/WebAssembly.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/WebAssembly.sandbox/WebAssembly.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/tortuga-mps.iml" filepath="$PROJECT_DIR$/.idea/tortuga-mps.iml" />
+    </modules>
+  </component>
+</project>
