@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="6z8rnsnhyfwsv6539id16jda5r4hyc0">
-  <files names="FunctionType_TextGen.java:Module_TextGen.java:Parameter_TextGen.java:Result_TextGen.java:TextGenAspectDescriptor.java" />
+<product version="3" modelHash="-5bq3k0y970mf278enksw0lgpj1xq1g3">
+  <files names="FunctionType_TextGen.java:Module_TextGen.java:Parameter_TextGen.java:Result_TextGen.java:Signature_TextGen.java:TextGenAspectDescriptor.java" />
 </product>
 

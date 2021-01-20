@@ -19,6 +19,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptModule = createDescriptorForModule();
   /*package*/ final ConceptDescriptor myConceptParameter = createDescriptorForParameter();
   /*package*/ final ConceptDescriptor myConceptResult = createDescriptorForResult();
+  /*package*/ final ConceptDescriptor myConceptSignature = createDescriptorForSignature();
   /*package*/ final EnumerationDescriptor myEnumerationValueTypes = new EnumerationDescriptor_ValueTypes();
   private final LanguageConceptSwitch myIndexSwitch;
 
@@ -34,7 +35,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptFunctionType, myConceptModule, myConceptParameter, myConceptResult);
+    return Arrays.asList(myConceptFunctionType, myConceptModule, myConceptParameter, myConceptResult, myConceptSignature);
   }
 
   @Override
@@ -49,6 +50,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptParameter;
       case LanguageConceptSwitch.Result:
         return myConceptResult;
+      case LanguageConceptSwitch.Signature:
+        return myConceptSignature;
       default:
         return null;
     }
@@ -69,8 +72,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/2168606229993768499");
     b.version(2);
-    b.aggregate("parameters", 0x1e186fe05c7a463bL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f1L).optional(true).ordered(true).multiple(true).origin("2168606229993768507").done();
-    b.aggregate("results", 0x1e186fe05c7a463dL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4640L).optional(true).ordered(true).multiple(false).origin("2168606229993768509").done();
+    b.aggregate("signature", 0x6dd923024fde6010L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fde600aL).optional(false).ordered(true).multiple(false).origin("7915396312917237776").done();
     b.alias("functype");
     return b.create();
   }
@@ -100,6 +102,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("type", 0x1e186fe05c7a4641L).type(MetaIdFactory.dataTypeId(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4625L)).origin("2168606229993768513").done();
     b.alias("result");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForSignature() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Signature", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fde600aL);
+    b.class_(false, false, false);
+    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/7915396312917237770");
+    b.version(2);
+    b.aggregate("parameters", 0x6dd923024fde600bL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f1L).optional(true).ordered(true).multiple(true).origin("7915396312917237771").done();
+    b.aggregate("results", 0x6dd923024fde600dL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4640L).optional(true).ordered(true).multiple(false).origin("7915396312917237773").done();
+    b.alias("signature");
     return b.create();
   }
 }

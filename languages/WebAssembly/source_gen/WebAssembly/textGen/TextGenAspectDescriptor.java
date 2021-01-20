@@ -31,6 +31,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new Parameter_TextGen();
       case LanguageConceptSwitch.Result:
         return new Result_TextGen();
+      case LanguageConceptSwitch.Signature:
+        return new Signature_TextGen();
     }
     return null;
   }

@@ -6,7 +6,6 @@ import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
@@ -21,13 +20,8 @@ public class FunctionType_TextGen extends TextGenDescriptorBase {
     tgs.append("(type $");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.name$MnvL));
     tgs.append(" (func");
-    for (SNode item : SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.parameters$Drks)) {
-      tgs.appendNode(item);
-    }
-    if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.results$DrMu) != null)) {
-      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.results$DrMu));
-    }
-    tgs.append(")");
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.signature$ozrT));
+    tgs.append("))");
   }
 
   private static final class PROPS {
@@ -35,7 +29,6 @@ public class FunctionType_TextGen extends TextGenDescriptorBase {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink parameters$Drks = MetaAdapterFactory.getContainmentLink(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4633L, 0x1e186fe05c7a463bL, "parameters");
-    /*package*/ static final SContainmentLink results$DrMu = MetaAdapterFactory.getContainmentLink(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4633L, 0x1e186fe05c7a463dL, "results");
+    /*package*/ static final SContainmentLink signature$ozrT = MetaAdapterFactory.getContainmentLink(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4633L, 0x6dd923024fde6010L, "signature");
   }
 }

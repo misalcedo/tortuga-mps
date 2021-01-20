@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-9g462zohwtqclbnhltclqbrh5sd1jne">
-  <files names="EditorAspectDescriptorImpl.java:FunctionType_Editor.java:FunctionType_EditorBuilder_a.java:Module_Editor.java:Module_EditorBuilder_a.java:Parameter_Editor.java:Parameter_EditorBuilder_a.java:Result_Editor.java:Result_EditorBuilder_a.java" />
+<product version="3" modelHash="ayubgpoyzuh24uu2rp47ove1af211bf">
+  <files names="EditorAspectDescriptorImpl.java:FunctionType_Editor.java:FunctionType_EditorBuilder_a.java:Module_Editor.java:Module_EditorBuilder_a.java:Parameter_Editor.java:Parameter_EditorBuilder_a.java:Result_Editor.java:Result_EditorBuilder_a.java:Signature_Editor.java:Signature_EditorBuilder_a.java" />
 </product>
 

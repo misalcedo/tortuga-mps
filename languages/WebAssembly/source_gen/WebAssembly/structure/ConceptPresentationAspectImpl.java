@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Module;
   private ConceptPresentation props_Parameter;
   private ConceptPresentation props_Result;
+  private ConceptPresentation props_Signature;
 
   @Override
   @Nullable
@@ -48,6 +49,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Result = cpb.create();
         }
         return props_Result;
+      case LanguageConceptSwitch.Signature:
+        if (props_Signature == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("signature");
+          props_Signature = cpb.create();
+        }
+        return props_Signature;
     }
     return null;
   }
