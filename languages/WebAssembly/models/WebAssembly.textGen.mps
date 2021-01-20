@@ -347,5 +347,25 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="61w0MNw_RI5">
+    <ref role="WuzLi" to="aqb7:61w0MNw_RHJ" resolve="Identifier" />
+    <node concept="11bSqf" id="61w0MNw_RI6" role="11c4hB">
+      <node concept="3clFbS" id="61w0MNw_RI7" role="2VODD2">
+        <node concept="lc7rE" id="61w0MNw_RIq" role="3cqZAp">
+          <node concept="la8eA" id="61w0MNw_RII" role="lcghm">
+            <property role="lacIc" value="$" />
+          </node>
+          <node concept="l9hG8" id="61w0MNw_RJz" role="lcghm">
+            <node concept="2OqwBi" id="61w0MNw_RSj" role="lb14g">
+              <node concept="117lpO" id="61w0MNw_RKq" role="2Oq$k0" />
+              <node concept="3TrcHB" id="61w0MNw_S0c" role="2OqNvi">
+                <ref role="3TsBF5" to="aqb7:61w0MNw_RHK" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -251,5 +251,17 @@
       <node concept="2iRfu4" id="6Rp8K9fSdqt" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="61w0MNw_RHM">
+    <ref role="1XX52x" to="aqb7:61w0MNw_RHJ" resolve="Identifier" />
+    <node concept="3EZMnI" id="61w0MNw_RHO" role="2wV5jI">
+      <node concept="3F0ifn" id="61w0MNw_RHV" role="3EZMnx">
+        <property role="3F0ifm" value="$" />
+      </node>
+      <node concept="3F0A7n" id="61w0MNw_RI1" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:61w0MNw_RHK" resolve="value" />
+      </node>
+      <node concept="2iRfu4" id="61w0MNw_RHR" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
