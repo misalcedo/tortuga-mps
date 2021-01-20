@@ -121,30 +121,13 @@
       <node concept="3F1sOY" id="3us7bEYMycZ" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:3us7bEYMx$I" resolve="id" />
       </node>
-      <node concept="3F0ifn" id="1SorY1su$qg" role="3EZMnx">
-        <property role="3F0ifm" value="(func" />
-      </node>
       <node concept="3F1sOY" id="6Rp8K9fRQdk" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:6Rp8K9fRA0g" resolve="signature" />
+        <ref role="1NtTu8" to="aqb7:6Rp8K9fRA0g" resolve="functionType" />
       </node>
       <node concept="3F0ifn" id="1SorY1su$pM" role="3EZMnx">
-        <property role="3F0ifm" value="))" />
+        <property role="3F0ifm" value=")" />
       </node>
       <node concept="2iRfu4" id="1SorY1su$pC" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="6Rp8K9fRQcv">
-    <ref role="1XX52x" to="aqb7:6Rp8K9fRA0a" resolve="Signature" />
-    <node concept="3EZMnI" id="6Rp8K9fRQcB" role="2wV5jI">
-      <node concept="3F2HdR" id="6Rp8K9fRQcI" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:6Rp8K9fRA0b" resolve="parameters" />
-        <node concept="2iRfu4" id="6Rp8K9fRQcL" role="2czzBx" />
-        <node concept="VPM3Z" id="6Rp8K9fRQcM" role="3F10Kt" />
-      </node>
-      <node concept="2iRfu4" id="6Rp8K9fRQcE" role="2iSdaV" />
-      <node concept="3F1sOY" id="6Rp8K9fRQcV" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:6Rp8K9fRA0d" resolve="results" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6Rp8K9fSdk7">
@@ -178,7 +161,7 @@
         <ref role="1NtTu8" to="aqb7:3us7bEYMEkX" resolve="id" />
       </node>
       <node concept="3F1sOY" id="6Rp8K9fSdsB" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:6Rp8K9fS0Dk" resolve="signature" />
+        <ref role="1NtTu8" to="aqb7:6Rp8K9fS0Dk" resolve="functionType" />
       </node>
       <node concept="3F0ifn" id="6Rp8K9fSdsX" role="3EZMnx">
         <property role="3F0ifm" value="))" />
@@ -196,6 +179,28 @@
         <ref role="1NtTu8" to="aqb7:61w0MNw_RHK" resolve="value" />
       </node>
       <node concept="2iRfu4" id="61w0MNw_RHR" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7C3sZ8wLeU5">
+    <ref role="1XX52x" to="aqb7:7C3sZ8wLeU4" resolve="FunctionType" />
+    <node concept="3EZMnI" id="7C3sZ8wLeU7" role="2wV5jI">
+      <node concept="3F0ifn" id="7C3sZ8wLeUe" role="3EZMnx">
+        <property role="3F0ifm" value="(func" />
+      </node>
+      <node concept="3F2HdR" id="7C3sZ8wLeUx" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:7C3sZ8wLeUs" resolve="parameters" />
+        <node concept="2iRfu4" id="7C3sZ8wLeU$" role="2czzBx" />
+        <node concept="VPM3Z" id="7C3sZ8wLeU_" role="3F10Kt" />
+      </node>
+      <node concept="3F2HdR" id="7C3sZ8wLeUM" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:7C3sZ8wLeUu" resolve="results" />
+        <node concept="2iRfu4" id="7C3sZ8wLeUP" role="2czzBx" />
+        <node concept="VPM3Z" id="7C3sZ8wLeUQ" role="3F10Kt" />
+      </node>
+      <node concept="3F0ifn" id="7C3sZ8wLeUk" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="7C3sZ8wLeUa" role="2iSdaV" />
     </node>
   </node>
 </model>

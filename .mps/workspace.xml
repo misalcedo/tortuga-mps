@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Remove generated files.">
+    <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Add contrainsed data type to identifier.">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,10 +182,6 @@
               <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebAssembly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -190,31 +189,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebAssembly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:a1b35e87-0013-4dd8-bfa2-3a76ff8ae093(WebAssembly.sandbox) in IdeaFile[path: /home/miguel/MPSProjects/tortuga-mps/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,8 +216,12 @@
               <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /home/miguel/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
@@ -259,8 +238,42 @@
               <option name="myItemId" value="r:a1b35e87-0013-4dd8-bfa2-3a76ff8ae093(WebAssembly.sandbox) in IdeaFile[path: /home/miguel/MPSProjects/tortuga-mps/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="4007109356843266987" />
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAssembly" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /home/miguel/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3129691285170111037" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -306,7 +319,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples 2020.3/robot_Kaja" />
+    <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples 2020.3/shapes" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
@@ -365,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611173730562</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add contrainsed data type to identifier.">
+      <created>1611173994455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611173994455</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -394,6 +414,7 @@
     <MESSAGE value="Add identifier type and make it optional" />
     <MESSAGE value="Remove generated files." />
     <MESSAGE value="Ignore generated dirs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ignore generated dirs." />
+    <MESSAGE value="Add contrainsed data type to identifier." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add contrainsed data type to identifier." />
   </component>
 </project>
