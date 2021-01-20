@@ -17,6 +17,7 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptExpression = createDescriptorForExpression();
+  /*package*/ final ConceptDescriptor myConceptIdentifier = createDescriptorForIdentifier();
   /*package*/ final ConceptDescriptor myConceptImport = createDescriptorForImport();
   /*package*/ final ConceptDescriptor myConceptModule = createDescriptorForModule();
   /*package*/ final ConceptDescriptor myConceptParameter = createDescriptorForParameter();
@@ -38,7 +39,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptExpression, myConceptImport, myConceptModule, myConceptParameter, myConceptResult, myConceptSignature, myConceptType);
+    return Arrays.asList(myConceptExpression, myConceptIdentifier, myConceptImport, myConceptModule, myConceptParameter, myConceptResult, myConceptSignature, myConceptType);
   }
 
   @Override
@@ -47,6 +48,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.Expression:
         return myConceptExpression;
+      case LanguageConceptSwitch.Identifier:
+        return myConceptIdentifier;
       case LanguageConceptSwitch.Import:
         return myConceptImport;
       case LanguageConceptSwitch.Module:
@@ -80,15 +83,24 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForIdentifier() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Identifier", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6060032ce0977b6fL);
+    b.class_(false, false, false);
+    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/6944554116686773103");
+    b.version(2);
+    b.property("value", 0x6060032ce0977b70L).type(PrimitiveTypeId.STRING).origin("6944554116686773104").done();
+    b.alias("id");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForImport() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Import", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fe00a4eL);
     b.class_(false, false, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.parent(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fe30eb4L);
     b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/7915396312917346894");
     b.version(2);
     b.property("module", 0x6dd923024fe00a4fL).type(PrimitiveTypeId.STRING).origin("7915396312917346895").done();
     b.property("function", 0x6dd923024fe00a51L).type(PrimitiveTypeId.STRING).origin("7915396312917346897").done();
+    b.aggregate("id", 0x379c1cbabecaa53dL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6060032ce0977b6fL).optional(true).ordered(true).multiple(false).origin("4007109356843345213").done();
     b.aggregate("signature", 0x6dd923024fe00a54L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fde600aL).optional(false).ordered(true).multiple(false).origin("7915396312917346900").done();
     b.alias("import");
     return b.create();
@@ -134,10 +146,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Type", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4633L);
     b.class_(false, false, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.parent(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fe30eb4L);
     b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/2168606229993768499");
     b.version(2);
+    b.aggregate("id", 0x379c1cbabeca192eL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6060032ce0977b6fL).optional(true).ordered(true).multiple(false).origin("4007109356843309358").done();
     b.aggregate("signature", 0x6dd923024fde6010L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fde600aL).optional(false).ordered(true).multiple(false).origin("7915396312917237776").done();
     b.alias("type");
     return b.create();
