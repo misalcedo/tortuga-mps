@@ -1,4 +1,3 @@
 (module
-  (type $send (func (param i64) (param i64) (result i32))
-  (type $reply (func)
+  (type $foo (func))
 )

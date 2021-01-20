@@ -67,7 +67,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="types" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1SorY1su$oN" resolve="FunctionType" />
+      <ref role="20lvS9" node="1SorY1su$oN" resolve="Type" />
+    </node>
+    <node concept="1TJgyj" id="6Rp8K9fS9I$" role="1TKVEi">
+      <property role="IQ2ns" value="7915396312917384100" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="imports" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6Rp8K9fS0De" resolve="Import" />
     </node>
   </node>
   <node concept="1TIwiD" id="5P_QmTvW7L">
@@ -103,8 +110,8 @@
   </node>
   <node concept="1TIwiD" id="1SorY1su$oN">
     <property role="EcuMT" value="2168606229993768499" />
-    <property role="TrG5h" value="FunctionType" />
-    <property role="34LRSv" value="functype" />
+    <property role="TrG5h" value="Type" />
+    <property role="34LRSv" value="type" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1SorY1su$oR" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -145,6 +152,29 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="results" />
       <ref role="20lvS9" node="1SorY1su$p0" resolve="Result" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6Rp8K9fS0De">
+    <property role="EcuMT" value="7915396312917346894" />
+    <property role="TrG5h" value="Import" />
+    <property role="34LRSv" value="import" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6Rp8K9fS0Df" role="1TKVEl">
+      <property role="IQ2nx" value="7915396312917346895" />
+      <property role="TrG5h" value="module" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6Rp8K9fS0Dh" role="1TKVEl">
+      <property role="IQ2nx" value="7915396312917346897" />
+      <property role="TrG5h" value="function" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="6Rp8K9fS0Dk" role="1TKVEi">
+      <property role="IQ2ns" value="7915396312917346900" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="signature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6Rp8K9fRA0a" resolve="Signature" />
     </node>
   </node>
 </model>

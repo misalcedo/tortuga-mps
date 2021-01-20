@@ -7,22 +7,7 @@
   <imports />
   <registry>
     <language id="3858ffa4-4214-44ac-9998-4ee1e7b8b797" name="WebAssembly">
-      <concept id="7915396312917237770" name="WebAssembly.structure.Signature" flags="ng" index="y1Oc8">
-        <child id="7915396312917237771" name="parameters" index="y1Oc9" />
-        <child id="7915396312917237773" name="results" index="y1Ocf" />
-      </concept>
-      <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
-        <property id="2168606229993768636" name="type" index="12oy_s" />
-      </concept>
-      <concept id="2168606229993768512" name="WebAssembly.structure.Result" flags="ng" index="12oyAw">
-        <property id="2168606229993768513" name="type" index="12oyAx" />
-      </concept>
-      <concept id="2168606229993768499" name="WebAssembly.structure.FunctionType" flags="ng" index="12oyBj">
-        <child id="7915396312917237776" name="signature" index="y1Oci" />
-      </concept>
-      <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
-        <child id="2168606229993768500" name="types" index="12oyBk" />
-      </concept>
+      <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -32,24 +17,6 @@
   </registry>
   <node concept="1Qnqup" id="1SorY1suU63">
     <property role="TrG5h" value="echo" />
-    <node concept="12oyBj" id="6Rp8K9fRZh5" role="12oyBk">
-      <property role="TrG5h" value="send" />
-      <node concept="y1Oc8" id="6Rp8K9fRZh6" role="y1Oci">
-        <node concept="2S2_qk" id="6Rp8K9fRZhb" role="y1Oc9">
-          <property role="12oy_s" value="1SorY1su$oB/i64" />
-        </node>
-        <node concept="2S2_qk" id="6Rp8K9fRZhd" role="y1Oc9">
-          <property role="12oy_s" value="1SorY1su$oB/i64" />
-        </node>
-        <node concept="12oyAw" id="6Rp8K9fRZhg" role="y1Ocf">
-          <property role="12oyAx" value="1SorY1su$oA/i32" />
-        </node>
-      </node>
-    </node>
-    <node concept="12oyBj" id="1SorY1svH4f" role="12oyBk">
-      <property role="TrG5h" value="reply" />
-      <node concept="y1Oc8" id="6Rp8K9fRZgQ" role="y1Oci" />
-    </node>
   </node>
 </model>
 

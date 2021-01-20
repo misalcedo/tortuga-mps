@@ -12,14 +12,16 @@ import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
+import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  /*package*/ final ConceptDescriptor myConceptFunctionType = createDescriptorForFunctionType();
+  /*package*/ final ConceptDescriptor myConceptImport = createDescriptorForImport();
   /*package*/ final ConceptDescriptor myConceptModule = createDescriptorForModule();
   /*package*/ final ConceptDescriptor myConceptParameter = createDescriptorForParameter();
   /*package*/ final ConceptDescriptor myConceptResult = createDescriptorForResult();
   /*package*/ final ConceptDescriptor myConceptSignature = createDescriptorForSignature();
+  /*package*/ final ConceptDescriptor myConceptType = createDescriptorForType();
   /*package*/ final EnumerationDescriptor myEnumerationValueTypes = new EnumerationDescriptor_ValueTypes();
   private final LanguageConceptSwitch myIndexSwitch;
 
@@ -35,15 +37,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptFunctionType, myConceptModule, myConceptParameter, myConceptResult, myConceptSignature);
+    return Arrays.asList(myConceptImport, myConceptModule, myConceptParameter, myConceptResult, myConceptSignature, myConceptType);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
-      case LanguageConceptSwitch.FunctionType:
-        return myConceptFunctionType;
+      case LanguageConceptSwitch.Import:
+        return myConceptImport;
       case LanguageConceptSwitch.Module:
         return myConceptModule;
       case LanguageConceptSwitch.Parameter:
@@ -52,6 +54,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptResult;
       case LanguageConceptSwitch.Signature:
         return myConceptSignature;
+      case LanguageConceptSwitch.Type:
+        return myConceptType;
       default:
         return null;
     }
@@ -66,14 +70,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return myIndexSwitch.index(c);
   }
 
-  private static ConceptDescriptor createDescriptorForFunctionType() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "FunctionType", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4633L);
+  private static ConceptDescriptor createDescriptorForImport() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Import", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fe00a4eL);
     b.class_(false, false, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
-    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/2168606229993768499");
+    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/7915396312917346894");
     b.version(2);
-    b.aggregate("signature", 0x6dd923024fde6010L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fde600aL).optional(false).ordered(true).multiple(false).origin("7915396312917237776").done();
-    b.alias("functype");
+    b.property("module", 0x6dd923024fe00a4fL).type(PrimitiveTypeId.STRING).origin("7915396312917346895").done();
+    b.property("function", 0x6dd923024fe00a51L).type(PrimitiveTypeId.STRING).origin("7915396312917346897").done();
+    b.aggregate("signature", 0x6dd923024fe00a54L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fde600aL).optional(false).ordered(true).multiple(false).origin("7915396312917346900").done();
+    b.alias("import");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForModule() {
@@ -83,6 +88,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3129691285170111037");
     b.version(2);
     b.aggregate("types", 0x1e186fe05c7a4634L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4633L).optional(true).ordered(true).multiple(true).origin("2168606229993768500").done();
+    b.aggregate("imports", 0x6dd923024fe09ba4L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fe00a4eL).optional(true).ordered(true).multiple(true).origin("7915396312917384100").done();
     b.alias("module");
     return b.create();
   }
@@ -112,6 +118,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("parameters", 0x6dd923024fde600bL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1759765b97fc1f1L).optional(true).ordered(true).multiple(true).origin("7915396312917237771").done();
     b.aggregate("results", 0x6dd923024fde600dL).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4640L).optional(true).ordered(true).multiple(false).origin("7915396312917237773").done();
     b.alias("signature");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForType() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("WebAssembly", "Type", 0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x1e186fe05c7a4633L);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/2168606229993768499");
+    b.version(2);
+    b.aggregate("signature", 0x6dd923024fde6010L).target(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fde600aL).optional(false).ordered(true).multiple(false).origin("7915396312917237776").done();
+    b.alias("type");
     return b.create();
   }
 }

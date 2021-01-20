@@ -116,7 +116,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="1SorY1suU6d">
-    <ref role="WuzLi" to="aqb7:1SorY1su$oN" resolve="FunctionType" />
+    <ref role="WuzLi" to="aqb7:1SorY1su$oN" resolve="Type" />
     <node concept="11bSqf" id="1SorY1suU6e" role="11c4hB">
       <node concept="3clFbS" id="1SorY1suU6f" role="2VODD2">
         <node concept="lc7rE" id="1SorY1svqSl" role="3cqZAp">
