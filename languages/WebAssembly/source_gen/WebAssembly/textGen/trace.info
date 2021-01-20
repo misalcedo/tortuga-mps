@@ -11,14 +11,14 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="TextGenAspectDescriptor.java">
-      <unit at="58,0,61,0" name="WebAssembly.textGen.TextGenAspectDescriptor$CONCEPTS" />
-      <unit at="16,0,62,0" name="WebAssembly.textGen.TextGenAspectDescriptor" />
+      <unit at="60,0,63,0" name="WebAssembly.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="16,0,64,0" name="WebAssembly.textGen.TextGenAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)/2168606229993857421">
     <file name="TextGenAspectDescriptor.java">
-      <node id="2168606229993857421" at="34,38,35,34" concept="6" />
-      <scope id="2168606229993857421" at="34,38,35,34" />
+      <node id="2168606229993857421" at="36,38,37,34" concept="6" />
+      <scope id="2168606229993857421" at="36,38,37,34" />
     </file>
     <file name="Type_TextGen.java">
       <node id="2168606229993857421" at="16,54,17,55" concept="5" />
@@ -61,8 +61,8 @@
       <unit id="2168606229993866223" at="12,0,25,0" name="WebAssembly.textGen.Parameter_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="2168606229993866223" at="28,43,29,39" concept="6" />
-      <scope id="2168606229993866223" at="28,43,29,39" />
+      <node id="2168606229993866223" at="30,43,31,39" concept="6" />
+      <scope id="2168606229993866223" at="30,43,31,39" />
     </file>
   </root>
   <root nodeRef="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)/2168606229993931803">
@@ -83,8 +83,8 @@
       <unit id="2168606229993931803" at="12,0,25,0" name="WebAssembly.textGen.Result_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="2168606229993931803" at="30,40,31,36" concept="6" />
-      <scope id="2168606229993931803" at="30,40,31,36" />
+      <node id="2168606229993931803" at="32,40,33,36" concept="6" />
+      <scope id="2168606229993931803" at="32,40,33,36" />
     </file>
   </root>
   <root nodeRef="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)/3129691285170299516">
@@ -93,46 +93,53 @@
       <node id="3129691285170317633" at="16,55,17,26" concept="1" />
       <node id="105156629472658898" at="17,26,18,25" concept="1" />
       <node id="2168606229993861705" at="19,93,20,27" concept="1" />
-      <node id="105156629472658943" at="21,5,22,25" concept="1" />
-      <node id="105156629472658817" at="22,25,23,18" concept="1" />
-      <node id="105156629472658843" at="23,18,24,20" concept="1" />
-      <node id="3129691285170299516" at="28,0,29,0" concept="7" trace="types$Q8Wu" />
+      <node id="7915396312917458270" at="22,95,23,27" concept="1" />
+      <node id="105156629472658943" at="24,5,25,25" concept="1" />
+      <node id="105156629472658817" at="25,25,26,18" concept="1" />
+      <node id="105156629472658843" at="26,18,27,20" concept="1" />
+      <node id="3129691285170299516" at="31,0,32,0" concept="7" trace="types$Q8Wu" />
+      <node id="3129691285170299516" at="32,0,33,0" concept="7" trace="imports$vMh$" />
       <node id="2168606229993861705" at="18,25,21,5" concept="2" />
-      <node id="3129691285170299516" at="14,0,26,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <node id="7915396312917458270" at="21,5,24,5" concept="2" />
+      <node id="3129691285170299516" at="14,0,29,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
       <scope id="2168606229993861705" at="19,93,20,27" />
+      <scope id="7915396312917458270" at="22,95,23,27" />
       <scope id="2168606229993861705" at="18,25,21,5">
         <var name="item" id="2168606229993861705" />
       </scope>
-      <scope id="3129691285170299516" at="15,54,24,20">
+      <scope id="7915396312917458270" at="21,5,24,5">
+        <var name="item" id="7915396312917458270" />
+      </scope>
+      <scope id="3129691285170299516" at="15,54,27,20">
         <var name="tgs" id="3129691285170299516" />
       </scope>
-      <scope id="3129691285170299516" at="14,0,26,0">
+      <scope id="3129691285170299516" at="14,0,29,0">
         <var name="ctx" id="3129691285170299516" />
       </scope>
-      <unit id="3129691285170299516" at="27,0,30,0" name="WebAssembly.textGen.Module_TextGen$LINKS" />
-      <unit id="3129691285170299516" at="13,0,31,0" name="WebAssembly.textGen.Module_TextGen" />
+      <unit id="3129691285170299516" at="30,0,34,0" name="WebAssembly.textGen.Module_TextGen$LINKS" />
+      <unit id="3129691285170299516" at="13,0,35,0" name="WebAssembly.textGen.Module_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="3129691285170299516" at="26,40,27,36" concept="6" />
-      <node id="3129691285170299516" at="43,57,44,48" concept="5" />
-      <node id="3129691285170299516" at="44,48,45,51" concept="5" />
-      <node id="3129691285170299516" at="45,51,46,84" concept="1" />
-      <node id="3129691285170299516" at="46,84,47,17" concept="0" />
-      <node id="3129691285170299516" at="51,56,52,26" concept="6" />
-      <node id="3129691285170299813" at="54,61,55,17" concept="6" />
-      <node id="3129691285170299516" at="51,0,54,0" concept="8" trace="getFileName_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="3129691285170299516" at="54,0,57,0" concept="8" trace="getFileExtension_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="3129691285170299516" at="42,58,48,7" concept="3" />
-      <scope id="3129691285170299516" at="26,40,27,36" />
-      <scope id="3129691285170299516" at="51,56,52,26" />
-      <scope id="3129691285170299516" at="54,61,55,17" />
-      <scope id="3129691285170299516" at="51,0,54,0">
+      <node id="3129691285170299516" at="28,40,29,36" concept="6" />
+      <node id="3129691285170299516" at="45,57,46,48" concept="5" />
+      <node id="3129691285170299516" at="46,48,47,51" concept="5" />
+      <node id="3129691285170299516" at="47,51,48,84" concept="1" />
+      <node id="3129691285170299516" at="48,84,49,17" concept="0" />
+      <node id="3129691285170299516" at="53,56,54,26" concept="6" />
+      <node id="3129691285170299813" at="56,61,57,17" concept="6" />
+      <node id="3129691285170299516" at="53,0,56,0" concept="8" trace="getFileName_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3129691285170299516" at="56,0,59,0" concept="8" trace="getFileExtension_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3129691285170299516" at="44,58,50,7" concept="3" />
+      <scope id="3129691285170299516" at="28,40,29,36" />
+      <scope id="3129691285170299516" at="53,56,54,26" />
+      <scope id="3129691285170299516" at="56,61,57,17" />
+      <scope id="3129691285170299516" at="53,0,56,0">
         <var name="node" id="3129691285170299516" />
       </scope>
-      <scope id="3129691285170299516" at="54,0,57,0">
+      <scope id="3129691285170299516" at="56,0,59,0">
         <var name="node" id="3129691285170299516" />
       </scope>
-      <scope id="3129691285170299516" at="43,57,47,17">
+      <scope id="3129691285170299516" at="45,57,49,17">
         <var name="ext" id="3129691285170299516" />
         <var name="fname" id="3129691285170299516" />
       </scope>
@@ -163,8 +170,39 @@
       <unit id="7915396312917237778" at="13,0,30,0" name="WebAssembly.textGen.Signature_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="7915396312917237778" at="32,43,33,39" concept="6" />
-      <scope id="7915396312917237778" at="32,43,33,39" />
+      <node id="7915396312917237778" at="34,43,35,39" concept="6" />
+      <scope id="7915396312917237778" at="34,43,35,39" />
+    </file>
+  </root>
+  <root nodeRef="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)/7915396312917448365">
+    <file name="Import_TextGen.java">
+      <node id="7915396312917448365" at="16,54,17,55" concept="5" />
+      <node id="7915396312917449136" at="17,55,18,18" concept="1" />
+      <node id="7915396312917449196" at="18,18,19,17" concept="1" />
+      <node id="7915396312917449196" at="19,17,20,29" concept="1" />
+      <node id="7915396312917449282" at="20,29,21,88" concept="1" />
+      <node id="7915396312917450439" at="21,88,22,24" concept="1" />
+      <node id="7915396312917450663" at="22,24,23,90" concept="1" />
+      <node id="7915396312917451761" at="23,90,24,27" concept="1" />
+      <node id="7915396312917452123" at="24,27,25,91" concept="1" />
+      <node id="7915396312917451941" at="25,91,26,21" concept="1" />
+      <node id="7915396312917448365" at="30,0,31,0" concept="7" trace="module$ZHJl" />
+      <node id="7915396312917448365" at="31,0,32,0" concept="7" trace="function$ZIdn" />
+      <node id="7915396312917448365" at="35,0,36,0" concept="7" trace="signature$2c$U" />
+      <node id="7915396312917448365" at="15,0,28,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7915396312917448365" at="16,54,26,21">
+        <var name="tgs" id="7915396312917448365" />
+      </scope>
+      <scope id="7915396312917448365" at="15,0,28,0">
+        <var name="ctx" id="7915396312917448365" />
+      </scope>
+      <unit id="7915396312917448365" at="34,0,37,0" name="WebAssembly.textGen.Import_TextGen$LINKS" />
+      <unit id="7915396312917448365" at="29,0,33,0" name="WebAssembly.textGen.Import_TextGen$PROPS" />
+      <unit id="7915396312917448365" at="14,0,38,0" name="WebAssembly.textGen.Import_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="7915396312917448365" at="26,40,27,36" concept="6" />
+      <scope id="7915396312917448365" at="26,40,27,36" />
     </file>
   </root>
 </debug-info>

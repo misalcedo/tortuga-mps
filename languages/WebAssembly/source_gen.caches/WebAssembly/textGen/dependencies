@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="WebAssembly.textGen.Import_TextGen">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SContainmentLink" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
   <dependency className="WebAssembly.textGen.Module_TextGen">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -40,6 +51,7 @@
   </dependency>
   <dependency className="WebAssembly.textGen.TextGenAspectDescriptor">
     <classNode dependClassName="WebAssembly.structure.LanguageConceptSwitch" />
+    <classNode dependClassName="WebAssembly.textGen.Import_TextGen" />
     <classNode dependClassName="WebAssembly.textGen.Module_TextGen" />
     <classNode dependClassName="WebAssembly.textGen.Parameter_TextGen" />
     <classNode dependClassName="WebAssembly.textGen.Result_TextGen" />
