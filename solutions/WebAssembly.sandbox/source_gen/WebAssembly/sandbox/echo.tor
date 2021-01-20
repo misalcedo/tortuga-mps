@@ -1,3 +1,4 @@
 (module
-  (type $foo (func))
+  (type $f (func))
+  (import "fdf" "df" (func (param i64)))
 )

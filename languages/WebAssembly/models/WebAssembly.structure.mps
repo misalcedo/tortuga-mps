@@ -26,6 +26,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -62,19 +63,12 @@
     <node concept="PrWs8" id="2HITqhtcO8Y" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="1SorY1su$oO" role="1TKVEi">
-      <property role="IQ2ns" value="2168606229993768500" />
+    <node concept="1TJgyj" id="6Rp8K9fSKV3" role="1TKVEi">
+      <property role="IQ2ns" value="7915396312917544643" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="types" />
+      <property role="20kJfa" value="expressions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1SorY1su$oN" resolve="Type" />
-    </node>
-    <node concept="1TJgyj" id="6Rp8K9fS9I$" role="1TKVEi">
-      <property role="IQ2ns" value="7915396312917384100" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="imports" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6Rp8K9fS0De" resolve="Import" />
+      <ref role="20lvS9" node="6Rp8K9fSKUO" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="5P_QmTvW7L">
@@ -115,6 +109,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1SorY1su$oR" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="6Rp8K9fSKUZ" role="PzmwI">
+      <ref role="PrY4T" node="6Rp8K9fSKUO" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="6Rp8K9fRA0g" role="1TKVEi">
       <property role="IQ2ns" value="7915396312917237776" />
@@ -176,6 +173,16 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6Rp8K9fRA0a" resolve="Signature" />
     </node>
+    <node concept="PrWs8" id="6Rp8K9fSwCz" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="6Rp8K9fSKUS" role="PzmwI">
+      <ref role="PrY4T" node="6Rp8K9fSKUO" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6Rp8K9fSKUO">
+    <property role="EcuMT" value="7915396312917544628" />
+    <property role="TrG5h" value="Expression" />
   </node>
 </model>
 

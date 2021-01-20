@@ -22,13 +22,21 @@ public class Import_TextGen extends TextGenDescriptorBase {
     tgs.append("\" \"");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.function$ZIdn));
     tgs.append("\" (func");
+    if (isNotEmptyString(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.name$MnvL))) {
+      tgs.append(" $");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.name$MnvL));
+    }
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.signature$2c$U));
     tgs.append("))");
+  }
+  private static boolean isNotEmptyString(String str) {
+    return str != null && str.length() > 0;
   }
 
   private static final class PROPS {
     /*package*/ static final SProperty module$ZHJl = MetaAdapterFactory.getProperty(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fe00a4eL, 0x6dd923024fe00a4fL, "module");
     /*package*/ static final SProperty function$ZIdn = MetaAdapterFactory.getProperty(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x6dd923024fe00a4eL, 0x6dd923024fe00a51L, "function");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 
   private static final class LINKS {

@@ -16,10 +16,7 @@ public class Module_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("(module");
     tgs.increaseIndent();
-    for (SNode item : SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.types$Q8Wu)) {
-      tgs.appendNode(item);
-    }
-    for (SNode item : SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.imports$vMh$)) {
+    for (SNode item : SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.expressions$Wedy)) {
       tgs.appendNode(item);
     }
     tgs.decreaseIndent();
@@ -28,7 +25,6 @@ public class Module_TextGen extends TextGenDescriptorBase {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink types$Q8Wu = MetaAdapterFactory.getContainmentLink(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x2b6ee5a45d33423dL, 0x1e186fe05c7a4634L, "types");
-    /*package*/ static final SContainmentLink imports$vMh$ = MetaAdapterFactory.getContainmentLink(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x2b6ee5a45d33423dL, 0x6dd923024fe09ba4L, "imports");
+    /*package*/ static final SContainmentLink expressions$Wedy = MetaAdapterFactory.getContainmentLink(0x3858ffa4421444acL, 0x99984ee1e7b8b797L, 0x2b6ee5a45d33423dL, 0x6dd923024fe30ec3L, "expressions");
   }
 }

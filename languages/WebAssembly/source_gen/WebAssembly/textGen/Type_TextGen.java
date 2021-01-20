@@ -17,11 +17,17 @@ public class Type_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.newLine();
     tgs.indent();
-    tgs.append("(type $");
-    tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.name$MnvL));
+    tgs.append("(type");
+    if (isNotEmptyString(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.name$MnvL))) {
+      tgs.append(" $");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.name$MnvL));
+    }
     tgs.append(" (func");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.signature$ozrT));
     tgs.append("))");
+  }
+  private static boolean isNotEmptyString(String str) {
+    return str != null && str.length() > 0;
   }
 
   private static final class PROPS {
