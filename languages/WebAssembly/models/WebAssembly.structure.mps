@@ -19,6 +19,9 @@
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -193,13 +196,18 @@
   <node concept="1TIwiD" id="61w0MNw_RHJ">
     <property role="EcuMT" value="6944554116686773103" />
     <property role="TrG5h" value="Identifier" />
-    <property role="34LRSv" value="id" />
+    <property role="34LRSv" value="identifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="61w0MNw_RHK" role="1TKVEl">
       <property role="IQ2nx" value="6944554116686773104" />
       <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="7C3sZ8wL3wj" resolve="id" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="7C3sZ8wL3wj">
+    <property role="3F6X1D" value="8791998381326350355" />
+    <property role="TrG5h" value="id" />
+    <property role="FLfZY" value="[0-9A-Za-z!#$%&amp;`*+-./:&lt;=&gt;?@\\\\^_'|~]" />
   </node>
 </model>
 
