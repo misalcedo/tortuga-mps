@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Remove generated files.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/languages/Tortuga/sandbox/source_gen.caches/Tortuga/sandbox/dependencies" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/languages/Tortuga/sandbox/source_gen.caches/Tortuga/sandbox/generated" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/languages/Tortuga/sandbox/source_gen/Tortuga/sandbox/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/source_gen.caches/WebAssembly/sandbox/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/source_gen.caches/WebAssembly/sandbox/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/source_gen/WebAssembly/sandbox/echo.tor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/source_gen/WebAssembly/sandbox/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/tortuga-mps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tortuga-mps.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,15 +177,6 @@
             <path>
               <item name="" type="" />
             </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -196,6 +184,20 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAssembly" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
@@ -219,12 +221,6 @@
               <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
               <option name="myItemType" value="" />
@@ -233,14 +229,6 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebAssembly" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611160135795</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Remove generated files.">
+      <created>1611161917888</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611161917888</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UsagesViewTool">

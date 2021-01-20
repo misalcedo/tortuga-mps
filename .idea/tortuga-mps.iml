@@ -5,6 +5,8 @@
       <excludeFolder url="file://$MODULE_DIR$/../languages/WebAssembly/generator" />
       <excludeFolder url="file://$MODULE_DIR$/../languages/WebAssembly/source_gen" />
       <excludeFolder url="file://$MODULE_DIR$/../languages/WebAssembly/source_gen.caches" />
+      <excludeFolder url="file://$MODULE_DIR$/../solutions/WebAssembly.sandbox/source_gen" />
+      <excludeFolder url="file://$MODULE_DIR$/../solutions/WebAssembly.sandbox/source_gen.caches" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
