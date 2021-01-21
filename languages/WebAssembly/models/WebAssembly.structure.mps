@@ -62,9 +62,9 @@
   <node concept="1TIwiD" id="2HITqhtcO8X">
     <property role="EcuMT" value="3129691285170111037" />
     <property role="TrG5h" value="Module" />
-    <property role="R4oN_" value="A WebAssembly module." />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="module" />
+    <property role="R4oN_" value="WebAssembly programs are organized into modules, which are the unit of deployment, loading, and compilation. A module collects definitions for types, functions, tables, memories, and globals." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4flVVgZAHfH" role="1TKVEi">
       <property role="IQ2ns" value="4888076528020804589" />
@@ -94,6 +94,7 @@
     <property role="EcuMT" value="105156629472723441" />
     <property role="TrG5h" value="Parameter" />
     <property role="34LRSv" value="param" />
+    <property role="R4oN_" value="Parameter types classify the inputs to instructions or functions." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7Yo9eQg0uIx" role="PzmwI">
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
@@ -134,6 +135,7 @@
     <property role="EcuMT" value="2168606229993768499" />
     <property role="TrG5h" value="Type" />
     <property role="34LRSv" value="type" />
+    <property role="R4oN_" value="The types component of a module defines a vector of function types." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6Rp8K9fRA0g" role="1TKVEi">
       <property role="IQ2ns" value="7915396312917237776" />
@@ -150,6 +152,7 @@
     <property role="EcuMT" value="2168606229993768512" />
     <property role="TrG5h" value="Result" />
     <property role="34LRSv" value="result" />
+    <property role="R4oN_" value="Result types classify the result of executing instructions or functions." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7Yo9eQg0wwK" role="PzmwI">
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
@@ -164,6 +167,7 @@
     <property role="EcuMT" value="7915396312917346894" />
     <property role="TrG5h" value="Import" />
     <property role="34LRSv" value="import" />
+    <property role="R4oN_" value="The imports component of a module defines a set of imports that are required for instantiation." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4flVVgZzOIG" role="1TKVEi">
       <property role="IQ2ns" value="4888076528020048812" />
@@ -186,10 +190,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4flVVgZzOKF" resolve="ImportDescription" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="6Rp8K9fSKUO">
-    <property role="EcuMT" value="7915396312917544628" />
-    <property role="TrG5h" value="Expression" />
   </node>
   <node concept="1TIwiD" id="61w0MNw_RHJ">
     <property role="EcuMT" value="6944554116686773103" />
@@ -215,6 +215,7 @@
     <property role="EcuMT" value="8791998381326397060" />
     <property role="TrG5h" value="FunctionType" />
     <property role="34LRSv" value="functype" />
+    <property role="R4oN_" value="Function types classify the signature of functions, mapping a vector of parameters to a vector of results. They are also used to classify the inputs and outputs of instructions." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7C3sZ8wLeUs" role="1TKVEi">
       <property role="IQ2ns" value="8791998381326397084" />
@@ -265,8 +266,8 @@
   <node concept="1TIwiD" id="7Yo9eQg08Ze">
     <property role="EcuMT" value="9194139242018672590" />
     <property role="TrG5h" value="Integer" />
-    <property role="R4oN_" value="All integers can be written in either decimal or hexadecimal notation. In both cases, digits can optionally be separated by underscores." />
     <property role="34LRSv" value="integer" />
+    <property role="R4oN_" value="Different classes of integers with different value ranges are distinguished by their bit width N and by whether they are unsigned or signed." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7Yo9eQg08Zw" role="1TKVEl">
       <property role="IQ2nx" value="9194139242018672608" />
@@ -280,8 +281,8 @@
   <node concept="1TIwiD" id="7Yo9eQg08Zf">
     <property role="EcuMT" value="9194139242018672591" />
     <property role="TrG5h" value="FloatingPoint" />
-    <property role="R4oN_" value="Floating-point values can be represented in either decimal or hexadecimal notation." />
     <property role="34LRSv" value="float" />
+    <property role="R4oN_" value="Floating-point data represents 32 or 64 bit values that correspond to the respective binary formats of the IEEE 754-2019 standard (Section 3.3)." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7Yo9eQg08Zz" role="1TKVEl">
       <property role="IQ2nx" value="9194139242018672611" />
@@ -296,6 +297,7 @@
     <property role="EcuMT" value="9194139242018672592" />
     <property role="TrG5h" value="String" />
     <property role="34LRSv" value="string" />
+    <property role="R4oN_" value="Strings denote sequences of bytes that can represent both textual and binary data. They are enclosed in quotation marks and may contain any character other than ASCII control characters, quotation marks (‘&quot;’), or backslash (‘∖’), except when expressed with an escape sequence." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7Yo9eQg08ZW" role="1TKVEl">
       <property role="IQ2nx" value="9194139242018672636" />
@@ -309,8 +311,8 @@
   <node concept="1TIwiD" id="7Yo9eQg08Zh">
     <property role="EcuMT" value="9194139242018672593" />
     <property role="TrG5h" value="Name" />
-    <property role="R4oN_" value="Names are strings denoting a literal character sequence. A name string must form a valid UTF-8 encoding as defined by Unicode (Section 2.5) and is interpreted as a string of Unicode scalar values." />
     <property role="34LRSv" value="name" />
+    <property role="R4oN_" value="Names are strings denoting a literal character sequence. A name string must form a valid UTF-8 encoding as defined by Unicode (Section 2.5) and is interpreted as a string of Unicode scalar values." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7Yo9eQg08Zi" role="1TKVEi">
       <property role="IQ2ns" value="9194139242018672594" />
@@ -345,6 +347,7 @@
     <property role="TrG5h" value="Limit" />
     <property role="34LRSv" value="limits" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Limits classify the size range of resizeable storage associated with memory types and table types." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7Yo9eQg0wx4" role="PzmwI">
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
@@ -361,12 +364,14 @@
     <property role="EcuMT" value="9194139242018768968" />
     <property role="TrG5h" value="MinimumLimit" />
     <property role="34LRSv" value="min" />
+    <property role="R4oN_" value="Limits classify the size range of resizeable storage associated with memory types and table types." />
     <ref role="1TJDcQ" node="7Yo9eQg0wx3" resolve="Limit" />
   </node>
   <node concept="1TIwiD" id="7Yo9eQg0wxb">
     <property role="EcuMT" value="9194139242018768971" />
     <property role="TrG5h" value="RangeLimit" />
     <property role="34LRSv" value="minmax" />
+    <property role="R4oN_" value="Limits classify the size range of resizeable storage associated with memory types and table types." />
     <ref role="1TJDcQ" node="7Yo9eQg0wx3" resolve="Limit" />
     <node concept="1TJgyj" id="7Yo9eQg0wxe" role="1TKVEi">
       <property role="IQ2ns" value="9194139242018768974" />
@@ -380,6 +385,7 @@
     <property role="EcuMT" value="9194139242018769027" />
     <property role="TrG5h" value="MemoryType" />
     <property role="34LRSv" value="memtype" />
+    <property role="R4oN_" value="Memory types classify linear memories and their size range." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7Yo9eQg0wyg" role="PzmwI">
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
@@ -399,6 +405,7 @@
     <property role="EcuMT" value="9194139242018769044" />
     <property role="TrG5h" value="TableType" />
     <property role="34LRSv" value="tabletype" />
+    <property role="R4oN_" value="Table types classify tables over elements of element types within a size range." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7Yo9eQg0wyl" role="PzmwI">
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
@@ -429,6 +436,7 @@
     <property role="TrG5h" value="GlobalType" />
     <property role="34LRSv" value="globaltype" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Global types classify global variables, which hold a value and can either be mutable or immutable." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7Yo9eQg0CUj" role="PzmwI">
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
@@ -442,6 +450,8 @@
   <node concept="1TIwiD" id="7Yo9eQg0CUp">
     <property role="EcuMT" value="9194139242018803353" />
     <property role="TrG5h" value="ConstantGlobalType" />
+    <property role="R4oN_" value="Global types classify global variables, hold a value that is immutable." />
+    <property role="34LRSv" value="const" />
     <ref role="1TJDcQ" node="7Yo9eQg0CUi" resolve="GlobalType" />
     <node concept="PrWs8" id="7Yo9eQg0CUs" role="PzmwI">
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
@@ -450,6 +460,8 @@
   <node concept="1TIwiD" id="7Yo9eQg0CUz">
     <property role="EcuMT" value="9194139242018803363" />
     <property role="TrG5h" value="MutableGlobalType" />
+    <property role="R4oN_" value="Global types classify global variables, hold a value that is mutable." />
+    <property role="34LRSv" value="var" />
     <ref role="1TJDcQ" node="7Yo9eQg0CUi" resolve="GlobalType" />
     <node concept="PrWs8" id="7Yo9eQg0CUA" role="PzmwI">
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
@@ -542,6 +554,7 @@
     <property role="EcuMT" value="4888076528021637802" />
     <property role="TrG5h" value="TypeIndex" />
     <property role="34LRSv" value="typeidx" />
+    <property role="R4oN_" value="Indices can be given either in raw numeric form or as symbolic identifiers when bound by a respective construct. Such identifiers are looked up in the suitable space of the identifier context I." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4flVVgZDSEF" role="1TKVEi">
       <property role="IQ2ns" value="4888076528021637803" />
