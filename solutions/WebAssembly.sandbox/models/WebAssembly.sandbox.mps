@@ -30,6 +30,9 @@
         <child id="8791998381326397086" name="results" index="1qLTPG" />
         <child id="8791998381326397084" name="parameters" index="1qLTPI" />
       </concept>
+      <concept id="8791998381326635401" name="WebAssembly.structure.TypeUse" flags="ng" index="1qMY9V">
+        <child id="4888076528020504697" name="type" index="1WgUZd" />
+      </concept>
       <concept id="9194139242018672590" name="WebAssembly.structure.Integer" flags="ng" index="3JAaGz">
         <property id="9194139242018672608" name="value" index="3JAaGd" />
       </concept>
@@ -39,23 +42,15 @@
       <concept id="9194139242018672592" name="WebAssembly.structure.String" flags="ng" index="3JAaGX">
         <property id="9194139242018672636" name="value" index="3JAaGh" />
       </concept>
-      <concept id="9194139242018769044" name="WebAssembly.structure.TableType" flags="ng" index="3JAyLT">
-        <property id="4888076528020281767" name="et" index="1WhNoj" />
-        <child id="9194139242018769063" name="lim" index="3JAyLa" />
-      </concept>
-      <concept id="9194139242018768968" name="WebAssembly.structure.MinimumLimit" flags="ng" index="3JAyM_" />
-      <concept id="9194139242018768963" name="WebAssembly.structure.Limit" flags="ng" index="3JAyMI">
-        <child id="4888076528020218985" name="min" index="1Wh0Jt" />
+      <concept id="9194139242018899935" name="WebAssembly.structure.TypeIndex" flags="ng" index="3JB2cM">
+        <child id="9194139242018899940" name="index" index="3JB2c9" />
       </concept>
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
         <child id="9194139242018828965" name="imports" index="3JAHp8" />
         <child id="9194139242018828932" name="types" index="3JAHpD" />
       </concept>
-      <concept id="4888076528020064987" name="WebAssembly.structure.TableImport" flags="ng" index="1WmAlJ">
-        <child id="4888076528020064988" name="type" index="1WmAlC" />
-      </concept>
-      <concept id="4888076528020048939" name="WebAssembly.structure.ImportDescription" flags="ng" index="1WmEev">
-        <child id="4888076528020048942" name="id" index="1WmEeq" />
+      <concept id="4888076528020048944" name="WebAssembly.structure.FunctionImport" flags="ng" index="1WmEe4">
+        <child id="4888076528020048945" name="type" index="1WmEe5" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -66,31 +61,6 @@
   </registry>
   <node concept="1Qnqup" id="3us7bEYMneF">
     <property role="TrG5h" value="echo" />
-    <node concept="yei_c" id="4flVVgZ$s3_" role="3JAHp8">
-      <node concept="3JAaGW" id="4flVVgZ$s3A" role="1WmEgo">
-        <node concept="3JAaGX" id="4flVVgZ$s3B" role="3JAaGZ">
-          <property role="3JAaGh" value="a" />
-        </node>
-      </node>
-      <node concept="3JAaGW" id="4flVVgZ$s3C" role="1WmEg4">
-        <node concept="3JAaGX" id="4flVVgZ$s3D" role="3JAaGZ">
-          <property role="3JAaGh" value="b" />
-        </node>
-      </node>
-      <node concept="1WmAlJ" id="4flVVgZ$T_n" role="yei_m">
-        <node concept="3JAyLT" id="4flVVgZ$T_p" role="1WmAlC">
-          <property role="1WhNoj" value="7Yo9eQg0wyq/funcref" />
-          <node concept="3JAyM_" id="4flVVgZ$T_z" role="3JAyLa">
-            <node concept="3JAaGz" id="4flVVgZ$T_A" role="1Wh0Jt">
-              <property role="3JAaGd" value="2" />
-            </node>
-          </node>
-        </node>
-        <node concept="20XRx3" id="4flVVgZ_c_b" role="1WmEeq">
-          <property role="20XRxs" value="t" />
-        </node>
-      </node>
-    </node>
     <node concept="12oyBj" id="4flVVgZ_c_5" role="3JAHpD">
       <node concept="1qLTPQ" id="4flVVgZ_c_6" role="y1Oci">
         <node concept="2S2_qk" id="4flVVgZ_c_d" role="1qLTPI">
@@ -115,6 +85,27 @@
     </node>
     <node concept="12oyBj" id="4flVVgZ_r1S" role="3JAHpD">
       <node concept="1qLTPQ" id="4flVVgZ_r1T" role="y1Oci" />
+    </node>
+    <node concept="yei_c" id="4flVVgZ_Igq" role="3JAHp8">
+      <node concept="3JAaGW" id="4flVVgZ_Igr" role="1WmEgo">
+        <node concept="3JAaGX" id="4flVVgZ_Igs" role="3JAaGZ">
+          <property role="3JAaGh" value="a" />
+        </node>
+      </node>
+      <node concept="3JAaGW" id="4flVVgZ_Igt" role="1WmEg4">
+        <node concept="3JAaGX" id="4flVVgZ_Igu" role="3JAaGZ">
+          <property role="3JAaGh" value="b" />
+        </node>
+      </node>
+      <node concept="1WmEe4" id="4flVVgZ_VPL" role="yei_m">
+        <node concept="1qMY9V" id="4flVVgZ_VPN" role="1WmEe5">
+          <node concept="3JB2cM" id="4flVVgZ_VPP" role="1WgUZd">
+            <node concept="3JAaGz" id="4flVVgZ_VQ1" role="3JB2c9">
+              <property role="3JAaGd" value="3" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
