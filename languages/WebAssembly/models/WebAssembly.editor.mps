@@ -280,7 +280,7 @@
   </node>
   <node concept="24kQdi" id="7Yo9eQg0CUu">
     <ref role="1XX52x" to="aqb7:7Yo9eQg0CUp" resolve="ConstantGlobalType" />
-    <node concept="3F0A7n" id="4flVVgZ$VnA" role="2wV5jI">
+    <node concept="3F0A7n" id="4flVVgZAxLm" role="2wV5jI">
       <ref role="1NtTu8" to="aqb7:4flVVgZ$Vnm" resolve="type" />
     </node>
   </node>
@@ -360,6 +360,42 @@
         <ref role="1NtTu8" to="aqb7:4flVVgZ$HAB" resolve="et" />
       </node>
       <node concept="2iRfu4" id="4flVVgZzSGo" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4flVVgZ_VQe">
+    <ref role="1XX52x" to="aqb7:4flVVgZ_VQ4" resolve="MemoryImport" />
+    <node concept="3EZMnI" id="4flVVgZ_VQg" role="2wV5jI">
+      <node concept="3F0ifn" id="4flVVgZ_VQn" role="3EZMnx">
+        <property role="3F0ifm" value="(memory" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZ_VQ_" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZzOKI" resolve="id" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZ_VQJ" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZ_VQ5" resolve="type" />
+      </node>
+      <node concept="3F0ifn" id="4flVVgZ_VQt" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="4flVVgZ_VQj" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4flVVgZAeFW">
+    <ref role="1XX52x" to="aqb7:4flVVgZAeFM" resolve="GlobalImport" />
+    <node concept="3EZMnI" id="4flVVgZAeFY" role="2wV5jI">
+      <node concept="3F0ifn" id="4flVVgZAeG5" role="3EZMnx">
+        <property role="3F0ifm" value="(global" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZAeGj" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZzOKI" resolve="id" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZAeGt" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZAeFN" resolve="type" />
+      </node>
+      <node concept="3F0ifn" id="4flVVgZAeGb" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="4flVVgZAeG1" role="2iSdaV" />
     </node>
   </node>
 </model>

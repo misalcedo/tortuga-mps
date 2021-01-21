@@ -515,5 +515,31 @@
     <property role="EcuMT" value="4888076528020546612" />
     <property role="TrG5h" value="Index" />
   </node>
+  <node concept="1TIwiD" id="4flVVgZ_VQ4">
+    <property role="EcuMT" value="4888076528020602244" />
+    <property role="TrG5h" value="MemoryImport" />
+    <property role="34LRSv" value="memory" />
+    <ref role="1TJDcQ" node="4flVVgZzOKF" resolve="ImportDescription" />
+    <node concept="1TJgyj" id="4flVVgZ_VQ5" role="1TKVEi">
+      <property role="IQ2ns" value="4888076528020602245" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7Yo9eQg0wy3" resolve="MemoryType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4flVVgZAeFM">
+    <property role="EcuMT" value="4888076528020679410" />
+    <property role="TrG5h" value="GlobalImport" />
+    <property role="34LRSv" value="global" />
+    <ref role="1TJDcQ" node="4flVVgZzOKF" resolve="ImportDescription" />
+    <node concept="1TJgyj" id="4flVVgZAeFN" role="1TKVEi">
+      <property role="IQ2ns" value="4888076528020679411" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7Yo9eQg0CUi" resolve="GlobalType" />
+    </node>
+  </node>
 </model>
 
