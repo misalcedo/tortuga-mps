@@ -133,7 +133,7 @@
       <property role="IQ2ns" value="4007109356843309358" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="id" />
-      <ref role="20lvS9" node="7Yo9eQg10vv" resolve="TypeIndex" />
+      <ref role="20lvS9" node="61w0MNw_RHJ" resolve="Identifier" />
     </node>
     <node concept="1TJgyj" id="6Rp8K9fRA0g" role="1TKVEi">
       <property role="IQ2ns" value="7915396312917237776" />
@@ -238,12 +238,15 @@
   <node concept="1TIwiD" id="7C3sZ8wM969">
     <property role="EcuMT" value="8791998381326635401" />
     <property role="TrG5h" value="TypeUse" />
+    <property role="34LRSv" value="typeuse" />
+    <property role="R4oN_" value="A type use is a reference to a type definition. It may optionally be augmented by explicit inlined parameter and result declarations. That allows binding symbolic identifiers to name the local indices of parameters. If inline declarations are given, then their types must match the referenced function type." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7C3sZ8wM97F" role="1TKVEi">
       <property role="IQ2ns" value="8791998381326635499" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
-      <ref role="20lvS9" node="61w0MNw_RHJ" resolve="Identifier" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7Yo9eQg10vv" resolve="TypeIndex" />
     </node>
     <node concept="1TJgyj" id="7C3sZ8wM96a" role="1TKVEi">
       <property role="IQ2ns" value="8791998381326635402" />
