@@ -18,14 +18,29 @@
         <child id="9194139242018828932" name="types" index="3JAHpD" />
         <child id="4888076528020804589" name="id" index="1WjNLp" />
       </concept>
+      <concept id="4888076528021354871" name="WebAssembly.structure.ModuleField" flags="ng" index="1WtHr3">
+        <child id="4888076528021365410" name="id" index="1WtCOm" />
+      </concept>
     </language>
   </registry>
   <node concept="1Qnqup" id="4flVVgZBE_5">
     <node concept="20XRx3" id="4flVVgZBGOF" role="1WjNLp">
       <property role="20XRxs" value="echo" />
     </node>
-    <node concept="12oyBj" id="4flVVgZDmZf" role="3JAHpD">
-      <node concept="1qLTPQ" id="4flVVgZDmZg" role="y1Oci" />
+    <node concept="12oyBj" id="4flVVgZDHuB" role="3JAHpD">
+      <node concept="1qLTPQ" id="4flVVgZDHuC" role="y1Oci" />
+    </node>
+    <node concept="12oyBj" id="4flVVgZDHuR" role="3JAHpD">
+      <node concept="1qLTPQ" id="4flVVgZDHuS" role="y1Oci" />
+      <node concept="20XRx3" id="4flVVgZDHuX" role="1WtCOm">
+        <property role="20XRxs" value="a" />
+      </node>
+    </node>
+    <node concept="12oyBj" id="4flVVgZDHuZ" role="3JAHpD">
+      <node concept="1qLTPQ" id="4flVVgZDHv0" role="y1Oci" />
+      <node concept="20XRx3" id="4flVVgZDHv8" role="1WtCOm">
+        <property role="20XRxs" value="b" />
+      </node>
     </node>
   </node>
 </model>
