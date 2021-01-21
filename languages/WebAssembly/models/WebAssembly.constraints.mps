@@ -91,9 +91,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="7Yo9eQg10vD">
-    <ref role="1M2myG" to="aqb7:7Yo9eQg10vv" resolve="TypeIndex" />
-  </node>
   <node concept="1M2fIO" id="4flVVgZBE_8">
     <ref role="1M2myG" to="aqb7:2HITqhtcO8X" resolve="Module" />
     <node concept="EnEH3" id="4flVVgZBE_9" role="1MhHOB">
@@ -183,15 +180,38 @@
             <node concept="9aQIb" id="4flVVgZCRPM" role="9aQIa">
               <node concept="3clFbS" id="4flVVgZCRPN" role="9aQI4">
                 <node concept="3cpWs6" id="4flVVgZCSQN" role="3cqZAp">
-                  <node concept="2OqwBi" id="4flVVgZCTwA" role="3cqZAk">
-                    <node concept="2OqwBi" id="4flVVgZCTeA" role="2Oq$k0">
-                      <node concept="EsrRn" id="4flVVgZCT2f" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="4flVVgZCTna" role="2OqNvi">
-                        <ref role="3Tt5mk" to="aqb7:4flVVgZCQay" resolve="id" />
+                  <node concept="2OqwBi" id="4flVVgZEnnS" role="3cqZAk">
+                    <node concept="2OqwBi" id="4flVVgZEl1d" role="2Oq$k0">
+                      <node concept="2OqwBi" id="4flVVgZEhEI" role="2Oq$k0">
+                        <node concept="2ShNRf" id="4flVVgZEg_C" role="2Oq$k0">
+                          <node concept="1pGfFk" id="4flVVgZEgHm" role="2ShVmc">
+                            <ref role="37wK5l" to="wyt6:~StringBuffer.&lt;init&gt;()" resolve="StringBuffer" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="4flVVgZEidM" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String)" resolve="append" />
+                          <node concept="Xl_RD" id="4flVVgZEiiy" role="37wK5m">
+                            <property role="Xl_RC" value="$" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="4flVVgZEl$I" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String)" resolve="append" />
+                        <node concept="2OqwBi" id="4flVVgZEmTl" role="37wK5m">
+                          <node concept="2OqwBi" id="4flVVgZEmqT" role="2Oq$k0">
+                            <node concept="EsrRn" id="4flVVgZElEy" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="4flVVgZEmAK" role="2OqNvi">
+                              <ref role="3Tt5mk" to="aqb7:4flVVgZCQay" resolve="id" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="4flVVgZEnb3" role="2OqNvi">
+                            <ref role="3TsBF5" to="aqb7:61w0MNw_RHK" resolve="value" />
+                          </node>
+                        </node>
                       </node>
                     </node>
-                    <node concept="3TrcHB" id="4flVVgZCTHa" role="2OqNvi">
-                      <ref role="3TsBF5" to="aqb7:61w0MNw_RHK" resolve="value" />
+                    <node concept="liA8E" id="4flVVgZEny4" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~StringBuffer.toString()" resolve="toString" />
                     </node>
                   </node>
                 </node>

@@ -8,6 +8,7 @@
   <imports>
     <import index="aqb7" ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -524,8 +525,8 @@
           <node concept="l9hG8" id="7C3sZ8wMgZp" role="lcghm">
             <node concept="2OqwBi" id="4flVVgZ_L4c" role="lb14g">
               <node concept="117lpO" id="7C3sZ8wMh0h" role="2Oq$k0" />
-              <node concept="3TrEf2" id="4flVVgZ_L5I" role="2OqNvi">
-                <ref role="3Tt5mk" to="aqb7:4flVVgZ_$1T" resolve="type" />
+              <node concept="3TrEf2" id="4flVVgZEqHi" role="2OqNvi">
+                <ref role="3Tt5mk" to="aqb7:4flVVgZEqwT" resolve="type" />
               </node>
             </node>
           </node>
@@ -584,29 +585,6 @@
               </node>
             </node>
             <node concept="3GX2aA" id="7C3sZ8wMgGi" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="4flVVgZzMfx">
-    <ref role="WuzLi" to="aqb7:7Yo9eQg10vv" resolve="TypeIndex" />
-    <node concept="11bSqf" id="4flVVgZzMfy" role="11c4hB">
-      <node concept="3clFbS" id="4flVVgZzMfz" role="2VODD2">
-        <node concept="lc7rE" id="4flVVgZzMfO" role="3cqZAp">
-          <node concept="la8eA" id="4flVVgZzMg8" role="lcghm">
-            <property role="lacIc" value="(type " />
-          </node>
-          <node concept="l9hG8" id="4flVVgZ_Iy0" role="lcghm">
-            <node concept="2OqwBi" id="4flVVgZ_IDz" role="lb14g">
-              <node concept="117lpO" id="4flVVgZ_IyR" role="2Oq$k0" />
-              <node concept="3TrEf2" id="4flVVgZ_IMM" role="2OqNvi">
-                <ref role="3Tt5mk" to="aqb7:7Yo9eQg10v$" resolve="index" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="4flVVgZ_IUz" role="lcghm">
-            <property role="lacIc" value=")" />
           </node>
         </node>
       </node>
@@ -1021,6 +999,34 @@
             </node>
           </node>
           <node concept="la8eA" id="4flVVgZAgch" role="lcghm">
+            <property role="lacIc" value=")" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="4flVVgZDSGn">
+    <ref role="WuzLi" to="aqb7:4flVVgZDSEE" resolve="TypeIndex" />
+    <node concept="11bSqf" id="4flVVgZDSGo" role="11c4hB">
+      <node concept="3clFbS" id="4flVVgZDSGp" role="2VODD2">
+        <node concept="lc7rE" id="4flVVgZDSGE" role="3cqZAp">
+          <node concept="la8eA" id="4flVVgZDSGY" role="lcghm">
+            <property role="lacIc" value="(type " />
+          </node>
+          <node concept="l9hG8" id="4flVVgZDSIE" role="lcghm">
+            <node concept="2OqwBi" id="4flVVgZDT99" role="lb14g">
+              <node concept="2OqwBi" id="4flVVgZDSP$" role="2Oq$k0">
+                <node concept="117lpO" id="4flVVgZDSJy" role="2Oq$k0" />
+                <node concept="3TrEf2" id="4flVVgZDSXt" role="2OqNvi">
+                  <ref role="3Tt5mk" to="aqb7:4flVVgZDSEF" resolve="type" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="4flVVgZDTlB" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4flVVgZDSHN" role="lcghm">
             <property role="lacIc" value=")" />
           </node>
         </node>
