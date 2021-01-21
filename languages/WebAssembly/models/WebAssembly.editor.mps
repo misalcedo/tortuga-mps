@@ -179,23 +179,11 @@
       <node concept="3F0ifn" id="6Rp8K9fSdqy" role="3EZMnx">
         <property role="3F0ifm" value="(import" />
       </node>
-      <node concept="3F0ifn" id="6Rp8K9fSdqC" role="3EZMnx">
-        <property role="3F0ifm" value="&quot;" />
+      <node concept="3F1sOY" id="4flVVgZzOJb" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZzOIG" resolve="mod" />
       </node>
-      <node concept="3F0A7n" id="6Rp8K9fSdqK" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:6Rp8K9fS0Df" resolve="module" />
-      </node>
-      <node concept="3F0ifn" id="6Rp8K9fSdqU" role="3EZMnx">
-        <property role="3F0ifm" value="&quot;" />
-      </node>
-      <node concept="3F0ifn" id="6Rp8K9fSdrd" role="3EZMnx">
-        <property role="3F0ifm" value="&quot;" />
-      </node>
-      <node concept="3F0A7n" id="6Rp8K9fSdrl" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:6Rp8K9fS0Dh" resolve="function" />
-      </node>
-      <node concept="3F0ifn" id="6Rp8K9fSdr_" role="3EZMnx">
-        <property role="3F0ifm" value="&quot;" />
+      <node concept="3F1sOY" id="4flVVgZzOKp" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZzOIK" resolve="nm" />
       </node>
       <node concept="3F0ifn" id="6Rp8K9fSdsj" role="3EZMnx">
         <property role="3F0ifm" value="(func" />
@@ -267,8 +255,17 @@
   </node>
   <node concept="24kQdi" id="7Yo9eQg08Zk">
     <ref role="1XX52x" to="aqb7:7Yo9eQg08Zh" resolve="Name" />
-    <node concept="3F1sOY" id="7Yo9eQg08Zm" role="2wV5jI">
-      <ref role="1NtTu8" to="aqb7:7Yo9eQg08Zi" resolve="value" />
+    <node concept="3EZMnI" id="4flVVgZzOJo" role="2wV5jI">
+      <node concept="2iRfu4" id="4flVVgZzOJp" role="2iSdaV" />
+      <node concept="3F0ifn" id="4flVVgZzOJs" role="3EZMnx">
+        <property role="3F0ifm" value="&quot;" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZzOJD" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:7Yo9eQg08Zi" resolve="value" />
+      </node>
+      <node concept="3F0ifn" id="4flVVgZzOJx" role="3EZMnx">
+        <property role="3F0ifm" value="&quot;" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7Yo9eQg08Z_">
@@ -401,6 +398,54 @@
         <property role="3F0ifm" value=")" />
       </node>
       <node concept="2iRfu4" id="7Yo9eQg195b" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4flVVgZzOKU">
+    <ref role="1XX52x" to="aqb7:4flVVgZzOKK" resolve="FunctionImport" />
+    <node concept="3EZMnI" id="4flVVgZzOKW" role="2wV5jI">
+      <node concept="3F0ifn" id="4flVVgZzOL3" role="3EZMnx">
+        <property role="3F0ifm" value="(func" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZzOLh" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZzOKI" resolve="id" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZzOLr" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZzOKL" resolve="type" />
+      </node>
+      <node concept="3F0ifn" id="4flVVgZzOL9" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="4flVVgZzOKZ" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4flVVgZzSF_">
+    <ref role="1XX52x" to="aqb7:4flVVgZzSFr" resolve="TableImport" />
+    <node concept="3EZMnI" id="4flVVgZzSFB" role="2wV5jI">
+      <node concept="3F0ifn" id="4flVVgZzSFI" role="3EZMnx">
+        <property role="3F0ifm" value="(table" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZzSFW" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZzOKI" resolve="id" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZzSG6" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZzSFs" resolve="type" />
+      </node>
+      <node concept="3F0ifn" id="4flVVgZzSFO" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="4flVVgZzSFE" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4flVVgZzSGj">
+    <ref role="1XX52x" to="aqb7:7Yo9eQg0wyk" resolve="TableType" />
+    <node concept="3EZMnI" id="4flVVgZzSGl" role="2wV5jI">
+      <node concept="3F1sOY" id="4flVVgZzSGs" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:7Yo9eQg0wyB" resolve="lim" />
+      </node>
+      <node concept="3F1sOY" id="4flVVgZzSGy" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:7Yo9eQg0wy_" resolve="et" />
+      </node>
+      <node concept="2iRfu4" id="4flVVgZzSGo" role="2iSdaV" />
     </node>
   </node>
 </model>
