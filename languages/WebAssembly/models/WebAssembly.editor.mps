@@ -8,7 +8,6 @@
   </languages>
   <imports>
     <import index="aqb7" ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -54,13 +53,13 @@
     <ref role="1XX52x" to="aqb7:2HITqhtcO8X" resolve="Module" />
     <node concept="3EZMnI" id="2HITqhtcYjc" role="2wV5jI">
       <node concept="3F0ifn" id="5P_QmTvOO_" role="3EZMnx">
-        <property role="3F0ifm" value="(module $" />
+        <property role="3F0ifm" value="(module" />
         <node concept="pVoyu" id="5P_QmTwck$" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0A7n" id="5P_QmTvOON" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      <node concept="3F1sOY" id="4flVVgZAHgh" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4flVVgZAHfH" resolve="id" />
       </node>
       <node concept="3F2HdR" id="5P_QmTvYzF" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:7Yo9eQg0Ja4" resolve="types" />
