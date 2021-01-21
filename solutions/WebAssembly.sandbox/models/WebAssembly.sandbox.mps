@@ -10,7 +10,12 @@
       <concept id="6944554116686773103" name="WebAssembly.structure.Identifier" flags="ng" index="20XRx3">
         <property id="6944554116686773104" name="value" index="20XRxs" />
       </concept>
+      <concept id="2168606229993768499" name="WebAssembly.structure.Type" flags="ng" index="12oyBj">
+        <child id="7915396312917237776" name="ft" index="y1Oci" />
+      </concept>
+      <concept id="8791998381326397060" name="WebAssembly.structure.FunctionType" flags="ng" index="1qLTPQ" />
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
+        <child id="9194139242018828932" name="types" index="3JAHpD" />
         <child id="4888076528020804589" name="id" index="1WjNLp" />
       </concept>
     </language>
@@ -18,6 +23,9 @@
   <node concept="1Qnqup" id="4flVVgZBE_5">
     <node concept="20XRx3" id="4flVVgZBGOF" role="1WjNLp">
       <property role="20XRxs" value="echo" />
+    </node>
+    <node concept="12oyBj" id="4flVVgZDmZf" role="3JAHpD">
+      <node concept="1qLTPQ" id="4flVVgZDmZg" role="y1Oci" />
     </node>
   </node>
 </model>

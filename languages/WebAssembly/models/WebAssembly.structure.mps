@@ -30,7 +30,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -133,18 +135,15 @@
     <property role="TrG5h" value="Type" />
     <property role="34LRSv" value="type" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3us7bEYMx$I" role="1TKVEi">
-      <property role="IQ2ns" value="4007109356843309358" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="id" />
-      <ref role="20lvS9" node="61w0MNw_RHJ" resolve="Identifier" />
-    </node>
     <node concept="1TJgyj" id="6Rp8K9fRA0g" role="1TKVEi">
       <property role="IQ2ns" value="7915396312917237776" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ft" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7C3sZ8wLeU4" resolve="FunctionType" />
+    </node>
+    <node concept="PrWs8" id="4flVVgZCPSh" role="PzmwI">
+      <ref role="PrY4T" node="4flVVgZCN_R" resolve="ModuleField" />
     </node>
   </node>
   <node concept="1TIwiD" id="1SorY1su$p0">
@@ -545,6 +544,24 @@
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Yo9eQg0CUi" resolve="GlobalType" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4flVVgZCN_R">
+    <property role="EcuMT" value="4888076528021354871" />
+    <property role="TrG5h" value="ModuleField" />
+    <node concept="1TJgyi" id="4flVVgZCN_S" role="1TKVEl">
+      <property role="IQ2nx" value="4888076528021354872" />
+      <property role="TrG5h" value="index" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="4flVVgZCPVU" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="4flVVgZCQay" role="1TKVEi">
+      <property role="IQ2ns" value="4888076528021365410" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="id" />
+      <ref role="20lvS9" node="61w0MNw_RHJ" resolve="Identifier" />
     </node>
   </node>
 </model>
