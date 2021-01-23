@@ -45,12 +45,21 @@
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
         <child id="9194139242018828965" name="imports" index="3JAHp8" />
         <child id="9194139242018828932" name="types" index="3JAHpD" />
+        <child id="4888076528022104472" name="functions" index="1WuOoG" />
       </concept>
       <concept id="4888076528020048944" name="WebAssembly.structure.FunctionImport" flags="ng" index="1WmEe4">
         <child id="4888076528020048945" name="type" index="1WmEe5" />
       </concept>
+      <concept id="4888076528020048939" name="WebAssembly.structure.ImportDescription" flags="ng" index="1WmEev">
+        <child id="4888076528020048942" name="id" index="1WmEeq" />
+      </concept>
       <concept id="4888076528021637802" name="WebAssembly.structure.TypeIndex" flags="ng" index="1WsAku">
         <reference id="4888076528021637803" name="type" index="1WsAkv" />
+      </concept>
+      <concept id="4888076528022086036" name="WebAssembly.structure.Body" flags="ng" index="1WuSSw" />
+      <concept id="4888076528022086024" name="WebAssembly.structure.Function" flags="ng" index="1WuSSW">
+        <child id="4888076528022086032" name="body" index="1WuSS$" />
+        <child id="4888076528022086027" name="type" index="1WuSSZ" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -109,6 +118,20 @@
             <property role="1Wgvtn" value="1SorY1su$oE/f32" />
           </node>
         </node>
+        <node concept="20XRx3" id="4flVVgZFXUa" role="1WmEeq">
+          <property role="20XRxs" value="a" />
+        </node>
+      </node>
+    </node>
+    <node concept="1WuSSW" id="4flVVgZGk6O" role="1WuOoG">
+      <node concept="1qMY9V" id="4flVVgZGk6P" role="1WuSSZ">
+        <node concept="1WsAku" id="4flVVgZGk6Q" role="1Wv4ud">
+          <ref role="1WsAkv" node="3cGwCYjqp1U" resolve="$a" />
+        </node>
+      </node>
+      <node concept="1WuSSw" id="4flVVgZGk6R" role="1WuSS$" />
+      <node concept="20XRx3" id="4flVVgZGk6W" role="2whVRh">
+        <property role="20XRxs" value="b" />
       </node>
     </node>
   </node>
