@@ -562,5 +562,20 @@
       <ref role="20lvS9" node="61w0MNw_RHJ" resolve="Identifier" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4flVVgZEVX0">
+    <property role="EcuMT" value="4888076528021913408" />
+    <property role="TrG5h" value="Local" />
+    <property role="34LRSv" value="local" />
+    <property role="R4oN_" value="The locals declare a vector of mutable local variables and their types. These variables are referenced through local indices in the function’s body. The index of the first local is the smallest index not referencing a parameter." />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4flVVgZEVX1" role="PzmwI">
+      <ref role="PrY4T" node="3cGwCYjqNXm" resolve="Identified" />
+    </node>
+    <node concept="1TJgyi" id="4flVVgZEVX3" role="1TKVEl">
+      <property role="IQ2nx" value="4888076528021913411" />
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="1SorY1su$o_" resolve="valtype" />
+    </node>
+  </node>
 </model>
 
