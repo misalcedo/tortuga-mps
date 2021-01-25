@@ -13,11 +13,6 @@
       <concept id="3687465748074807126" name="WebAssembly.structure.Identified" flags="ng" index="2whVRp">
         <child id="3687465748074807134" name="id" index="2whVRh" />
       </concept>
-      <concept id="7915396312917346894" name="WebAssembly.structure.Import" flags="ng" index="yei_c">
-        <child id="7915396312917346900" name="import" index="yei_m" />
-        <child id="4888076528020048816" name="nm" index="1WmEg4" />
-        <child id="4888076528020048812" name="mod" index="1WmEgo" />
-      </concept>
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
         <property id="4888076528020360554" name="type" index="1Wgubu" />
       </concept>
@@ -32,9 +27,15 @@
         <child id="8791998381326397084" name="parameters" index="1qLTPI" />
       </concept>
       <concept id="8791998381326635401" name="WebAssembly.structure.TypeUse" flags="ng" index="1qMY9V">
-        <child id="8791998381326635402" name="parameters" index="1qMY9S" />
-        <child id="8791998381326635404" name="results" index="1qMY9Y" />
         <child id="4888076528021776441" name="typeidx" index="1Wv4ud" />
+      </concept>
+      <concept id="1227268625419502605" name="WebAssembly.structure.Function" flags="ng" index="3J5ap2">
+        <child id="1227268625419878280" name="type" index="3JaxR7" />
+      </concept>
+      <concept id="1227268625419540859" name="WebAssembly.structure.FunctionImport" flags="ng" index="3J5jGO" />
+      <concept id="1227268625419656468" name="WebAssembly.structure.Import" flags="ng" index="3J5JXr">
+        <child id="1227268625419656471" name="nm" index="3J5JXo" />
+        <child id="1227268625419656469" name="mod" index="3J5JXq" />
       </concept>
       <concept id="9194139242018672593" name="WebAssembly.structure.Name" flags="ng" index="3JAaGW">
         <child id="9194139242018672594" name="value" index="3JAaGZ" />
@@ -43,24 +44,13 @@
         <property id="9194139242018672636" name="value" index="3JAaGh" />
       </concept>
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
-        <child id="9194139242018828965" name="imports" index="3JAHp8" />
         <child id="9194139242018828932" name="types" index="3JAHpD" />
         <child id="4888076528022104472" name="functions" index="1WuOoG" />
-      </concept>
-      <concept id="4888076528020048944" name="WebAssembly.structure.FunctionImport" flags="ng" index="1WmEe4">
-        <child id="4888076528020048945" name="type" index="1WmEe5" />
-      </concept>
-      <concept id="4888076528020048939" name="WebAssembly.structure.ImportDescription" flags="ng" index="1WmEev">
-        <child id="4888076528020048942" name="id" index="1WmEeq" />
       </concept>
       <concept id="4888076528021637802" name="WebAssembly.structure.TypeIndex" flags="ng" index="1WsAku">
         <reference id="4888076528021637803" name="type" index="1WsAkv" />
       </concept>
-      <concept id="4888076528022086036" name="WebAssembly.structure.Body" flags="ng" index="1WuSSw" />
-      <concept id="4888076528022086024" name="WebAssembly.structure.Function" flags="ng" index="1WuSSW">
-        <child id="4888076528022086032" name="body" index="1WuSS$" />
-        <child id="4888076528022086027" name="type" index="1WuSSZ" />
-      </concept>
+      <concept id="4888076528022086024" name="WebAssembly.structure.LocalFunction" flags="ng" index="1WuSSW" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -86,54 +76,43 @@
         <property role="20XRxs" value="a" />
       </node>
     </node>
-    <node concept="yei_c" id="3cGwCYjs338" role="3JAHp8">
-      <node concept="3JAaGW" id="3cGwCYjs339" role="1WmEgo">
-        <node concept="3JAaGX" id="3cGwCYjs33a" role="3JAaGZ">
-          <property role="3JAaGh" value="a" />
-        </node>
-      </node>
-      <node concept="3JAaGW" id="3cGwCYjs33b" role="1WmEg4">
-        <node concept="3JAaGX" id="3cGwCYjs33c" role="3JAaGZ">
-          <property role="3JAaGh" value="b" />
-        </node>
-      </node>
-      <node concept="1WmEe4" id="3cGwCYjs33k" role="yei_m">
-        <node concept="1qMY9V" id="3cGwCYjs33m" role="1WmEe5">
-          <node concept="1WsAku" id="3cGwCYjs33o" role="1Wv4ud">
-            <ref role="1WsAkv" node="3cGwCYjqp1U" resolve="$a" />
-          </node>
-          <node concept="2S2_qk" id="3cGwCYjs33t" role="1qMY9S">
-            <property role="1Wgubu" value="1SorY1su$oA/i32" />
-            <node concept="20XRx3" id="3cGwCYjs4rq" role="2whVRh">
-              <property role="20XRxs" value="a" />
-            </node>
-          </node>
-          <node concept="2S2_qk" id="3cGwCYjs33v" role="1qMY9S">
-            <property role="1Wgubu" value="1SorY1su$oB/i64" />
-            <node concept="20XRx3" id="3cGwCYjs4rs" role="2whVRh">
-              <property role="20XRxs" value="b" />
-            </node>
-          </node>
-          <node concept="12oyAw" id="3cGwCYjs33y" role="1qMY9Y">
-            <property role="1Wgvtn" value="1SorY1su$oE/f32" />
-          </node>
-        </node>
-        <node concept="20XRx3" id="4flVVgZFXUa" role="1WmEeq">
-          <property role="20XRxs" value="a" />
-        </node>
-      </node>
-    </node>
-    <node concept="1WuSSW" id="4flVVgZGk6O" role="1WuOoG">
-      <node concept="1qMY9V" id="4flVVgZGk6P" role="1WuSSZ">
-        <node concept="1WsAku" id="4flVVgZGk6Q" role="1Wv4ud">
-          <ref role="1WsAkv" node="3cGwCYjqp1U" resolve="$a" />
-        </node>
-      </node>
-      <node concept="1WuSSw" id="4flVVgZGk6R" role="1WuSS$" />
-      <node concept="20XRx3" id="4flVVgZGk6W" role="2whVRh">
+    <node concept="12oyBj" id="1488$ZY9A5B" role="3JAHpD">
+      <node concept="1qLTPQ" id="1488$ZY9A5C" role="y1Oci" />
+      <node concept="20XRx3" id="1488$ZY9A5L" role="2whVRh">
         <property role="20XRxs" value="b" />
       </node>
     </node>
+    <node concept="3J5jGO" id="1488$ZY979Z" role="1WuOoG">
+      <node concept="1qMY9V" id="1488$ZY97a0" role="3JaxR7">
+        <node concept="1WsAku" id="1488$ZY97a1" role="1Wv4ud">
+          <ref role="1WsAkv" node="3cGwCYjqp1U" resolve="$a" />
+        </node>
+      </node>
+      <node concept="3JAaGW" id="1488$ZY97a2" role="3J5JXq">
+        <node concept="3JAaGX" id="1488$ZY97a3" role="3JAaGZ">
+          <property role="3JAaGh" value="a" />
+        </node>
+      </node>
+      <node concept="3JAaGW" id="1488$ZY97a4" role="3J5JXo">
+        <node concept="3JAaGX" id="1488$ZY97a5" role="3JAaGZ">
+          <property role="3JAaGh" value="b" />
+        </node>
+      </node>
+      <node concept="20XRx3" id="1488$ZY97ad" role="2whVRh">
+        <property role="20XRxs" value="b" />
+      </node>
+    </node>
+    <node concept="1WuSSW" id="1488$ZY97ap" role="1WuOoG">
+      <node concept="1qMY9V" id="1488$ZY97ar" role="3JaxR7">
+        <node concept="1WsAku" id="1488$ZY97at" role="1Wv4ud">
+          <ref role="1WsAkv" node="3cGwCYjqp1U" resolve="$a" />
+        </node>
+      </node>
+      <node concept="20XRx3" id="1488$ZY97aE" role="2whVRh">
+        <property role="20XRxs" value="b" />
+      </node>
+    </node>
+    <node concept="3J5ap2" id="1488$ZYa273" role="1WuOoG" />
   </node>
 </model>
 

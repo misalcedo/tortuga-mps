@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" content="root">
   <persistence version="9" />
-  <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-  </imports>
+  <imports />
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
-        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
-        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
-      <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <reference id="1071489389519" name="extends" index="1TJDcQ" />
-      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
@@ -29,32 +23,22 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="6Rp8K9fS0De">
-    <property role="EcuMT" value="7915396312917346894" />
+  <node concept="PlHQZ" id="1488$ZY7HOk">
+    <property role="EcuMT" value="1227268625419656468" />
     <property role="TrG5h" value="Import" />
-    <property role="34LRSv" value="import" />
-    <property role="R4oN_" value="The imports component of a module defines a set of imports that are required for instantiation." />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4flVVgZzOIG" role="1TKVEi">
-      <property role="IQ2ns" value="4888076528020048812" />
+    <node concept="1TJgyj" id="1488$ZY7HOl" role="1TKVEi">
+      <property role="IQ2ns" value="1227268625419656469" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="mod" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Yo9eQg08Zh" resolve="Name" />
     </node>
-    <node concept="1TJgyj" id="4flVVgZzOIK" role="1TKVEi">
-      <property role="IQ2ns" value="4888076528020048816" />
+    <node concept="1TJgyj" id="1488$ZY7HOn" role="1TKVEi">
+      <property role="IQ2ns" value="1227268625419656471" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="nm" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Yo9eQg08Zh" resolve="Name" />
-    </node>
-    <node concept="1TJgyj" id="6Rp8K9fS0Dk" role="1TKVEi">
-      <property role="IQ2ns" value="7915396312917346900" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="import" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4flVVgZzOKF" resolve="ImportDescription" />
     </node>
   </node>
 </model>

@@ -27,22 +27,31 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="4flVVgZzOKU">
-    <ref role="1XX52x" to="aqb7:4flVVgZzOKK" resolve="FunctionImport" />
-    <node concept="3EZMnI" id="4flVVgZzOKW" role="2wV5jI">
-      <node concept="3F0ifn" id="4flVVgZzOL3" role="3EZMnx">
+  <node concept="24kQdi" id="1488$ZY7V0r">
+    <ref role="1XX52x" to="aqb7:1488$ZY7h_V" resolve="FunctionImport" />
+    <node concept="3EZMnI" id="1488$ZY7V0J" role="2wV5jI">
+      <node concept="3F0ifn" id="1488$ZY7V0Q" role="3EZMnx">
+        <property role="3F0ifm" value="(import" />
+      </node>
+      <node concept="3F1sOY" id="1488$ZY7V0W" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:1488$ZY7HOl" resolve="mod" />
+      </node>
+      <node concept="3F1sOY" id="1488$ZY7V14" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:1488$ZY7HOn" resolve="nm" />
+      </node>
+      <node concept="3F0ifn" id="1488$ZY7V1e" role="3EZMnx">
         <property role="3F0ifm" value="(func" />
       </node>
-      <node concept="3F1sOY" id="4flVVgZzOLh" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:4flVVgZzOKI" resolve="id" />
+      <node concept="3F1sOY" id="1488$ZY7V1Z" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:3cGwCYjqNXu" resolve="id" />
       </node>
-      <node concept="3F1sOY" id="4flVVgZzOLr" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:4flVVgZzOKL" resolve="type" />
+      <node concept="3F1sOY" id="1488$ZY8ZTE" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:1488$ZY8zY8" resolve="type" />
       </node>
-      <node concept="3F0ifn" id="4flVVgZzOL9" role="3EZMnx">
+      <node concept="3F0ifn" id="1488$ZY7V1L" role="3EZMnx">
         <property role="3F0ifm" value=")" />
       </node>
-      <node concept="2iRfu4" id="4flVVgZzOKZ" role="2iSdaV" />
+      <node concept="2iRfu4" id="1488$ZY7V0M" role="2iSdaV" />
     </node>
   </node>
 </model>
