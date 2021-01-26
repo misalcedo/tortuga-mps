@@ -51,11 +51,17 @@
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="WtQ9Q" id="7C3sZ8wM98q">
+    <property role="3GE5qa" value="functype" />
     <ref role="WuzLi" to="aqb7:7C3sZ8wM969" resolve="TypeUse" />
     <node concept="11bSqf" id="7C3sZ8wM98r" role="11c4hB">
       <node concept="3clFbS" id="7C3sZ8wM98s" role="2VODD2">

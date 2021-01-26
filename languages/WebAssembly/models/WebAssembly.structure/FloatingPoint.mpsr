@@ -12,12 +12,8 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
-        <reference id="1169127628841" name="intfc" index="PrY4T" />
-      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
-        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -25,6 +21,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -35,14 +34,12 @@
     <property role="TrG5h" value="FloatingPoint" />
     <property role="34LRSv" value="float" />
     <property role="R4oN_" value="Floating-point data represents 32 or 64 bit values that correspond to the respective binary formats of the IEEE 754-2019 standard (Section 3.3)." />
+    <property role="3GE5qa" value="values" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7Yo9eQg08Zz" role="1TKVEl">
       <property role="IQ2nx" value="9194139242018672611" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" node="7Yo9eQg08Zy" resolve="float" />
-    </node>
-    <node concept="PrWs8" id="7Yo9eQg0wwN" role="PzmwI">
-      <ref role="PrY4T" node="7Yo9eQg0wwM" resolve="IValue" />
     </node>
   </node>
 </model>

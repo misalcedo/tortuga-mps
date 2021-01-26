@@ -53,8 +53,14 @@
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="1M2fIO" id="4flVVgZBE_8">
+    <property role="3GE5qa" value="modules" />
     <ref role="1M2myG" to="aqb7:2HITqhtcO8X" resolve="Module" />
     <node concept="EnEH3" id="4flVVgZBE_9" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
