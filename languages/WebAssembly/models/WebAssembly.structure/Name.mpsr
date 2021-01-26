@@ -46,6 +46,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Yo9eQg08Zg" resolve="String" />
     </node>
+    <node concept="PrWs8" id="6IQLVcjo_S7" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
     <node concept="PrWs8" id="7Yo9eQg08Zp" role="PzmwI">
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
     </node>

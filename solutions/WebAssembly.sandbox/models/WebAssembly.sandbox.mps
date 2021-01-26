@@ -50,7 +50,7 @@
       <concept id="4888076528021637802" name="WebAssembly.structure.TypeIndex" flags="ng" index="1WsAku">
         <reference id="4888076528021637803" name="type" index="1WsAkv" />
       </concept>
-      <concept id="4888076528022086024" name="WebAssembly.structure.LocalFunction" flags="ng" index="1WuSSW" />
+      <concept id="4888076528022086024" name="WebAssembly.structure.FunctionWithBody" flags="ng" index="1WuSSW" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -98,8 +98,22 @@
           <property role="3JAaGh" value="b" />
         </node>
       </node>
-      <node concept="20XRx3" id="1488$ZY97ad" role="2whVRh">
-        <property role="20XRxs" value="b" />
+    </node>
+    <node concept="3J5jGO" id="6IQLVcjpYRo" role="1WuOoG">
+      <node concept="1qMY9V" id="6IQLVcjpYRq" role="3JaxR7">
+        <node concept="1WsAku" id="6IQLVcjpYRs" role="1Wv4ud">
+          <ref role="1WsAkv" node="1488$ZY9A5B" resolve="$b" />
+        </node>
+      </node>
+      <node concept="3JAaGW" id="6IQLVcjpYRu" role="3J5JXq">
+        <node concept="3JAaGX" id="6IQLVcjpYRw" role="3JAaGZ">
+          <property role="3JAaGh" value="a" />
+        </node>
+      </node>
+      <node concept="3JAaGW" id="6IQLVcjpYRy" role="3J5JXo">
+        <node concept="3JAaGX" id="6IQLVcjpYR$" role="3JAaGZ">
+          <property role="3JAaGh" value="c" />
+        </node>
       </node>
     </node>
     <node concept="1WuSSW" id="1488$ZY97ap" role="1WuOoG">
@@ -108,11 +122,7 @@
           <ref role="1WsAkv" node="3cGwCYjqp1U" resolve="$a" />
         </node>
       </node>
-      <node concept="20XRx3" id="1488$ZY97aE" role="2whVRh">
-        <property role="20XRxs" value="b" />
-      </node>
     </node>
-    <node concept="3J5ap2" id="1488$ZYa273" role="1WuOoG" />
   </node>
 </model>
 
