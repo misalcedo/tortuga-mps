@@ -16,6 +16,9 @@
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
         <property id="4888076528020360554" name="type" index="1Wgubu" />
       </concept>
+      <concept id="1553610340930335870" name="WebAssembly.structure.LocalMemory" flags="ng" index="2Z2jKx">
+        <child id="1553610340930335873" name="type" index="2Z2jNu" />
+      </concept>
       <concept id="2168606229993768512" name="WebAssembly.structure.Result" flags="ng" index="12oyAw">
         <property id="4888076528020363491" name="type" index="1Wgvtn" />
       </concept>
@@ -37,13 +40,24 @@
         <child id="1227268625419656471" name="nm" index="3J5JXo" />
         <child id="1227268625419656469" name="mod" index="3J5JXq" />
       </concept>
+      <concept id="9194139242018672590" name="WebAssembly.structure.Integer" flags="ng" index="3JAaGz">
+        <property id="9194139242018672608" name="value" index="3JAaGd" />
+      </concept>
       <concept id="9194139242018672593" name="WebAssembly.structure.Name" flags="ng" index="3JAaGW">
         <child id="9194139242018672594" name="value" index="3JAaGZ" />
       </concept>
       <concept id="9194139242018672592" name="WebAssembly.structure.String" flags="ng" index="3JAaGX">
         <property id="9194139242018672636" name="value" index="3JAaGh" />
       </concept>
+      <concept id="9194139242018769027" name="WebAssembly.structure.MemoryType" flags="ng" index="3JAyLI">
+        <child id="9194139242018769030" name="lim" index="3JAyLF" />
+      </concept>
+      <concept id="9194139242018768968" name="WebAssembly.structure.MinimumLimit" flags="ng" index="3JAyM_" />
+      <concept id="9194139242018768963" name="WebAssembly.structure.Limit" flags="ng" index="3JAyMI">
+        <child id="4888076528020218985" name="min" index="1Wh0Jt" />
+      </concept>
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
+        <child id="1553610340930489779" name="memories" index="2Z1CnG" />
         <child id="9194139242018828932" name="types" index="3JAHpD" />
         <child id="4888076528022104472" name="functions" index="1WuOoG" />
       </concept>
@@ -121,6 +135,18 @@
         <node concept="1WsAku" id="1488$ZY97at" role="1Wv4ud">
           <ref role="1WsAkv" node="3cGwCYjqp1U" resolve="$a" />
         </node>
+      </node>
+    </node>
+    <node concept="2Z2jKx" id="1mfy5YEywuv" role="2Z1CnG">
+      <node concept="3JAyLI" id="1mfy5YEywuw" role="2Z2jNu">
+        <node concept="3JAyM_" id="1mfy5YEywuD" role="3JAyLF">
+          <node concept="3JAaGz" id="1mfy5YEywuG" role="1Wh0Jt">
+            <property role="3JAaGd" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="20XRx3" id="1mfy5YEywuB" role="2whVRh">
+        <property role="20XRxs" value="a" />
       </node>
     </node>
   </node>

@@ -16,7 +16,6 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -37,43 +36,25 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="2HITqhtcO8X">
-    <property role="EcuMT" value="3129691285170111037" />
-    <property role="TrG5h" value="Module" />
-    <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="module" />
-    <property role="R4oN_" value="WebAssembly programs are organized into modules, which are the unit of deployment, loading, and compilation. A module collects definitions for types, functions, tables, memories, and globals." />
+  <node concept="1TIwiD" id="1mfy5YEyDd5">
+    <property role="EcuMT" value="1553610340930589509" />
+    <property role="TrG5h" value="MemoryImport" />
+    <property role="34LRSv" value="import" />
+    <property role="R4oN_" value="The imports component of a module defines a set of imports that are required for instantiation." />
     <property role="3GE5qa" value="modules" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4flVVgZAHfH" role="1TKVEi">
-      <property role="IQ2ns" value="4888076528020804589" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="id" />
-      <ref role="20lvS9" node="61w0MNw_RHJ" resolve="Identifier" />
+    <node concept="PrWs8" id="1mfy5YEyDd8" role="PzmwI">
+      <ref role="PrY4T" node="1mfy5YExFhV" resolve="Memory" />
     </node>
-    <node concept="1TJgyj" id="7Yo9eQg0Ja4" role="1TKVEi">
-      <property role="IQ2ns" value="9194139242018828932" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="types" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1SorY1su$oN" resolve="Type" />
+    <node concept="PrWs8" id="1mfy5YEyDd7" role="PzmwI">
+      <ref role="PrY4T" node="1488$ZY7HOk" resolve="Import" />
     </node>
-    <node concept="1TJgyj" id="4flVVgZFEAo" role="1TKVEi">
-      <property role="IQ2ns" value="4888076528022104472" />
+    <node concept="1TJgyj" id="1mfy5YEyEaC" role="1TKVEi">
+      <property role="IQ2ns" value="1553610340930593448" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="functions" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1488$ZY78gd" resolve="Function" />
-    </node>
-    <node concept="1TJgyj" id="1mfy5YEygQN" role="1TKVEi">
-      <property role="IQ2ns" value="1553610340930489779" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="memories" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1mfy5YExFhV" resolve="Memory" />
-    </node>
-    <node concept="PrWs8" id="4flVVgZBvg8" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7Yo9eQg0wy3" resolve="MemoryType" />
     </node>
   </node>
 </model>
