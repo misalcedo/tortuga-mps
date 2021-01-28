@@ -16,8 +16,10 @@
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
         <property id="4888076528020360554" name="type" index="1Wgubu" />
       </concept>
-      <concept id="1553610340930335870" name="WebAssembly.structure.LocalMemory" flags="ng" index="2Z2jKx">
-        <child id="1553610340930335873" name="type" index="2Z2jNu" />
+      <concept id="1553610340930589509" name="WebAssembly.structure.MemoryImport" flags="ng" index="2Z1hGq" />
+      <concept id="1553610340930335870" name="WebAssembly.structure.LocalMemory" flags="ng" index="2Z2jKx" />
+      <concept id="1553610340930335867" name="WebAssembly.structure.Memory" flags="ng" index="2Z2jK$">
+        <child id="1553610340930604792" name="type" index="2Z1kqB" />
       </concept>
       <concept id="2168606229993768512" name="WebAssembly.structure.Result" flags="ng" index="12oyAw">
         <property id="4888076528020363491" name="type" index="1Wgvtn" />
@@ -53,6 +55,9 @@
         <child id="9194139242018769030" name="lim" index="3JAyLF" />
       </concept>
       <concept id="9194139242018768968" name="WebAssembly.structure.MinimumLimit" flags="ng" index="3JAyM_" />
+      <concept id="9194139242018768971" name="WebAssembly.structure.RangeLimit" flags="ng" index="3JAyMA">
+        <child id="9194139242018768974" name="max" index="3JAyMz" />
+      </concept>
       <concept id="9194139242018768963" name="WebAssembly.structure.Limit" flags="ng" index="3JAyMI">
         <child id="4888076528020218985" name="min" index="1Wh0Jt" />
       </concept>
@@ -137,16 +142,38 @@
         </node>
       </node>
     </node>
-    <node concept="2Z2jKx" id="1mfy5YEywuv" role="2Z1CnG">
-      <node concept="3JAyLI" id="1mfy5YEywuw" role="2Z2jNu">
-        <node concept="3JAyM_" id="1mfy5YEywuD" role="3JAyLF">
-          <node concept="3JAaGz" id="1mfy5YEywuG" role="1Wh0Jt">
+    <node concept="2Z1hGq" id="1mfy5YEz46M" role="2Z1CnG">
+      <node concept="3JAyLI" id="1mfy5YEz46N" role="2Z1kqB">
+        <node concept="3JAyM_" id="1mfy5YEz472" role="3JAyLF">
+          <node concept="3JAaGz" id="1mfy5YEz475" role="1Wh0Jt">
             <property role="3JAaGd" value="1" />
           </node>
         </node>
       </node>
-      <node concept="20XRx3" id="1mfy5YEywuB" role="2whVRh">
-        <property role="20XRxs" value="a" />
+      <node concept="3JAaGW" id="1mfy5YEz46Q" role="3J5JXq">
+        <node concept="3JAaGX" id="1mfy5YEz46R" role="3JAaGZ">
+          <property role="3JAaGh" value="a" />
+        </node>
+      </node>
+      <node concept="3JAaGW" id="1mfy5YEz46S" role="3J5JXo">
+        <node concept="3JAaGX" id="1mfy5YEz46T" role="3JAaGZ">
+          <property role="3JAaGh" value="b" />
+        </node>
+      </node>
+    </node>
+    <node concept="2Z2jKx" id="1mfy5YEz47k" role="2Z1CnG">
+      <node concept="3JAyLI" id="1mfy5YEz47m" role="2Z1kqB">
+        <node concept="3JAyMA" id="1mfy5YEz47C" role="3JAyLF">
+          <node concept="3JAaGz" id="1mfy5YEz47F" role="3JAyMz">
+            <property role="3JAaGd" value="2" />
+          </node>
+          <node concept="3JAaGz" id="1mfy5YEz47I" role="1Wh0Jt">
+            <property role="3JAaGd" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="20XRx3" id="1mfy5YEz4nh" role="2whVRh">
+        <property role="20XRxs" value="2" />
       </node>
     </node>
   </node>
