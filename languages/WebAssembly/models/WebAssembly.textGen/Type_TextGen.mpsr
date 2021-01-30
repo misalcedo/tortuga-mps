@@ -90,7 +90,7 @@
         </node>
         <node concept="lc7rE" id="6Rp8K9fSSlP" role="3cqZAp">
           <node concept="la8eA" id="6Rp8K9fSSoc" role="lcghm">
-            <property role="lacIc" value=" " />
+            <property role="lacIc" value=" (func " />
           </node>
           <node concept="l9hG8" id="6Rp8K9fSSpI" role="lcghm">
             <node concept="2OqwBi" id="6Rp8K9fSSxV" role="lb14g">
@@ -101,7 +101,7 @@
             </node>
           </node>
           <node concept="la8eA" id="6Rp8K9fSSLY" role="lcghm">
-            <property role="lacIc" value=")" />
+            <property role="lacIc" value="))" />
           </node>
         </node>
       </node>

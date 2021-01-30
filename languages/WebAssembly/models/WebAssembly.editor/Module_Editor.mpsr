@@ -51,17 +51,14 @@
     <property role="3GE5qa" value="modules" />
     <ref role="1XX52x" to="aqb7:2HITqhtcO8X" resolve="Module" />
     <node concept="3EZMnI" id="2HITqhtcYjc" role="2wV5jI">
-      <node concept="3F0ifn" id="5P_QmTvOO_" role="3EZMnx">
+      <node concept="3F0ifn" id="2UeFVI_B_sm" role="3EZMnx">
         <property role="3F0ifm" value="(module" />
-        <node concept="pVoyu" id="5P_QmTwck$" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="3F1sOY" id="4flVVgZAHgh" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:4flVVgZAHfH" resolve="id" />
       </node>
       <node concept="3F2HdR" id="5P_QmTvYzF" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:7Yo9eQg0Ja4" resolve="types" />
+        <ref role="1NtTu8" to="aqb7:2UeFVI_B_gS" resolve="fields" />
         <node concept="2iRkQZ" id="5P_QmTvYzI" role="2czzBx" />
         <node concept="VPM3Z" id="5P_QmTvYzJ" role="3F10Kt" />
         <node concept="ljvvj" id="5P_QmTwckI" role="3F10Kt">
@@ -71,33 +68,6 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="lj46D" id="5P_QmTwte3" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="4flVVgZFECd" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:4flVVgZFEAo" resolve="functions" />
-        <node concept="2iRkQZ" id="4flVVgZFECg" role="2czzBx" />
-        <node concept="lj46D" id="4flVVgZFECz" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="ljvvj" id="4flVVgZFECC" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="pVoyu" id="4flVVgZFECK" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="1mfy5YEygRg" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:1mfy5YEygQN" resolve="memories" />
-        <node concept="2iRkQZ" id="1mfy5YEygRj" role="2czzBx" />
-        <node concept="VPM3Z" id="1mfy5YEygRk" role="3F10Kt" />
-        <node concept="lj46D" id="1mfy5YEygRE" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="ljvvj" id="1mfy5YEygRM" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="pVoyu" id="1mfy5YEygRW" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>

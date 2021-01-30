@@ -51,26 +51,12 @@
       <property role="20kJfa" value="id" />
       <ref role="20lvS9" node="61w0MNw_RHJ" resolve="Identifier" />
     </node>
-    <node concept="1TJgyj" id="7Yo9eQg0Ja4" role="1TKVEi">
-      <property role="IQ2ns" value="9194139242018828932" />
+    <node concept="1TJgyj" id="2UeFVI_B_gS" role="1TKVEi">
+      <property role="IQ2ns" value="3354811992909960248" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="types" />
+      <property role="20kJfa" value="fields" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1SorY1su$oN" resolve="Type" />
-    </node>
-    <node concept="1TJgyj" id="4flVVgZFEAo" role="1TKVEi">
-      <property role="IQ2ns" value="4888076528022104472" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="functions" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4flVVgZFA68" resolve="Function" />
-    </node>
-    <node concept="1TJgyj" id="1mfy5YEygQN" role="1TKVEi">
-      <property role="IQ2ns" value="1553610340930489779" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="memories" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1mfy5YExFhY" resolve="Memory" />
+      <ref role="20lvS9" node="4flVVgZCN_R" resolve="ModuleField" />
     </node>
     <node concept="PrWs8" id="4flVVgZBvg8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
