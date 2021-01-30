@@ -68,7 +68,7 @@
   </registry>
   <node concept="WtQ9Q" id="4flVVgZFAb3">
     <property role="3GE5qa" value="functions" />
-    <ref role="WuzLi" to="aqb7:4flVVgZFA68" resolve="FunctionWithBody" />
+    <ref role="WuzLi" to="aqb7:4flVVgZFA68" resolve="Function" />
     <node concept="11bSqf" id="4flVVgZFAb4" role="11c4hB">
       <node concept="3clFbS" id="4flVVgZFAb5" role="2VODD2">
         <node concept="lc7rE" id="4flVVgZFAbm" role="3cqZAp">
