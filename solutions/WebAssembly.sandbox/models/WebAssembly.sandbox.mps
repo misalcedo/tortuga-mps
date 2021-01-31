@@ -22,7 +22,6 @@
       </concept>
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
         <child id="3354811992909960248" name="fields" index="2b4fI3" />
-        <child id="5332635540776019909" name="start" index="u$Fg0" />
       </concept>
       <concept id="4888076528021637802" name="WebAssembly.structure.TypeIndex" flags="ng" index="1WsAku">
         <reference id="4888076528021637803" name="type" index="1WsAkv" />
@@ -32,20 +31,20 @@
       </concept>
     </language>
   </registry>
-  <node concept="1Qnqup" id="2UeFVI_BM6S">
-    <node concept="12oyBj" id="4C1kWlk_f5q" role="2b4fI3">
-      <node concept="1qLTPQ" id="4C1kWlk_f5s" role="y1Oci" />
+  <node concept="1Qnqup" id="5jQhInovRcG">
+    <node concept="12oyBj" id="5jQhInovRcP" role="2b4fI3">
+      <node concept="1qLTPQ" id="5jQhInovRcR" role="y1Oci" />
     </node>
-    <node concept="1WuSSW" id="4C1kWlk_f5f" role="2b4fI3">
-      <node concept="1qMY9V" id="4C1kWlk_f5g" role="3JaxR7">
-        <node concept="1WsAku" id="4C1kWlk_f5h" role="1Wv4ud">
-          <ref role="1WsAkv" node="4C1kWlk_f5q" resolve="0" />
+    <node concept="1WuSSW" id="5jQhInovRd3" role="2b4fI3">
+      <node concept="1qMY9V" id="5jQhInovRd5" role="3JaxR7">
+        <node concept="1WsAku" id="5jQhInovRd7" role="1Wv4ud">
+          <ref role="1WsAkv" node="5jQhInovRcP" resolve="0" />
         </node>
       </node>
     </node>
-    <node concept="u$Zru" id="4C1kWlk_f5z" role="u$Fg0">
-      <node concept="uzuEw" id="4C1kWlk_f5$" role="u$Zrp">
-        <ref role="uzuEz" node="4C1kWlk_f5f" resolve="1" />
+    <node concept="u$Zru" id="5jQhInowIST" role="2b4fI3">
+      <node concept="uzuEw" id="5jQhInowISV" role="u$Zrp">
+        <ref role="uzuEz" node="5jQhInovRd3" resolve="1" />
       </node>
     </node>
   </node>
