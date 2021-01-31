@@ -37,7 +37,7 @@
     <property role="TrG5h" value="TypeUse" />
     <property role="34LRSv" value="typeuse" />
     <property role="R4oN_" value="A type use is a reference to a type definition. It may optionally be augmented by explicit inlined parameter and result declarations. That allows binding symbolic identifiers to name the local indices of parameters. If inline declarations are given, then their types must match the referenced function type." />
-    <property role="3GE5qa" value="functype" />
+    <property role="3GE5qa" value="functions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4flVVgZEqwT" role="1TKVEi">
       <property role="IQ2ns" value="4888076528021776441" />

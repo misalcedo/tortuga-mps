@@ -21,7 +21,7 @@
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
-      <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -32,20 +32,23 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="1SorY1su$p7">
-    <property role="3GE5qa" value="functions" />
-    <ref role="1XX52x" to="aqb7:1SorY1su$p0" resolve="Result" />
-    <node concept="3EZMnI" id="1SorY1su$p9" role="2wV5jI">
-      <node concept="3F0ifn" id="1SorY1su$pg" role="3EZMnx">
-        <property role="3F0ifm" value="(result" />
+  <node concept="24kQdi" id="4C1kWlkySls">
+    <property role="3GE5qa" value="globals" />
+    <ref role="1XX52x" to="aqb7:4C1kWlkyRqb" resolve="Global" />
+    <node concept="3EZMnI" id="4C1kWlkySlu" role="2wV5jI">
+      <node concept="3F0ifn" id="4C1kWlkySl_" role="3EZMnx">
+        <property role="3F0ifm" value="(global" />
       </node>
-      <node concept="3F0A7n" id="4flVVgZ_1zF" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:4flVVgZ_1zz" resolve="type" />
+      <node concept="3F1sOY" id="4C1kWlkySlN" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:3cGwCYjqNXu" resolve="id" />
       </node>
-      <node concept="3F0ifn" id="1SorY1su$pu" role="3EZMnx">
+      <node concept="3F1sOY" id="4C1kWlkySlX" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:4C1kWlkyRqc" resolve="type" />
+      </node>
+      <node concept="3F0ifn" id="4C1kWlkySlF" role="3EZMnx">
         <property role="3F0ifm" value=")" />
       </node>
-      <node concept="2iRfu4" id="1SorY1su$pc" role="2iSdaV" />
+      <node concept="2iRfu4" id="4C1kWlkySlx" role="2iSdaV" />
     </node>
   </node>
 </model>

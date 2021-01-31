@@ -36,7 +36,7 @@
     <property role="TrG5h" value="TypeIndex" />
     <property role="34LRSv" value="typeidx" />
     <property role="R4oN_" value="Indices can be given either in raw numeric form or as symbolic identifiers when bound by a respective construct. Such identifiers are looked up in the suitable space of the identifier context I." />
-    <property role="3GE5qa" value="functype" />
+    <property role="3GE5qa" value="functions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4flVVgZDSEF" role="1TKVEi">
       <property role="IQ2ns" value="4888076528021637803" />

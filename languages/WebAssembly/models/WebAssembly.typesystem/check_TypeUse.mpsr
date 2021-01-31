@@ -112,7 +112,7 @@
   </registry>
   <node concept="18kY7G" id="3cGwCYjnSwJ">
     <property role="TrG5h" value="check_TypeUse" />
-    <property role="3GE5qa" value="functype" />
+    <property role="3GE5qa" value="functions" />
     <node concept="3clFbS" id="3cGwCYjnSwK" role="18ibNy">
       <node concept="3clFbJ" id="3cGwCYjo5Qr" role="3cqZAp">
         <node concept="3clFbS" id="3cGwCYjo5Qt" role="3clFbx">

@@ -52,7 +52,7 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="1SorY1suU6d">
-    <property role="3GE5qa" value="functype" />
+    <property role="3GE5qa" value="functions" />
     <ref role="WuzLi" to="aqb7:1SorY1su$oN" resolve="Type" />
     <node concept="11bSqf" id="1SorY1suU6e" role="11c4hB">
       <node concept="3clFbS" id="1SorY1suU6f" role="2VODD2">

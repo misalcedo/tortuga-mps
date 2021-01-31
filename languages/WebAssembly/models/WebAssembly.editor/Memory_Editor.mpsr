@@ -33,7 +33,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="1mfy5YExFia">
-    <property role="3GE5qa" value="memory" />
+    <property role="3GE5qa" value="memories" />
     <ref role="1XX52x" to="aqb7:1mfy5YExFhY" resolve="Memory" />
     <node concept="3EZMnI" id="1mfy5YExFic" role="2wV5jI">
       <node concept="3F0ifn" id="1mfy5YExFij" role="3EZMnx">

@@ -50,7 +50,7 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="4flVVgZDSGn">
-    <property role="3GE5qa" value="functype" />
+    <property role="3GE5qa" value="functions" />
     <ref role="WuzLi" to="aqb7:4flVVgZDSEE" resolve="TypeIndex" />
     <node concept="11bSqf" id="4flVVgZDSGo" role="11c4hB">
       <node concept="3clFbS" id="4flVVgZDSGp" role="2VODD2">

@@ -41,7 +41,7 @@
     <property role="TrG5h" value="Type" />
     <property role="34LRSv" value="type" />
     <property role="R4oN_" value="The types component of a module defines a vector of function types." />
-    <property role="3GE5qa" value="functype" />
+    <property role="3GE5qa" value="functions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6Rp8K9fRA0g" role="1TKVEi">
       <property role="IQ2ns" value="7915396312917237776" />

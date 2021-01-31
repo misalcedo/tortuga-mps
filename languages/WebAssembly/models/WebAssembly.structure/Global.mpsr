@@ -36,21 +36,21 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="1mfy5YExFhY">
-    <property role="EcuMT" value="1553610340930335870" />
-    <property role="3GE5qa" value="memories" />
-    <property role="TrG5h" value="Memory" />
-    <property role="34LRSv" value="mem" />
-    <property role="R4oN_" value="A memory is a vector of raw uninterpreted bytes. The min size in the limits of the memory type specifies the initial size of that memory, while its max, if present, restricts the size to which it can grow later. Both are in units of page size." />
+  <node concept="1TIwiD" id="4C1kWlkyRqb">
+    <property role="EcuMT" value="5332635540775466635" />
+    <property role="TrG5h" value="Global" />
+    <property role="34LRSv" value="global" />
+    <property role="R4oN_" value="Each global stores a single value of the given global type. Its type also specifies whether a global is immutable or mutable. Moreover, each global is initialized with an init value given by a constant initializer expression." />
+    <property role="3GE5qa" value="globals" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1mfy5YEyGVS" role="1TKVEi">
-      <property role="IQ2ns" value="1553610340930604792" />
+    <node concept="1TJgyj" id="4C1kWlkyRqc" role="1TKVEi">
+      <property role="IQ2ns" value="5332635540775466636" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7Yo9eQg0wy3" resolve="MemoryType" />
+      <ref role="20lvS9" node="7Yo9eQg0CUi" resolve="GlobalType" />
     </node>
-    <node concept="PrWs8" id="2UeFVI_Apzf" role="PzmwI">
+    <node concept="PrWs8" id="4C1kWlkyRqe" role="PzmwI">
       <ref role="PrY4T" node="4flVVgZCN_R" resolve="ModuleField" />
     </node>
   </node>

@@ -101,7 +101,7 @@
   </registry>
   <node concept="18kY7G" id="3cGwCYjqFZW">
     <property role="TrG5h" value="check_Parameter" />
-    <property role="3GE5qa" value="functype" />
+    <property role="3GE5qa" value="functions" />
     <node concept="3clFbS" id="3cGwCYjqFZX" role="18ibNy">
       <node concept="3clFbJ" id="3cGwCYjqGC1" role="3cqZAp">
         <node concept="2OqwBi" id="3cGwCYjqLiV" role="3clFbw">
