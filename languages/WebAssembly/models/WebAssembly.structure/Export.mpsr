@@ -40,16 +40,16 @@
     <node concept="1TJgyj" id="4C1kWlk$6uw" role="1TKVEi">
       <property role="IQ2ns" value="5332635540775790496" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="label" />
+      <property role="20kJfa" value="name" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Yo9eQg08Zh" resolve="Name" />
     </node>
     <node concept="1TJgyj" id="4C1kWlk$6va" role="1TKVEi">
       <property role="IQ2ns" value="5332635540775790538" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="index" />
+      <property role="20kJfa" value="description" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4C1kWlkzb_x" resolve="Index" />
+      <ref role="20lvS9" node="5jQhInoyGU3" resolve="ExportDescription" />
     </node>
   </node>
 </model>

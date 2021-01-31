@@ -8,6 +8,7 @@
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
@@ -27,6 +28,7 @@
     <property role="3F6X1D" value="2168606229993768485" />
     <property role="TrG5h" value="valtype" />
     <property role="3GE5qa" value="types" />
+    <ref role="1H5jkz" node="1SorY1su$oA" resolve="i32" />
     <node concept="25R33" id="1SorY1su$oA" role="25R1y">
       <property role="3tVfz5" value="2168606229993768486" />
       <property role="TrG5h" value="i32" />
