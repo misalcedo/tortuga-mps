@@ -12,13 +12,8 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
-      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
-        <reference id="1169127628841" name="intfc" index="PrY4T" />
-      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
-        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -37,42 +32,19 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="2HITqhtcO8X">
-    <property role="EcuMT" value="3129691285170111037" />
-    <property role="TrG5h" value="Module" />
-    <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="module" />
-    <property role="R4oN_" value="WebAssembly programs are organized into modules, which are the unit of deployment, loading, and compilation. A module collects definitions for types, functions, tables, memories, and globals." />
-    <property role="3GE5qa" value="modules" />
+  <node concept="1TIwiD" id="4C1kWlk$Ekr">
+    <property role="EcuMT" value="5332635540775937307" />
+    <property role="3GE5qa" value="exports" />
+    <property role="TrG5h" value="Start" />
+    <property role="R4oN_" value="The start component of a module declares the function index of a start function that is automatically invoked when the module is instantiated, after tables and memories have been initialized." />
+    <property role="34LRSv" value="start" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4flVVgZAHfH" role="1TKVEi">
-      <property role="IQ2ns" value="4888076528020804589" />
+    <node concept="1TJgyj" id="4C1kWlk$Eks" role="1TKVEi">
+      <property role="IQ2ns" value="5332635540775937308" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="id" />
-      <ref role="20lvS9" node="61w0MNw_RHJ" resolve="Identifier" />
-    </node>
-    <node concept="1TJgyj" id="2UeFVI_B_gS" role="1TKVEi">
-      <property role="IQ2ns" value="3354811992909960248" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="fields" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4flVVgZCN_R" resolve="ModuleField" />
-    </node>
-    <node concept="1TJgyj" id="4C1kWlk$nlq" role="1TKVEi">
-      <property role="IQ2ns" value="5332635540775859546" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="exports" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4C1kWlk$6ut" resolve="Export" />
-    </node>
-    <node concept="1TJgyj" id="4C1kWlk$Yv5" role="1TKVEi">
-      <property role="IQ2ns" value="5332635540776019909" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="start" />
-      <ref role="20lvS9" node="4C1kWlk$Ekr" resolve="Start" />
-    </node>
-    <node concept="PrWs8" id="4flVVgZBvg8" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4C1kWlkzb__" resolve="FunctionIndex" />
     </node>
   </node>
 </model>
