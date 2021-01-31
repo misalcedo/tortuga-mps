@@ -29,18 +29,18 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="4flVVgZDSEE">
-    <property role="EcuMT" value="4888076528021637802" />
-    <property role="TrG5h" value="TypeIndex" />
-    <property role="34LRSv" value="typeidx" />
+  <node concept="1TIwiD" id="4C1kWlkzDhY">
+    <property role="EcuMT" value="5332635540775670910" />
+    <property role="TrG5h" value="MemoryIndex" />
+    <property role="34LRSv" value="memidx" />
     <property role="R4oN_" value="Indices can be given either in raw numeric form or as symbolic identifiers when bound by a respective construct. Such identifiers are looked up in the suitable space of the identifier context I." />
     <property role="3GE5qa" value="modules" />
     <ref role="1TJDcQ" node="4C1kWlkzb_x" resolve="Index" />
-    <node concept="1TJgyj" id="4flVVgZDSEF" role="1TKVEi">
-      <property role="IQ2ns" value="4888076528021637803" />
-      <property role="20kJfa" value="type" />
+    <node concept="1TJgyj" id="4C1kWlkzDhZ" role="1TKVEi">
+      <property role="IQ2ns" value="5332635540775670911" />
+      <property role="20kJfa" value="memory" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1SorY1su$oN" resolve="Type" />
+      <ref role="20lvS9" node="1mfy5YExFhY" resolve="Memory" />
     </node>
   </node>
 </model>
