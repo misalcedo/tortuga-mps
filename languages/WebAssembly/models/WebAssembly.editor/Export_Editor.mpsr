@@ -7,7 +7,7 @@
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
-      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
+      <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -42,13 +42,13 @@
       <node concept="3F1sOY" id="4C1kWlk$6v0" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:4C1kWlk$6uw" resolve="name" />
       </node>
-      <node concept="3F1sOY" id="4C1kWlk$6vd" role="3EZMnx">
+      <node concept="3F1sOY" id="5jQhInozN4X" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:4C1kWlk$6va" resolve="description" />
       </node>
       <node concept="3F0ifn" id="4C1kWlk$6uS" role="3EZMnx">
         <property role="3F0ifm" value=")" />
       </node>
-      <node concept="2iRfu4" id="4C1kWlk$6uI" role="2iSdaV" />
+      <node concept="l2Vlx" id="5jQhInoz_Zz" role="2iSdaV" />
     </node>
   </node>
 </model>

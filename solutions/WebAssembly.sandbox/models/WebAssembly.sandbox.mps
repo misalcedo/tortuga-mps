@@ -13,11 +13,8 @@
       <concept id="5332635540775329227" name="WebAssembly.structure.Table" flags="ng" index="uy0Se">
         <child id="5332635540775329230" name="type" index="uy0Sb" />
       </concept>
-      <concept id="5332635540775549285" name="WebAssembly.structure.FunctionIndex" flags="ng" index="uzuEw">
-        <reference id="5332635540775549286" name="function" index="uzuEz" />
-      </concept>
       <concept id="5332635540775937307" name="WebAssembly.structure.Start" flags="ng" index="u$Zru">
-        <child id="5332635540775937308" name="function" index="u$Zrp" />
+        <reference id="6122158696451649434" name="function" index="2cpY_Z" />
       </concept>
       <concept id="3687465748074807126" name="WebAssembly.structure.Identified" flags="ng" index="2whVRp">
         <child id="3687465748074807134" name="id" index="2whVRh" />
@@ -96,11 +93,6 @@
         </node>
       </node>
     </node>
-    <node concept="u$Zru" id="5jQhInowIST" role="2b4fI3">
-      <node concept="uzuEw" id="5jQhInowISV" role="u$Zrp">
-        <ref role="uzuEz" node="5jQhInoyuRI" resolve="2" />
-      </node>
-    </node>
     <node concept="uy0Se" id="5jQhInoyGTq" role="2b4fI3">
       <node concept="3JAyLT" id="5jQhInoyGTs" role="uy0Sb">
         <node concept="3JAyM_" id="5jQhInoyGTT" role="3JAyLa">
@@ -109,6 +101,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="u$Zru" id="5jQhIno$J4h" role="2b4fI3">
+      <ref role="2cpY_Z" node="5jQhInovRd3" resolve="$a" />
     </node>
   </node>
 </model>
