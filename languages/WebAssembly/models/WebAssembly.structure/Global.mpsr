@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" content="root">
   <persistence version="9" />
-  <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-  </imports>
+  <imports />
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
@@ -42,7 +40,7 @@
     <property role="34LRSv" value="global" />
     <property role="R4oN_" value="Each global stores a single value of the given global type. Its type also specifies whether a global is immutable or mutable. Moreover, each global is initialized with an init value given by a constant initializer expression." />
     <property role="3GE5qa" value="globals" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="5jQhInoue4b" resolve="ModuleField" />
     <node concept="1TJgyj" id="4C1kWlkyRqc" role="1TKVEi">
       <property role="IQ2ns" value="5332635540775466636" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -50,8 +48,8 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Yo9eQg0CUi" resolve="GlobalType" />
     </node>
-    <node concept="PrWs8" id="4C1kWlkyRqe" role="PzmwI">
-      <ref role="PrY4T" node="4flVVgZCN_R" resolve="ModuleField" />
+    <node concept="PrWs8" id="5jQhInourNb" role="PzmwI">
+      <ref role="PrY4T" node="3cGwCYjqNXm" resolve="Identified" />
     </node>
   </node>
 </model>

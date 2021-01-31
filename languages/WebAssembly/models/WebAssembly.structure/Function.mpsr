@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" content="root">
   <persistence version="9" />
-  <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-  </imports>
+  <imports />
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
@@ -42,9 +40,9 @@
     <property role="34LRSv" value="func" />
     <property role="R4oN_" value="The funcs component of a module defines a vector of functions with the following structure: type, locals, and body. The type of a function declares its signature by reference to a type defined in the module. The parameters of the function are referenced through 0-based local indices in the function’s body; they are mutable." />
     <property role="3GE5qa" value="functions" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2UeFVI_Amfw" role="PzmwI">
-      <ref role="PrY4T" node="4flVVgZCN_R" resolve="ModuleField" />
+    <ref role="1TJDcQ" node="5jQhInoue4b" resolve="ModuleField" />
+    <node concept="PrWs8" id="5jQhInouqx4" role="PzmwI">
+      <ref role="PrY4T" node="3cGwCYjqNXm" resolve="Identified" />
     </node>
     <node concept="1TJgyj" id="1488$ZY8zY8" role="1TKVEi">
       <property role="IQ2ns" value="1227268625419878280" />

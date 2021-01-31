@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" content="root">
   <persistence version="9" />
-  <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-  </imports>
+  <imports />
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
@@ -42,7 +40,7 @@
     <property role="TrG5h" value="Memory" />
     <property role="34LRSv" value="mem" />
     <property role="R4oN_" value="A memory is a vector of raw uninterpreted bytes. The min size in the limits of the memory type specifies the initial size of that memory, while its max, if present, restricts the size to which it can grow later. Both are in units of page size." />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="5jQhInoue4b" resolve="ModuleField" />
     <node concept="1TJgyj" id="1mfy5YEyGVS" role="1TKVEi">
       <property role="IQ2ns" value="1553610340930604792" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -50,8 +48,8 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Yo9eQg0wy3" resolve="MemoryType" />
     </node>
-    <node concept="PrWs8" id="2UeFVI_Apzf" role="PzmwI">
-      <ref role="PrY4T" node="4flVVgZCN_R" resolve="ModuleField" />
+    <node concept="PrWs8" id="5jQhInourNf" role="PzmwI">
+      <ref role="PrY4T" node="3cGwCYjqNXm" resolve="Identified" />
     </node>
   </node>
 </model>

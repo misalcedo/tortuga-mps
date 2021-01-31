@@ -56,14 +56,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="fields" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4flVVgZCN_R" resolve="ModuleField" />
-    </node>
-    <node concept="1TJgyj" id="4C1kWlk$nlq" role="1TKVEi">
-      <property role="IQ2ns" value="5332635540775859546" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="exports" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4C1kWlk$6ut" resolve="Export" />
+      <ref role="20lvS9" node="5jQhInoue4b" resolve="ModuleField" />
     </node>
     <node concept="1TJgyj" id="4C1kWlk$Yv5" role="1TKVEi">
       <property role="IQ2ns" value="5332635540776019909" />
