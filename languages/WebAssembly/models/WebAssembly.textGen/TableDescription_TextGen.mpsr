@@ -50,8 +50,8 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="4C1kWlkzrEm">
-    <property role="3GE5qa" value="modules" />
-    <ref role="WuzLi" to="aqb7:4C1kWlkzrE5" resolve="TableIndex" />
+    <property role="3GE5qa" value="exports" />
+    <ref role="WuzLi" to="aqb7:4C1kWlkzrE5" resolve="TableDescription" />
     <node concept="11bSqf" id="4C1kWlkzrEn" role="11c4hB">
       <node concept="3clFbS" id="4C1kWlkzrEo" role="2VODD2">
         <node concept="lc7rE" id="4C1kWlkzrEp" role="3cqZAp">

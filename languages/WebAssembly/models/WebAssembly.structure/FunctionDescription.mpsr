@@ -10,12 +10,8 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
-      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
-        <reference id="1169127628841" name="intfc" index="PrY4T" />
-      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
-        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -35,19 +31,16 @@
   </registry>
   <node concept="1TIwiD" id="4C1kWlkzb__">
     <property role="EcuMT" value="5332635540775549285" />
-    <property role="TrG5h" value="FunctionIndex" />
+    <property role="TrG5h" value="FunctionDescription" />
     <property role="34LRSv" value="funcidx" />
-    <property role="R4oN_" value="Indices can be given either in raw numeric form or as symbolic identifiers when bound by a respective construct. Such identifiers are looked up in the suitable space of the identifier context I." />
-    <property role="3GE5qa" value="modules" />
-    <ref role="1TJDcQ" node="4C1kWlkzb_x" resolve="Index" />
+    <property role="R4oN_" value="Defines a function that becomes accessible to the host environment once the module has been instantiated." />
+    <property role="3GE5qa" value="exports" />
+    <ref role="1TJDcQ" node="4C1kWlkzb_x" resolve="ExportDescription" />
     <node concept="1TJgyj" id="4C1kWlkzb_A" role="1TKVEi">
       <property role="IQ2ns" value="5332635540775549286" />
       <property role="20kJfa" value="function" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4flVVgZFA68" resolve="Function" />
-    </node>
-    <node concept="PrWs8" id="5jQhInozZO1" role="PzmwI">
-      <ref role="PrY4T" node="5jQhInozZNR" resolve="ExportDescription" />
     </node>
   </node>
 </model>

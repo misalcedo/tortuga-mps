@@ -49,29 +49,29 @@
       </concept>
     </language>
   </registry>
-  <node concept="WtQ9Q" id="4C1kWlkzbAj">
-    <property role="3GE5qa" value="modules" />
-    <ref role="WuzLi" to="aqb7:4C1kWlkzb__" resolve="FunctionIndex" />
-    <node concept="11bSqf" id="4C1kWlkzbAk" role="11c4hB">
-      <node concept="3clFbS" id="4C1kWlkzbAl" role="2VODD2">
-        <node concept="lc7rE" id="4C1kWlkzbAo" role="3cqZAp">
-          <node concept="la8eA" id="4C1kWlkzbAp" role="lcghm">
-            <property role="lacIc" value="(func " />
+  <node concept="WtQ9Q" id="4C1kWlkzDi8">
+    <property role="3GE5qa" value="exports" />
+    <ref role="WuzLi" to="aqb7:4C1kWlkzDhY" resolve="MemoryDescription" />
+    <node concept="11bSqf" id="4C1kWlkzDi9" role="11c4hB">
+      <node concept="3clFbS" id="4C1kWlkzDia" role="2VODD2">
+        <node concept="lc7rE" id="4C1kWlkzDib" role="3cqZAp">
+          <node concept="la8eA" id="4C1kWlkzDic" role="lcghm">
+            <property role="lacIc" value="(memory " />
           </node>
-          <node concept="l9hG8" id="4C1kWlkzbAq" role="lcghm">
-            <node concept="2OqwBi" id="4C1kWlkzbAr" role="lb14g">
-              <node concept="2OqwBi" id="4C1kWlkzbAs" role="2Oq$k0">
-                <node concept="117lpO" id="4C1kWlkzbAt" role="2Oq$k0" />
-                <node concept="3TrEf2" id="4C1kWlkzbJO" role="2OqNvi">
-                  <ref role="3Tt5mk" to="aqb7:4C1kWlkzb_A" resolve="function" />
+          <node concept="l9hG8" id="4C1kWlkzDid" role="lcghm">
+            <node concept="2OqwBi" id="4C1kWlkzDie" role="lb14g">
+              <node concept="2OqwBi" id="4C1kWlkzDif" role="2Oq$k0">
+                <node concept="117lpO" id="4C1kWlkzDig" role="2Oq$k0" />
+                <node concept="3TrEf2" id="4C1kWlkzDss" role="2OqNvi">
+                  <ref role="3Tt5mk" to="aqb7:4C1kWlkzDhZ" resolve="memory" />
                 </node>
               </node>
-              <node concept="3TrcHB" id="4C1kWlkzbAv" role="2OqNvi">
+              <node concept="3TrcHB" id="4C1kWlkzDii" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="4C1kWlkzbAw" role="lcghm">
+          <node concept="la8eA" id="4C1kWlkzDij" role="lcghm">
             <property role="lacIc" value=")" />
           </node>
         </node>

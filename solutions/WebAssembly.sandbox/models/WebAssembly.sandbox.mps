@@ -10,11 +10,12 @@
       <concept id="6944554116686773103" name="WebAssembly.structure.Identifier" flags="ng" index="20XRx3">
         <property id="6944554116686773104" name="value" index="20XRxs" />
       </concept>
-      <concept id="5332635540775329227" name="WebAssembly.structure.Table" flags="ng" index="uy0Se">
-        <child id="5332635540775329230" name="type" index="uy0Sb" />
+      <concept id="5332635540775549285" name="WebAssembly.structure.FunctionIndex" flags="ng" index="uzuEw">
+        <reference id="5332635540775549286" name="function" index="uzuEz" />
       </concept>
-      <concept id="5332635540775937307" name="WebAssembly.structure.Start" flags="ng" index="u$Zru">
-        <reference id="6122158696451649434" name="function" index="2cpY_Z" />
+      <concept id="5332635540775790493" name="WebAssembly.structure.Export" flags="ng" index="u$jho">
+        <child id="5332635540775790538" name="description" index="u$jgf" />
+        <child id="5332635540775790496" name="name" index="u$jh_" />
       </concept>
       <concept id="3687465748074807126" name="WebAssembly.structure.Identified" flags="ng" index="2whVRp">
         <child id="3687465748074807134" name="id" index="2whVRh" />
@@ -29,23 +30,16 @@
         <child id="8791998381326397084" name="parameters" index="1qLTPI" />
       </concept>
       <concept id="8791998381326635401" name="WebAssembly.structure.TypeUse" flags="ng" index="1qMY9V">
-        <child id="4888076528021776441" name="typeidx" index="1Wv4ud" />
+        <reference id="6982209414176589396" name="type" index="1BxSKG" />
       </concept>
-      <concept id="9194139242018672590" name="WebAssembly.structure.Integer" flags="ng" index="3JAaGz">
-        <property id="9194139242018672608" name="value" index="3JAaGd" />
+      <concept id="9194139242018672593" name="WebAssembly.structure.Name" flags="ng" index="3JAaGW">
+        <child id="9194139242018672594" name="value" index="3JAaGZ" />
       </concept>
-      <concept id="9194139242018769044" name="WebAssembly.structure.TableType" flags="ng" index="3JAyLT">
-        <child id="9194139242018769063" name="lim" index="3JAyLa" />
-      </concept>
-      <concept id="9194139242018768968" name="WebAssembly.structure.MinimumLimit" flags="ng" index="3JAyM_" />
-      <concept id="9194139242018768963" name="WebAssembly.structure.Limit" flags="ng" index="3JAyMI">
-        <child id="4888076528020218985" name="min" index="1Wh0Jt" />
+      <concept id="9194139242018672592" name="WebAssembly.structure.String" flags="ng" index="3JAaGX">
+        <property id="9194139242018672636" name="value" index="3JAaGh" />
       </concept>
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
         <child id="3354811992909960248" name="fields" index="2b4fI3" />
-      </concept>
-      <concept id="4888076528021637802" name="WebAssembly.structure.TypeIndex" flags="ng" index="1WsAku">
-        <reference id="4888076528021637803" name="type" index="1WsAkv" />
       </concept>
       <concept id="4888076528022086024" name="WebAssembly.structure.Function" flags="ng" index="1WuSSW">
         <child id="1227268625419878280" name="type" index="3JaxR7" />
@@ -69,41 +63,38 @@
     <node concept="12oyBj" id="5jQhInoxeOO" role="2b4fI3">
       <node concept="1qLTPQ" id="5jQhInoxeOQ" role="y1Oci" />
     </node>
-    <node concept="1WuSSW" id="5jQhInovRd3" role="2b4fI3">
-      <node concept="1qMY9V" id="5jQhInovRd5" role="3JaxR7">
-        <node concept="1WsAku" id="5jQhInovRd7" role="1Wv4ud">
-          <ref role="1WsAkv" node="5jQhInovRcP" resolve="$a" />
-        </node>
-      </node>
-      <node concept="20XRx3" id="5jQhInoxLJz" role="2whVRh">
-        <property role="20XRxs" value="a" />
+    <node concept="1WuSSW" id="63_MBw7p4Zt" role="2b4fI3">
+      <node concept="1qMY9V" id="63_MBw7p4Zv" role="3JaxR7">
+        <ref role="1BxSKG" node="5jQhInovRcP" resolve="$a" />
       </node>
     </node>
-    <node concept="1WuSSW" id="5jQhInoxePj" role="2b4fI3">
-      <node concept="1qMY9V" id="5jQhInoxePl" role="3JaxR7">
-        <node concept="1WsAku" id="5jQhInoxePn" role="1Wv4ud">
-          <ref role="1WsAkv" node="5jQhInoxeOO" resolve="1" />
-        </node>
+    <node concept="1WuSSW" id="63_MBw7p50S" role="2b4fI3">
+      <node concept="1qMY9V" id="63_MBw7p50U" role="3JaxR7">
+        <ref role="1BxSKG" node="5jQhInoxeOO" resolve="1" />
+      </node>
+      <node concept="20XRx3" id="63_MBw7p51U" role="2whVRh">
+        <property role="20XRxs" value="b" />
       </node>
     </node>
-    <node concept="1WuSSW" id="5jQhInoyuRI" role="2b4fI3">
-      <node concept="1qMY9V" id="5jQhInoyuRK" role="3JaxR7">
-        <node concept="1WsAku" id="5jQhInoyuRM" role="1Wv4ud">
-          <ref role="1WsAkv" node="5jQhInovRcP" resolve="$a" />
+    <node concept="u$jho" id="63_MBw7p4ZP" role="2b4fI3">
+      <node concept="3JAaGW" id="63_MBw7p4ZR" role="u$jh_">
+        <node concept="3JAaGX" id="63_MBw7p4ZT" role="3JAaGZ">
+          <property role="3JAaGh" value="a" />
         </node>
       </node>
-    </node>
-    <node concept="uy0Se" id="5jQhInoyGTq" role="2b4fI3">
-      <node concept="3JAyLT" id="5jQhInoyGTs" role="uy0Sb">
-        <node concept="3JAyM_" id="5jQhInoyGTT" role="3JAyLa">
-          <node concept="3JAaGz" id="5jQhInoyGTW" role="1Wh0Jt">
-            <property role="3JAaGd" value="1" />
-          </node>
-        </node>
+      <node concept="uzuEw" id="63_MBw7p50a" role="u$jgf">
+        <ref role="uzuEz" node="63_MBw7p4Zt" resolve="0" />
       </node>
     </node>
-    <node concept="u$Zru" id="5jQhIno_52Q" role="2b4fI3">
-      <ref role="2cpY_Z" node="5jQhInovRd3" resolve="$a" />
+    <node concept="u$jho" id="63_MBw7p51s" role="2b4fI3">
+      <node concept="3JAaGW" id="63_MBw7p51u" role="u$jh_">
+        <node concept="3JAaGX" id="63_MBw7p51w" role="3JAaGZ">
+          <property role="3JAaGh" value="a" />
+        </node>
+      </node>
+      <node concept="uzuEw" id="63_MBw7p51R" role="u$jgf">
+        <ref role="uzuEz" node="63_MBw7p50S" resolve="$b" />
+      </node>
     </node>
   </node>
 </model>
