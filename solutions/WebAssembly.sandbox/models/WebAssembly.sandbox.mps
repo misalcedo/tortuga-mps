@@ -56,6 +56,7 @@
       </concept>
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
         <child id="3354811992909960248" name="fields" index="2b4fI3" />
+        <child id="4888076528020804589" name="id" index="1WjNLp" />
       </concept>
       <concept id="4888076528022086024" name="WebAssembly.structure.Function" flags="ng" index="1WuSSW">
         <child id="1227268625419878280" name="type" index="3JaxR7" />
@@ -118,7 +119,24 @@
         </node>
       </node>
       <node concept="uzWuV" id="63_MBw7qA9S" role="u$jgf">
-        <ref role="uzWuU" node="63_MBw7qA9g" resolve="0" />
+        <ref role="uzWuU" node="63_MBw7qAoN" resolve="$555" />
+      </node>
+    </node>
+  </node>
+  <node concept="1Qnqup" id="63_MBw7qAoK">
+    <node concept="20XRx3" id="63_MBw7qAoL" role="1WjNLp">
+      <property role="20XRxs" value="test" />
+    </node>
+    <node concept="2Z2jKx" id="63_MBw7qAoN" role="2b4fI3">
+      <node concept="3JAyLI" id="63_MBw7qAoO" role="2Z1kqB">
+        <node concept="3JAyM_" id="63_MBw7qAoV" role="3JAyLF">
+          <node concept="3JAaGz" id="63_MBw7qAoY" role="1Wh0Jt">
+            <property role="3JAaGd" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="20XRx3" id="63_MBw7qAp5" role="2whVRh">
+        <property role="20XRxs" value="555" />
       </node>
     </node>
   </node>
