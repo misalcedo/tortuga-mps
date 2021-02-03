@@ -26,7 +26,7 @@
   </registry>
   <node concept="1M2fIO" id="1nEGLzDIZSq">
     <property role="3GE5qa" value="exports" />
-    <ref role="1M2myG" to="aqb7:4C1kWlkzrE5" resolve="TableDescription" />
+    <ref role="1M2myG" to="aqb7:4C1kWlkzrE5" resolve="TableExportDescription" />
     <node concept="1N5Pfh" id="1nEGLzDIZSr" role="1Mr941">
       <ref role="1N5Vy1" to="aqb7:4C1kWlkzrE6" resolve="table" />
       <node concept="1dDu$B" id="1nEGLzDIZTb" role="1N6uqs">

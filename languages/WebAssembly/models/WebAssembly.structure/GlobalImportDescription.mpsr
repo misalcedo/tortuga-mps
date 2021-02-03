@@ -30,33 +30,19 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="67Biw0e1$2E">
-    <property role="EcuMT" value="7054688705394917546" />
-    <property role="TrG5h" value="Import" />
-    <property role="34LRSv" value="import" />
+  <node concept="1TIwiD" id="67Biw0e1IJp">
+    <property role="EcuMT" value="7054688705394961369" />
     <property role="3GE5qa" value="imports" />
-    <property role="R4oN_" value="The imports component of a module defines a set of imports that are required for instantiation." />
-    <ref role="1TJDcQ" node="5jQhInoue4b" resolve="ModuleField" />
-    <node concept="1TJgyj" id="67Biw0e1$2F" role="1TKVEi">
-      <property role="IQ2ns" value="7054688705394917547" />
+    <property role="TrG5h" value="GlobalImportDescription" />
+    <property role="34LRSv" value="global" />
+    <property role="R4oN_" value="Every import defines an index in the respective index space. In each index space, the indices of imports go before the first index of any definition contained in the module itself." />
+    <ref role="1TJDcQ" node="67Biw0e1$2K" resolve="ImportDescription" />
+    <node concept="1TJgyj" id="67Biw0e1IJq" role="1TKVEi">
+      <property role="IQ2ns" value="7054688705394961370" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="module" />
+      <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7Yo9eQg08Zh" resolve="Name" />
-    </node>
-    <node concept="1TJgyj" id="67Biw0e1$2H" role="1TKVEi">
-      <property role="IQ2ns" value="7054688705394917549" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="name" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7Yo9eQg08Zh" resolve="Name" />
-    </node>
-    <node concept="1TJgyj" id="67Biw0e2omz" role="1TKVEi">
-      <property role="IQ2ns" value="7054688705395131811" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="description" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="67Biw0e1$2K" resolve="ImportDescription" />
+      <ref role="20lvS9" node="7Yo9eQg0CUi" resolve="GlobalType" />
     </node>
   </node>
 </model>

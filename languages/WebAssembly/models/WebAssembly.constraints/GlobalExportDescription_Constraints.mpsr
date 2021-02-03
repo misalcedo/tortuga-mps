@@ -24,13 +24,13 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="1nEGLzDIZQR">
+  <node concept="1M2fIO" id="1nEGLzDIZPk">
     <property role="3GE5qa" value="exports" />
-    <ref role="1M2myG" to="aqb7:4C1kWlkzb__" resolve="FunctionDescription" />
-    <node concept="1N5Pfh" id="1nEGLzDIZQS" role="1Mr941">
-      <ref role="1N5Vy1" to="aqb7:4C1kWlkzb_A" resolve="function" />
-      <node concept="1dDu$B" id="1nEGLzDIZQU" role="1N6uqs">
-        <ref role="1dDu$A" to="aqb7:4flVVgZFA68" resolve="Function" />
+    <ref role="1M2myG" to="aqb7:4C1kWlkzRNG" resolve="GlobalExportDescription" />
+    <node concept="1N5Pfh" id="1nEGLzDIZPl" role="1Mr941">
+      <ref role="1N5Vy1" to="aqb7:4C1kWlkzRNH" resolve="global" />
+      <node concept="1dDu$B" id="1nEGLzDIZPn" role="1N6uqs">
+        <ref role="1dDu$A" to="aqb7:4C1kWlkyRqb" resolve="Global" />
       </node>
     </node>
   </node>

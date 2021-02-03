@@ -29,18 +29,18 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="4C1kWlkzb__">
-    <property role="EcuMT" value="5332635540775549285" />
-    <property role="TrG5h" value="FunctionDescription" />
-    <property role="34LRSv" value="funcidx" />
-    <property role="R4oN_" value="Defines a function that becomes accessible to the host environment once the module has been instantiated." />
+  <node concept="1TIwiD" id="4C1kWlkzDhY">
+    <property role="EcuMT" value="5332635540775670910" />
+    <property role="TrG5h" value="MemoryExportDescription" />
+    <property role="34LRSv" value="memory" />
+    <property role="R4oN_" value="Defines a memory that becomes accessible to the host environment once the module has been instantiated." />
     <property role="3GE5qa" value="exports" />
     <ref role="1TJDcQ" node="4C1kWlkzb_x" resolve="ExportDescription" />
-    <node concept="1TJgyj" id="4C1kWlkzb_A" role="1TKVEi">
-      <property role="IQ2ns" value="5332635540775549286" />
-      <property role="20kJfa" value="function" />
+    <node concept="1TJgyj" id="4C1kWlkzDhZ" role="1TKVEi">
+      <property role="IQ2ns" value="5332635540775670911" />
+      <property role="20kJfa" value="memory" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4flVVgZFA68" resolve="Function" />
+      <ref role="20lvS9" node="1mfy5YExFhY" resolve="Memory" />
     </node>
   </node>
 </model>
