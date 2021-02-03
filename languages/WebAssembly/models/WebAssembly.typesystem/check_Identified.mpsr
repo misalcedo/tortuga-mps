@@ -72,7 +72,6 @@
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
-      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -141,13 +140,17 @@
                         <node concept="37vLTw" id="3cGwCYjsm88" role="2Oq$k0">
                           <ref role="3cqZAo" node="4flVVgZDyDx" resolve="it" />
                         </node>
-                        <node concept="2yIwOk" id="5jQhInox1dz" role="2OqNvi" />
+                        <node concept="3TrcHB" id="7$znm0_qfAb" role="2OqNvi">
+                          <ref role="3TsBF5" to="aqb7:7$znm0_oXLJ" resolve="construct" />
+                        </node>
                       </node>
                       <node concept="2OqwBi" id="5jQhInox1YK" role="3uHU7w">
                         <node concept="1YBJjd" id="5jQhInox1Oj" role="2Oq$k0">
                           <ref role="1YBMHb" node="4flVVgZDtyQ" resolve="identified" />
                         </node>
-                        <node concept="2yIwOk" id="5jQhInox2iE" role="2OqNvi" />
+                        <node concept="3TrcHB" id="7$znm0_qfLe" role="2OqNvi">
+                          <ref role="3TsBF5" to="aqb7:7$znm0_oXLJ" resolve="construct" />
+                        </node>
                       </node>
                     </node>
                   </node>
