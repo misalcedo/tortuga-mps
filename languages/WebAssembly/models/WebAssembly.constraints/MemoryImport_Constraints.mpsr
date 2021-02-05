@@ -47,9 +47,9 @@
   </registry>
   <node concept="1M2fIO" id="7$znm0_ps8q">
     <property role="3GE5qa" value="imports" />
-    <ref role="1M2myG" to="aqb7:67Biw0e1IJm" resolve="MemoryImportDescription" />
+    <ref role="1M2myG" to="aqb7:67Biw0e1IJm" resolve="MemoryImport" />
     <node concept="EnEH3" id="7$znm0_ps8r" role="1MhHOB">
-      <ref role="EomxK" to="aqb7:6qc3jU0VV1q" resolve="construct" />
+      <ref role="EomxK" to="aqb7:7$znm0_oXLJ" resolve="construct" />
       <node concept="Eqf_E" id="7$znm0_ps8s" role="EtsB7">
         <node concept="3clFbS" id="7$znm0_ps8t" role="2VODD2">
           <node concept="3cpWs6" id="7$znm0_ps8u" role="3cqZAp">

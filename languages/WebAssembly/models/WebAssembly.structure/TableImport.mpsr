@@ -8,17 +8,13 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
-        <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+      </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
-      </concept>
-      <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
-        <property id="1071599776563" name="role" index="20kJfa" />
-        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
-        <property id="1071599937831" name="metaClass" index="20lmBu" />
-        <property id="241647608299431140" name="linkId" index="IQ2ns" />
-        <reference id="1071599976176" name="target" index="20lvS9" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -33,16 +29,12 @@
   <node concept="1TIwiD" id="67Biw0e1IJt">
     <property role="EcuMT" value="7054688705394961373" />
     <property role="3GE5qa" value="imports" />
-    <property role="TrG5h" value="TableImportDescription" />
+    <property role="TrG5h" value="TableImport" />
     <property role="R4oN_" value="Every import defines an index in the respective index space. In each index space, the indices of imports go before the first index of any definition contained in the module itself." />
-    <property role="34LRSv" value="table" />
-    <ref role="1TJDcQ" node="67Biw0e1$2K" resolve="ImportDescription" />
-    <node concept="1TJgyj" id="67Biw0e1IJu" role="1TKVEi">
-      <property role="IQ2ns" value="7054688705394961374" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7Yo9eQg0wyk" resolve="TableType" />
+    <property role="34LRSv" value="import table" />
+    <ref role="1TJDcQ" node="67Biw0e1$2E" resolve="Import" />
+    <node concept="PrWs8" id="2c$PC2qR$CF" role="PzmwI">
+      <ref role="PrY4T" node="2c$PC2qR$Cy" resolve="ITable" />
     </node>
   </node>
 </model>

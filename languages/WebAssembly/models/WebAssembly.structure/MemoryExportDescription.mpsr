@@ -40,7 +40,7 @@
       <property role="IQ2ns" value="5332635540775670911" />
       <property role="20kJfa" value="memory" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1mfy5YExFhY" resolve="Memory" />
+      <ref role="20lvS9" node="2c$PC2qRhcP" resolve="IMemory" />
     </node>
   </node>
 </model>

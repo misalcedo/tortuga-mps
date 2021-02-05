@@ -41,15 +41,11 @@
     <property role="R4oN_" value="The funcs component of a module defines a vector of functions with the following structure: type, locals, and body. The type of a function declares its signature by reference to a type defined in the module. The parameters of the function are referenced through 0-based local indices in the function’s body; they are mutable." />
     <property role="3GE5qa" value="functions" />
     <ref role="1TJDcQ" node="5jQhInoue4b" resolve="ModuleField" />
+    <node concept="PrWs8" id="2c$PC2qQW10" role="PzmwI">
+      <ref role="PrY4T" node="2c$PC2qQW0T" resolve="IFunction" />
+    </node>
     <node concept="PrWs8" id="5jQhInouqx4" role="PzmwI">
       <ref role="PrY4T" node="3cGwCYjqNXm" resolve="Identified" />
-    </node>
-    <node concept="1TJgyj" id="1488$ZY8zY8" role="1TKVEi">
-      <property role="IQ2ns" value="1227268625419878280" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7C3sZ8wM969" resolve="TypeUse" />
     </node>
     <node concept="1TJgyj" id="4flVVgZFA6d" role="1TKVEi">
       <property role="IQ2ns" value="4888076528022086029" />
