@@ -22,9 +22,7 @@
       </concept>
     </language>
     <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen">
-      <concept id="1237305208784" name="jetbrains.mps.lang.textGen.structure.NewLineAppendPart" flags="ng" index="l8MVK" />
       <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
-        <property id="1237306318654" name="withIndent" index="ld1Su" />
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
       <concept id="1237305491868" name="jetbrains.mps.lang.textGen.structure.CollectionAppendPart" flags="ng" index="l9S2W">
@@ -45,8 +43,6 @@
       </concept>
       <concept id="1233748055915" name="jetbrains.mps.lang.textGen.structure.NodeParameter" flags="nn" index="117lpO" />
       <concept id="1233749247888" name="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" flags="in" index="11bSqf" />
-      <concept id="1233752719417" name="jetbrains.mps.lang.textGen.structure.IncreaseDepthOperation" flags="nn" index="11p84A" />
-      <concept id="1233752780875" name="jetbrains.mps.lang.textGen.structure.DecreaseDepthOperation" flags="nn" index="11pn5k" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
@@ -103,11 +99,11 @@
             <node concept="3x8VRR" id="4flVVgZFAX0" role="2OqNvi" />
           </node>
         </node>
-        <node concept="11p84A" id="4flVVgZGvO9" role="3cqZAp" />
         <node concept="lc7rE" id="4flVVgZFBvS" role="3cqZAp">
-          <node concept="l8MVK" id="4flVVgZFBxM" role="lcghm" />
+          <node concept="la8eA" id="7zjV6Imk7bn" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
           <node concept="l9hG8" id="4flVVgZFByb" role="lcghm">
-            <property role="ld1Su" value="true" />
             <node concept="2OqwBi" id="4flVVgZFBzv" role="lb14g">
               <node concept="117lpO" id="4flVVgZFBz2" role="2Oq$k0" />
               <node concept="3TrEf2" id="2c$PC2qQWqP" role="2OqNvi">
@@ -144,12 +140,9 @@
             <node concept="3GX2aA" id="4flVVgZGFVr" role="2OqNvi" />
           </node>
         </node>
-        <node concept="11pn5k" id="4flVVgZGw9G" role="3cqZAp" />
         <node concept="lc7rE" id="4flVVgZGwbV" role="3cqZAp">
-          <node concept="l8MVK" id="4flVVgZGwed" role="lcghm" />
           <node concept="la8eA" id="4flVVgZGweN" role="lcghm">
             <property role="lacIc" value=")" />
-            <property role="ldcpH" value="true" />
           </node>
         </node>
       </node>

@@ -36,9 +36,6 @@
     <node concept="PrWs8" id="2c$PC2qR$CA" role="PzmwI">
       <ref role="PrY4T" node="2c$PC2qR$Cy" resolve="ITable" />
     </node>
-    <node concept="PrWs8" id="5jQhInout5m" role="PzmwI">
-      <ref role="PrY4T" node="3cGwCYjqNXm" resolve="Identified" />
-    </node>
   </node>
 </model>
 
