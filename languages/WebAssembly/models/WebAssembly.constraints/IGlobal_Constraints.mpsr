@@ -47,7 +47,7 @@
   </registry>
   <node concept="1M2fIO" id="7$znm0_p46J">
     <property role="3GE5qa" value="globals" />
-    <ref role="1M2myG" to="aqb7:4C1kWlkyRqb" resolve="Global" />
+    <ref role="1M2myG" to="aqb7:2c$PC2qR$Dw" resolve="IGlobal" />
     <node concept="EnEH3" id="7$znm0_p46K" role="1MhHOB">
       <ref role="EomxK" to="aqb7:7$znm0_oXLJ" resolve="construct" />
       <node concept="Eqf_E" id="7$znm0_p46M" role="EtsB7">
