@@ -10,8 +10,11 @@
       <concept id="6944554116686773103" name="WebAssembly.structure.Identifier" flags="ng" index="20XRx3">
         <property id="6944554116686773104" name="value" index="20XRxs" />
       </concept>
+      <concept id="2220688952221504191" name="WebAssembly.structure.Expression" flags="ng" index="77mDD" />
       <concept id="5332635540775329227" name="WebAssembly.structure.Table" flags="ng" index="uy0Se" />
-      <concept id="5332635540775466635" name="WebAssembly.structure.Global" flags="ng" index="uyyle" />
+      <concept id="5332635540775466635" name="WebAssembly.structure.Global" flags="ng" index="uyyle">
+        <child id="2220688952221504193" name="expression" index="77mCn" />
+      </concept>
       <concept id="5332635540775615109" name="WebAssembly.structure.TableExportDescription" flags="ng" index="uze_0">
         <reference id="5332635540775615110" name="table" index="uze_3" />
       </concept>
@@ -98,7 +101,9 @@
         <child id="3354811992909960248" name="fields" index="2b4fI3" />
         <child id="4888076528020804589" name="id" index="1WjNLp" />
       </concept>
-      <concept id="4888076528022086024" name="WebAssembly.structure.Function" flags="ng" index="1WuSSW" />
+      <concept id="4888076528022086024" name="WebAssembly.structure.Function" flags="ng" index="1WuSSW">
+        <child id="2220688952221504208" name="body" index="77mC6" />
+      </concept>
     </language>
   </registry>
   <node concept="1Qnqup" id="5jQhInovRcG">
@@ -137,6 +142,7 @@
       <node concept="1qMY9V" id="2c$PC2qS4$N" role="2TZLqU">
         <ref role="1BxSKG" node="5jQhInovRcP" resolve="$a" />
       </node>
+      <node concept="77mDD" id="1VhudopNylH" role="77mC6" />
     </node>
     <node concept="1JSq7p" id="7zjV6ImkSwp" role="2b4fI3">
       <node concept="3JAaGW" id="7zjV6ImkSwr" role="1JSgEF">
@@ -173,6 +179,7 @@
       <node concept="3JAEDO" id="7zjV6ImlLrQ" role="uyyl9">
         <property role="1Wh_Dy" value="1SorY1su$oE/f32" />
       </node>
+      <node concept="77mDD" id="1VhudopNylJ" role="77mCn" />
     </node>
     <node concept="1JSq7t" id="7zjV6Imld4P" role="2b4fI3">
       <node concept="3JAaGW" id="7zjV6Imld4R" role="1JSgEF">
