@@ -13,9 +13,20 @@
       <concept id="2220688952221504191" name="WebAssembly.structure.Expression" flags="ng" index="77mDD">
         <child id="3655016016376803538" name="instructions" index="2qeo_x" />
       </concept>
+      <concept id="3655016016378283313" name="WebAssembly.structure.If" flags="ng" index="2qbBM2">
+        <child id="3655016016378283314" name="true" index="2qbBM1" />
+        <child id="3655016016378283316" name="false" index="2qbBM7" />
+      </concept>
+      <concept id="3655016016377566704" name="WebAssembly.structure.Loop" flags="ng" index="2qdmL3">
+        <child id="3655016016377222672" name="expression" index="2qfyYz" />
+      </concept>
       <concept id="3655016016376803515" name="WebAssembly.structure.NoOp" flags="ng" index="2qeo$8" />
       <concept id="3655016016376803514" name="WebAssembly.structure.Unreachable" flags="ng" index="2qeo$9" />
       <concept id="3655016016376803537" name="WebAssembly.structure.Return" flags="ng" index="2qeo_y" />
+      <concept id="3655016016377105839" name="WebAssembly.structure.Call" flags="ng" index="2qf7gs" />
+      <concept id="3655016016377133611" name="WebAssembly.structure.Block" flags="ng" index="2qf8eo">
+        <child id="3655016016377655907" name="expression" index="2qd8Jg" />
+      </concept>
       <concept id="5332635540775466635" name="WebAssembly.structure.Global" flags="ng" index="uyyle">
         <child id="2220688952221504193" name="expression" index="77mCn" />
       </concept>
@@ -52,6 +63,11 @@
         <child id="2220688952221504208" name="body" index="77mC6" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
   </registry>
   <node concept="1Qnqup" id="5jQhInovRcG">
     <node concept="12oyBj" id="5jQhInovRcP" role="2b4fI3">
@@ -72,7 +88,27 @@
     </node>
     <node concept="1WuSSW" id="3aTereCx63I" role="2b4fI3">
       <node concept="77mDD" id="3aTereCx63K" role="77mC6">
-        <node concept="2qeo$8" id="3aTereCx63Y" role="2qeo_x" />
+        <node concept="2qf8eo" id="3aTereCzKGC" role="2qeo_x">
+          <property role="TrG5h" value="a" />
+          <node concept="77mDD" id="3aTereCzKGE" role="2qd8Jg">
+            <node concept="2qbBM2" id="3aTereCArbo" role="2qeo_x">
+              <node concept="77mDD" id="3aTereCArbp" role="2qbBM1">
+                <node concept="2qdmL3" id="3aTereCArbw" role="2qeo_x">
+                  <node concept="77mDD" id="3aTereCArbx" role="2qfyYz" />
+                  <node concept="20XRx3" id="3aTereCArb$" role="2whVRh">
+                    <property role="20XRxs" value="c" />
+                  </node>
+                </node>
+              </node>
+              <node concept="77mDD" id="3aTereCArbq" role="2qbBM7">
+                <node concept="2qf7gs" id="3aTereCArbA" role="2qeo_x" />
+              </node>
+              <node concept="20XRx3" id="3aTereCArbu" role="2whVRh">
+                <property role="20XRxs" value="b" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="2qeo_y" id="3aTereCxkPS" role="2qeo_x" />
         <node concept="2qeo$9" id="3aTereCxkQ0" role="2qeo_x" />
       </node>

@@ -22,12 +22,12 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="3aTereCwb2U">
-    <property role="EcuMT" value="3655016016376803514" />
+  <node concept="1TIwiD" id="3aTereCxkQN">
+    <property role="EcuMT" value="3655016016377105843" />
     <property role="3GE5qa" value="instructions.control" />
-    <property role="TrG5h" value="Unreachable" />
-    <property role="34LRSv" value="unreachable" />
-    <property role="R4oN_" value="The unreachable instruction causes an unconditional trap." />
+    <property role="TrG5h" value="Branch" />
+    <property role="34LRSv" value="br" />
+    <property role="R4oN_" value="Performs an unconditional branch." />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />
   </node>
 </model>

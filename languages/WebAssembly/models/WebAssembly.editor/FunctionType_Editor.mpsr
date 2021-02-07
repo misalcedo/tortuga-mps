@@ -22,9 +22,6 @@
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
-      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
-        <property id="1073389577007" name="text" index="3F0ifm" />
-      </concept>
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
@@ -43,9 +40,6 @@
     <property role="3GE5qa" value="types" />
     <ref role="1XX52x" to="aqb7:7C3sZ8wLeU4" resolve="FunctionType" />
     <node concept="3EZMnI" id="7C3sZ8wLeU7" role="2wV5jI">
-      <node concept="3F0ifn" id="5jQhInoyZVa" role="3EZMnx">
-        <property role="3F0ifm" value="(func" />
-      </node>
       <node concept="3F2HdR" id="7C3sZ8wLeUx" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:7C3sZ8wLeUs" resolve="parameters" />
         <node concept="VPM3Z" id="7C3sZ8wLeU_" role="3F10Kt" />
@@ -55,9 +49,6 @@
         <ref role="1NtTu8" to="aqb7:7C3sZ8wLeUu" resolve="results" />
         <node concept="VPM3Z" id="7C3sZ8wLeUQ" role="3F10Kt" />
         <node concept="l2Vlx" id="5jQhInoyZVB" role="2czzBx" />
-      </node>
-      <node concept="3F0ifn" id="5jQhInoyZVs" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
       </node>
       <node concept="l2Vlx" id="5jQhInoyZVC" role="2iSdaV" />
     </node>

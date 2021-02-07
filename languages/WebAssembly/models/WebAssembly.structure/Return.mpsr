@@ -24,10 +24,10 @@
   </registry>
   <node concept="1TIwiD" id="3aTereCwb3h">
     <property role="EcuMT" value="3655016016376803537" />
-    <property role="3GE5qa" value="instructions" />
+    <property role="3GE5qa" value="instructions.control" />
     <property role="TrG5h" value="Return" />
     <property role="34LRSv" value="return" />
-    <property role="R4oN_" value="Return from the current function." />
+    <property role="R4oN_" value="The return instruction is a shortcut for an unconditional branch to the outermost block, which implicitly is the body of the current function." />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />
   </node>
 </model>

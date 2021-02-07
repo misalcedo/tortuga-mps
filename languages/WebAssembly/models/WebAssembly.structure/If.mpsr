@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" content="root">
   <persistence version="9" />
-  <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-  </imports>
+  <imports />
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
@@ -12,12 +10,8 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
-      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
-        <reference id="1169127628841" name="intfc" index="PrY4T" />
-      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
-        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -36,27 +30,26 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="7C3sZ8wM969">
-    <property role="EcuMT" value="8791998381326635401" />
-    <property role="TrG5h" value="TypeUse" />
-    <property role="34LRSv" value="typeuse" />
-    <property role="R4oN_" value="A type use is a reference to a type definition. It may optionally be augmented by explicit inlined parameter and result declarations. That allows binding symbolic identifiers to name the local indices of parameters. If inline declarations are given, then their types must match the referenced function type." />
-    <property role="3GE5qa" value="functions" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2UeFVI_AHOW" role="1TKVEi">
-      <property role="IQ2ns" value="3354811992909733180" />
+  <node concept="1TIwiD" id="3aTereC_OkL">
+    <property role="EcuMT" value="3655016016378283313" />
+    <property role="3GE5qa" value="instructions.control" />
+    <property role="TrG5h" value="If" />
+    <property role="34LRSv" value="if" />
+    <property role="R4oN_" value="The block, loop and if instructions are structured instructions. They bracket nested sequences of instructions, called blocks, terminated with, or separated by, end or else pseudo-instructions." />
+    <ref role="1TJDcQ" node="3aTereCwb2R" resolve="StructuredInstruction" />
+    <node concept="1TJgyj" id="3aTereC_OkM" role="1TKVEi">
+      <property role="IQ2ns" value="3655016016378283314" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="functype" />
-      <ref role="20lvS9" node="7C3sZ8wLeU4" resolve="FunctionType" />
-    </node>
-    <node concept="1TJgyj" id="63_MBw7o$pk" role="1TKVEi">
-      <property role="IQ2ns" value="6982209414176589396" />
-      <property role="20kJfa" value="type" />
+      <property role="20kJfa" value="true" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1SorY1su$oN" resolve="Type" />
+      <ref role="20lvS9" node="1VhudopN1aZ" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="3aTereCxrCO" role="PzmwI">
-      <ref role="PrY4T" node="3aTereCxrCG" resolve="BlockType" />
+    <node concept="1TJgyj" id="3aTereC_OkO" role="1TKVEi">
+      <property role="IQ2ns" value="3655016016378283316" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="false" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1VhudopN1aZ" resolve="Expression" />
     </node>
   </node>
 </model>
