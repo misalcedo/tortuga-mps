@@ -25,7 +25,7 @@
   <node concept="1TIwiD" id="3aTereCwb2V">
     <property role="EcuMT" value="3655016016376803515" />
     <property role="3GE5qa" value="instructions.control" />
-    <property role="TrG5h" value="NoOp" />
+    <property role="TrG5h" value="Nop" />
     <property role="34LRSv" value="nop" />
     <property role="R4oN_" value="The nop instruction does nothing." />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />
