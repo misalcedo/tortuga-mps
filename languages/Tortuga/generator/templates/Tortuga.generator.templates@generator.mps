@@ -140,13 +140,17 @@
         <node concept="2S2_qk" id="6Itp1kvBByv" role="1qLTPI">
           <property role="1Wgubu" value="1SorY1su$oB/i64" />
           <node concept="20XRx3" id="6Itp1kvBByx" role="2whVRh">
-            <property role="20XRxs" value="to_left" />
+            <property role="20XRxs" value="to" />
           </node>
         </node>
-        <node concept="2S2_qk" id="6Itp1kvBByz" role="1qLTPI">
-          <property role="1Wgubu" value="1SorY1su$oB/i64" />
-          <node concept="20XRx3" id="6Itp1kvBByB" role="2whVRh">
-            <property role="20XRxs" value="to_right" />
+        <node concept="2S2_qk" id="5quRwEuwjJV" role="1qLTPI">
+          <node concept="20XRx3" id="5quRwEuwjK8" role="2whVRh">
+            <property role="20XRxs" value="offset" />
+          </node>
+        </node>
+        <node concept="2S2_qk" id="5quRwEuwjK1" role="1qLTPI">
+          <node concept="20XRx3" id="5quRwEuwjKa" role="2whVRh">
+            <property role="20XRxs" value="size" />
           </node>
         </node>
       </node>
