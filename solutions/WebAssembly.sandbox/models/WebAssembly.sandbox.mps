@@ -14,6 +14,9 @@
         <child id="3655016016376803538" name="instructions" index="2qeo_x" />
       </concept>
       <concept id="3655016016376803515" name="WebAssembly.structure.Nop" flags="ng" index="2qeo$8" />
+      <concept id="3655016016377133611" name="WebAssembly.structure.Block" flags="ng" index="2qf8eo">
+        <child id="3655016016377655907" name="expression" index="2qd8Jg" />
+      </concept>
       <concept id="5332635540775466635" name="WebAssembly.structure.Global" flags="ng" index="uyyle">
         <child id="2220688952221504193" name="expression" index="77mCn" />
       </concept>
@@ -108,6 +111,12 @@
         <node concept="387SSg" id="5quRwEuxGK8" role="2qeo_x">
           <ref role="387SSh" node="5quRwEuxGJ6" resolve="$b" />
         </node>
+        <node concept="2qf8eo" id="6JgniV5AXaV" role="2qeo_x">
+          <node concept="77mDD" id="6JgniV5AXaX" role="2qd8Jg" />
+          <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">
+            <property role="20XRxs" value="a" />
+          </node>
+        </node>
       </node>
       <node concept="1qMY9V" id="5quRwEuxGIF" role="2TZLqU">
         <ref role="1BxSKG" node="5jQhInovRcP" resolve="$a" />
@@ -117,6 +126,9 @@
           <property role="20XRxs" value="a" />
         </node>
       </node>
+    </node>
+    <node concept="20XRx3" id="6JgniV5A3mr" role="1WjNLp">
+      <property role="20XRxs" value="echo" />
     </node>
   </node>
   <node concept="1Qnqup" id="63_MBw7qAoK">

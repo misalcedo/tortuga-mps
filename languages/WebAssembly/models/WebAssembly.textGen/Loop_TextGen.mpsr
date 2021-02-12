@@ -38,6 +38,10 @@
       </concept>
       <concept id="1233748055915" name="jetbrains.mps.lang.textGen.structure.NodeParameter" flags="nn" index="117lpO" />
       <concept id="1233749247888" name="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" flags="in" index="11bSqf" />
+      <concept id="1233924848298" name="jetbrains.mps.lang.textGen.structure.OperationCall" flags="ng" index="1bDJIP">
+        <reference id="1234190664409" name="function" index="1rvKf6" />
+        <child id="1234191323697" name="parameter" index="1ryhcI" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
@@ -62,30 +66,10 @@
             <property role="ldcpH" value="true" />
           </node>
         </node>
-        <node concept="3clFbJ" id="3aTereCAYOc" role="3cqZAp">
-          <node concept="3clFbS" id="3aTereCAYOd" role="3clFbx">
-            <node concept="lc7rE" id="3aTereCAYOe" role="3cqZAp">
-              <node concept="la8eA" id="3aTereCAYOf" role="lcghm">
-                <property role="lacIc" value=" " />
-              </node>
-              <node concept="l9hG8" id="3aTereCAYOg" role="lcghm">
-                <node concept="2OqwBi" id="3aTereCAYOh" role="lb14g">
-                  <node concept="117lpO" id="3aTereCAYOi" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="3aTereCAYOj" role="2OqNvi">
-                    <ref role="3Tt5mk" to="aqb7:3cGwCYjqNXu" resolve="id" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="3aTereCAYOk" role="3clFbw">
-            <node concept="2OqwBi" id="3aTereCAYOl" role="2Oq$k0">
-              <node concept="117lpO" id="3aTereCAYOm" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3aTereCAYOn" role="2OqNvi">
-                <ref role="3Tt5mk" to="aqb7:3cGwCYjqNXu" resolve="id" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="3aTereCAYOo" role="2OqNvi" />
+        <node concept="lc7rE" id="6JgniV5AKey" role="3cqZAp">
+          <node concept="1bDJIP" id="6JgniV5AKez" role="lcghm">
+            <ref role="1rvKf6" node="6JgniV5_NEK" resolve="identityOf" />
+            <node concept="117lpO" id="6JgniV5AKe$" role="1ryhcI" />
           </node>
         </node>
         <node concept="3clFbJ" id="3aTereCBW4C" role="3cqZAp">
@@ -128,30 +112,10 @@
             <property role="ldcpH" value="true" />
           </node>
         </node>
-        <node concept="3clFbJ" id="3aTereCAYO$" role="3cqZAp">
-          <node concept="3clFbS" id="3aTereCAYO_" role="3clFbx">
-            <node concept="lc7rE" id="3aTereCAYOA" role="3cqZAp">
-              <node concept="la8eA" id="3aTereCAYOB" role="lcghm">
-                <property role="lacIc" value=" " />
-              </node>
-              <node concept="l9hG8" id="3aTereCAYOC" role="lcghm">
-                <node concept="2OqwBi" id="3aTereCAYOD" role="lb14g">
-                  <node concept="117lpO" id="3aTereCAYOE" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="3aTereCAYOF" role="2OqNvi">
-                    <ref role="3Tt5mk" to="aqb7:3cGwCYjqNXu" resolve="id" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="3aTereCAYOG" role="3clFbw">
-            <node concept="2OqwBi" id="3aTereCAYOH" role="2Oq$k0">
-              <node concept="117lpO" id="3aTereCAYOI" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3aTereCAYOJ" role="2OqNvi">
-                <ref role="3Tt5mk" to="aqb7:3cGwCYjqNXu" resolve="id" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="3aTereCAYOK" role="2OqNvi" />
+        <node concept="lc7rE" id="6JgniV5AKiG" role="3cqZAp">
+          <node concept="1bDJIP" id="6JgniV5AKiH" role="lcghm">
+            <ref role="1rvKf6" node="6JgniV5_NEK" resolve="identityOf" />
+            <node concept="117lpO" id="6JgniV5AKiI" role="1ryhcI" />
           </node>
         </node>
       </node>
