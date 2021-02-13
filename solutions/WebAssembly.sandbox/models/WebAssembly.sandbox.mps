@@ -18,12 +18,17 @@
         <child id="3655016016377655907" name="expression" index="2qd8Jg" />
       </concept>
       <concept id="2980038876392581639" name="WebAssembly.structure.MemorySize" flags="ng" index="2todem" />
+      <concept id="2980038876392795139" name="WebAssembly.structure.MemoryLoad" flags="ng" index="2tp1mi" />
+      <concept id="2980038876392713143" name="WebAssembly.structure.MemoryInstruction" flags="ng" index="2tpH8A">
+        <property id="2980038876392795140" name="type" index="2tp1ml" />
+      </concept>
       <concept id="5332635540775466635" name="WebAssembly.structure.Global" flags="ng" index="uyyle">
         <child id="2220688952221504193" name="expression" index="77mCn" />
       </concept>
       <concept id="3687465748074807126" name="WebAssembly.structure.Identified" flags="ng" index="2whVRp">
         <child id="3687465748074807134" name="id" index="2whVRh" />
       </concept>
+      <concept id="199200923289501083" name="WebAssembly.structure.MemoryStore" flags="ng" index="HmwAO" />
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
         <property id="4888076528020360554" name="type" index="1Wgubu" />
       </concept>
@@ -115,6 +120,10 @@
         <node concept="2qf8eo" id="6JgniV5AXaV" role="2qeo_x">
           <node concept="77mDD" id="6JgniV5AXaX" role="2qd8Jg">
             <node concept="2todem" id="2_rep6OfuII" role="2qeo_x" />
+            <node concept="2tp1mi" id="b3H2WJARsL" role="2qeo_x" />
+            <node concept="HmwAO" id="b3H2WJARsD" role="2qeo_x">
+              <property role="2tp1ml" value="1SorY1su$oB/i64" />
+            </node>
           </node>
           <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">
             <property role="20XRxs" value="a" />

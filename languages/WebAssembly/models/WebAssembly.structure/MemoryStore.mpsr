@@ -22,13 +22,13 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="2_rep6OfuJ1">
-    <property role="EcuMT" value="2980038876392713153" />
-    <property role="3GE5qa" value="values" />
-    <property role="TrG5h" value="U32" />
-    <property role="34LRSv" value="u32" />
-    <property role="R4oN_" value="Unsigned 32-bit integer." />
-    <ref role="1TJDcQ" node="7Yo9eQg08Ze" resolve="Integer" />
+  <node concept="1TIwiD" id="b3H2WJArQr">
+    <property role="EcuMT" value="199200923289501083" />
+    <property role="3GE5qa" value="instructions.memory" />
+    <property role="TrG5h" value="MemoryStore" />
+    <property role="34LRSv" value="xnn.store" />
+    <property role="R4oN_" value="Store a value type in memory." />
+    <ref role="1TJDcQ" node="2_rep6OfuIR" resolve="MemoryInstruction" />
   </node>
 </model>
 
