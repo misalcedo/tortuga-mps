@@ -29,7 +29,7 @@
         <child id="3687465748074807134" name="id" index="2whVRh" />
       </concept>
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
-        <property id="4888076528020360554" name="type" index="1Wgubu" />
+        <child id="732769859127840112" name="type" index="3ThHWX" />
       </concept>
       <concept id="2532384738331478624" name="WebAssembly.structure.IGlobal" flags="ng" index="2TYDNw">
         <child id="5332635540775466636" name="type" index="uyyl9" />
@@ -62,10 +62,14 @@
         <reference id="6982209414176589396" name="type" index="1BxSKG" />
       </concept>
       <concept id="6854685881042649195" name="WebAssembly.structure.Integer32" flags="ng" index="3_jBKm" />
+      <concept id="6854685881042830732" name="WebAssembly.structure.Integer64" flags="ng" index="3_kjBL" />
       <concept id="9194139242018672590" name="WebAssembly.structure.Integer" flags="ng" index="3JAaGz">
         <property id="9194139242018672608" name="value" index="3JAaGd" />
       </concept>
       <concept id="9194139242018803353" name="WebAssembly.structure.ConstantGlobalType" flags="ng" index="3JAEDO" />
+      <concept id="9194139242018803346" name="WebAssembly.structure.GlobalType" flags="ng" index="3JAEDZ">
+        <child id="732769859127840106" name="type" index="3ThHWB" />
+      </concept>
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
         <child id="3354811992909960248" name="fields" index="2b4fI3" />
         <child id="4888076528020804589" name="id" index="1WjNLp" />
@@ -74,17 +78,19 @@
         <child id="2220688952221504208" name="body" index="77mC6" />
         <child id="4888076528022086029" name="locals" index="1WuSST" />
       </concept>
-      <concept id="4888076528021913408" name="WebAssembly.structure.Local" flags="ng" index="1Wv_3O" />
+      <concept id="4888076528021913408" name="WebAssembly.structure.Local" flags="ng" index="1Wv_3O">
+        <child id="732769859127840108" name="type" index="3ThHWx" />
+      </concept>
     </language>
   </registry>
   <node concept="1Qnqup" id="5jQhInovRcG">
     <node concept="12oyBj" id="5jQhInovRcP" role="2b4fI3">
       <node concept="1qLTPQ" id="5jQhInovRcR" role="y1Oci">
-        <node concept="2S2_qk" id="5jQhInoyFDn" role="1qLTPI">
-          <property role="1Wgubu" value="1SorY1su$oA/i32" />
+        <node concept="2S2_qk" id="CFk$RNsovq" role="1qLTPI">
+          <node concept="3_jBKm" id="CFk$RNsovx" role="3ThHWX" />
         </node>
-        <node concept="2S2_qk" id="5jQhInoyFDp" role="1qLTPI">
-          <property role="1Wgubu" value="1SorY1su$oI/f64" />
+        <node concept="2S2_qk" id="CFk$RNsqWR" role="1qLTPI">
+          <node concept="3_kjBL" id="CFk$RNsqWX" role="3ThHWX" />
         </node>
       </node>
       <node concept="20XRx3" id="5jQhInoxeO_" role="2whVRh">
@@ -98,7 +104,9 @@
       <node concept="77mDD" id="5quRwEuxGJ8" role="77mCn">
         <node concept="2qeo$8" id="5quRwEuxGJx" role="2qeo_x" />
       </node>
-      <node concept="3JAEDO" id="5quRwEuxGJq" role="uyyl9" />
+      <node concept="3JAEDO" id="5quRwEuxGJq" role="uyyl9">
+        <node concept="3_jBKm" id="CFk$RNsovg" role="3ThHWB" />
+      </node>
       <node concept="20XRx3" id="5quRwEuxGKf" role="2whVRh">
         <property role="20XRxs" value="b" />
       </node>
@@ -142,6 +150,7 @@
         <node concept="20XRx3" id="5quRwEuxGJU" role="2whVRh">
           <property role="20XRxs" value="a" />
         </node>
+        <node concept="3_kjBL" id="CFk$RNsovm" role="3ThHWx" />
       </node>
     </node>
     <node concept="20XRx3" id="6JgniV5A3mr" role="1WjNLp">
