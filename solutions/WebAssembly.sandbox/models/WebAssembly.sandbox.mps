@@ -13,22 +13,21 @@
       <concept id="2220688952221504191" name="WebAssembly.structure.Expression" flags="ng" index="77mDD">
         <child id="3655016016376803538" name="instructions" index="2qeo_x" />
       </concept>
+      <concept id="3655016016380357694" name="WebAssembly.structure.IntegerConstant" flags="ng" index="2q3Xmd">
+        <child id="3655016016380357697" name="value" index="2q3XnM" />
+        <child id="6854685881042649303" name="type" index="3_jBME" />
+      </concept>
       <concept id="3655016016376803515" name="WebAssembly.structure.Nop" flags="ng" index="2qeo$8" />
       <concept id="3655016016377133611" name="WebAssembly.structure.Block" flags="ng" index="2qf8eo">
         <child id="3655016016377655907" name="expression" index="2qd8Jg" />
       </concept>
       <concept id="2980038876392581639" name="WebAssembly.structure.MemorySize" flags="ng" index="2todem" />
-      <concept id="2980038876392795139" name="WebAssembly.structure.MemoryLoad" flags="ng" index="2tp1mi" />
-      <concept id="2980038876392713143" name="WebAssembly.structure.MemoryInstruction" flags="ng" index="2tpH8A">
-        <property id="2980038876392795140" name="type" index="2tp1ml" />
-      </concept>
       <concept id="5332635540775466635" name="WebAssembly.structure.Global" flags="ng" index="uyyle">
         <child id="2220688952221504193" name="expression" index="77mCn" />
       </concept>
       <concept id="3687465748074807126" name="WebAssembly.structure.Identified" flags="ng" index="2whVRp">
         <child id="3687465748074807134" name="id" index="2whVRh" />
       </concept>
-      <concept id="199200923289501083" name="WebAssembly.structure.MemoryStore" flags="ng" index="HmwAO" />
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
         <property id="4888076528020360554" name="type" index="1Wgubu" />
       </concept>
@@ -61,6 +60,10 @@
       </concept>
       <concept id="8791998381326635401" name="WebAssembly.structure.TypeUse" flags="ng" index="1qMY9V">
         <reference id="6982209414176589396" name="type" index="1BxSKG" />
+      </concept>
+      <concept id="6854685881042830732" name="WebAssembly.structure.Integer64" flags="ng" index="3_kjBL" />
+      <concept id="9194139242018672590" name="WebAssembly.structure.Integer" flags="ng" index="3JAaGz">
+        <property id="9194139242018672608" name="value" index="3JAaGd" />
       </concept>
       <concept id="9194139242018803353" name="WebAssembly.structure.ConstantGlobalType" flags="ng" index="3JAEDO" />
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
@@ -120,9 +123,11 @@
         <node concept="2qf8eo" id="6JgniV5AXaV" role="2qeo_x">
           <node concept="77mDD" id="6JgniV5AXaX" role="2qd8Jg">
             <node concept="2todem" id="2_rep6OfuII" role="2qeo_x" />
-            <node concept="2tp1mi" id="b3H2WJARsL" role="2qeo_x" />
-            <node concept="HmwAO" id="b3H2WJARsD" role="2qeo_x">
-              <property role="2tp1ml" value="1SorY1su$oB/i64" />
+            <node concept="2q3Xmd" id="5WwJ7QUsogx" role="2qeo_x">
+              <node concept="3JAaGz" id="5WwJ7QUsog_" role="2q3XnM">
+                <property role="3JAaGd" value="5" />
+              </node>
+              <node concept="3_kjBL" id="5WwJ7QUsOdc" role="3_jBME" />
             </node>
           </node>
           <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">
