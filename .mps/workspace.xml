@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Generate expression text in global.">
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/Integer32_Editor.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Integer32.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/IntegerType.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/ValueType.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.behavior/FloatingPoint_Behavior.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.behavior/Integer32_Behavior.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.behavior/Integer64_Behavior.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.behavior/IntegerType_Behavior.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.behavior/Integer_Behavior.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Number.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.typesystem/check_IntegerConstant.mpsr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/IntegerConstant.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/IntegerConstant.mpsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.behavior/.model" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.behavior/.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/FloatingPoint.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/FloatingPoint.mpsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Integer.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Integer.mpsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.typesystem/.model" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.typesystem/.model" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +30,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="60b32d4d-7220-4263-a138-8da6229890e4/r:eeffea3a-e5e3-4a8e-af22-b96cf6f5e9f9(TempModule60b32d4d-7220-4263-a138-8da6229890e4/ConsoleModel_2239389281712)">
+            <model ref="0dd09282-30e6-4d89-a441-7f80aa9cd2b9/r:3866bacd-1f9d-4e54-b885-0cdab0796571(TempModule0dd09282-30e6-4d89-a441-7f80aa9cd2b9/ConsoleModel_3279786416173)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -44,11 +50,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5WwJ7QUrG1z">
-                <node concept="3balQm" id="5WwJ7QUrG1$" role="aymYE" />
-                <node concept="2Clz$F" id="5WwJ7QUrG1_" role="aymYO" />
-                <node concept="2_V_lH" id="5WwJ7QUrG1A" role="1PhJh3">
-                  <ref role="2_V_lI" node="5WwJ7QUrG1_" resolve="CommandHolder" />
+              <node concept="aymSD" id="7UWpXYgxGyl">
+                <node concept="3balQm" id="7UWpXYgxGym" role="aymYE" />
+                <node concept="2Clz$F" id="7UWpXYgxGyn" role="aymYO" />
+                <node concept="2_V_lH" id="7UWpXYgxGyo" role="1PhJh3">
+                  <ref role="2_V_lI" node="7UWpXYgxGyn" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -183,6 +189,26 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Open Files'; set:Open Files; class com.intellij.openapi.fileEditor.impl.OpenFilesScope">
+          <expand>
+            <path>
+              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -211,26 +237,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Open Files'; set:Open Files; class com.intellij.openapi.fileEditor.impl.OpenFilesScope">
-          <expand>
-            <path>
-              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,18 +244,18 @@
               <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebAssembly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,7 +291,25 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="types" />
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numeric" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAssembly" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,11 +323,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
+              <option name="myItemId" value="r:2d100c56-b572-41d0-8307-c303ded80713(WebAssembly.typesystem) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.typesystem]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,6 +350,10 @@
               <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -356,10 +380,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="numeric" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,23 +389,19 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemId" value="WebAssembly" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
+              <option name="myItemId" value="r:a1b35e87-0013-4dd8-bfa2-3a76ff8ae093(WebAssembly.sandbox) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="numeric" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3655016016380357694" />
+              <option name="myItemId" value="6122158696450454316" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -420,13 +436,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611063502786</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Import all import description types.">
-      <created>1611241791991</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1611241791991</updated>
     </task>
     <task id="LOCAL-00014" summary="Make module name an identifier.">
       <created>1611242304043</created>
@@ -764,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613095626118</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Define int constant with new int concept.">
+      <created>1613263383232</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1613263383232</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -788,7 +804,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Define exports." />
     <MESSAGE value="Add start" />
     <MESSAGE value="Make module field an abstract concept and make named fields implement identified." />
     <MESSAGE value="Make start a module field. Limit modules to 1 start." />
@@ -816,6 +831,7 @@
     <MESSAGE value="Define send with i64 in place of externref temporarily." />
     <MESSAGE value="Define io memory and export." />
     <MESSAGE value="Implement variable instructions on locals and globals." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement variable instructions on locals and globals." />
+    <MESSAGE value="Define int constant with new int concept." />
+    <option name="LAST_COMMIT_MESSAGE" value="Define int constant with new int concept." />
   </component>
 </project>

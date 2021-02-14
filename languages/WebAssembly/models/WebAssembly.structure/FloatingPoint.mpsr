@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" content="root">
   <persistence version="9" />
-  <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-  </imports>
+  <imports />
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
@@ -35,7 +33,7 @@
     <property role="34LRSv" value="float" />
     <property role="R4oN_" value="Floating-point data represents 32 or 64 bit values that correspond to the respective binary formats of the IEEE 754-2019 standard (Section 3.3)." />
     <property role="3GE5qa" value="values" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="7UWpXYgxGKT" resolve="Number" />
     <node concept="1TJgyi" id="7Yo9eQg08Zz" role="1TKVEl">
       <property role="IQ2nx" value="9194139242018672611" />
       <property role="TrG5h" value="value" />
