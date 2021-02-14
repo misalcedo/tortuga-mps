@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Generate expression text in global.">
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Constant2.mpsr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/IntegerConstant_Editor.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/Constant_Editor.mpsr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/IntegerConstant.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Constant.mpsr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/IntegerConstant_TextGen.mpsr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.typesystem/check_Global.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.typesystem/check_Global.mpsr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.typesystem/check_IntegerConstant.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.typesystem/check_IntegerConstant.mpsr" afterDir="false" />
-    </list>
+    <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Generate expression text in global." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,13 +215,53 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:2d100c56-b572-41d0-8307-c303ded80713(WebAssembly.typesystem) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.typesystem]" />
+              <option name="myItemId" value="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.constraints]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:2d100c56-b572-41d0-8307-c303ded80713(WebAssembly.typesystem) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.typesystem]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,6 +298,30 @@
               <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
@@ -316,11 +373,33 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.constraints]" />
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numeric" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,16 +423,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -380,11 +449,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="types" />
+              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,15 +467,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
+              <option name="myItemId" value="types" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="numeric" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="732769859128113166" />
+              <option name="myItemId" value="732769859127840105" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -445,13 +506,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611063502786</updated>
-    </task>
-    <task id="LOCAL-00015" summary="have the name of the module be its ID.">
-      <created>1611242514191</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1611242514191</updated>
     </task>
     <task id="LOCAL-00016" summary="Implement module field interface to search for types by index.">
       <created>1611243542241</created>
@@ -789,7 +843,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613270177930</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Only use 1 constant instead of 1 per value type.&#10;Fix type use check for matching types.">
+      <created>1613270679574</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1613270679574</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -813,7 +874,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Make module field an abstract concept and make named fields implement identified." />
     <MESSAGE value="Make start a module field. Limit modules to 1 start." />
     <MESSAGE value="Update the identified check to be per concept." />
     <MESSAGE value="Add export description interface." />
@@ -841,6 +901,7 @@
     <MESSAGE value="Implement variable instructions on locals and globals." />
     <MESSAGE value="Define int constant with new int concept." />
     <MESSAGE value="Replace all uses of valtype enum with the new ValueType concept." />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace all uses of valtype enum with the new ValueType concept." />
+    <MESSAGE value="Only use 1 constant instead of 1 per value type.&#10;Fix type use check for matching types." />
+    <option name="LAST_COMMIT_MESSAGE" value="Only use 1 constant instead of 1 per value type.&#10;Fix type use check for matching types." />
   </component>
 </project>

@@ -75,6 +75,7 @@
         <child id="3354811992909960248" name="fields" index="2b4fI3" />
         <child id="4888076528020804589" name="id" index="1WjNLp" />
       </concept>
+      <concept id="732769859128442789" name="WebAssembly.structure.Float32" flags="ng" index="3TnuRC" />
       <concept id="4888076528022086024" name="WebAssembly.structure.Function" flags="ng" index="1WuSSW">
         <child id="2220688952221504208" name="body" index="77mC6" />
         <child id="4888076528022086029" name="locals" index="1WuSST" />
@@ -136,7 +137,7 @@
               <node concept="3JAaGz" id="5WwJ7QUsog_" role="2q3XnM">
                 <property role="3JAaGd" value="-55550000" />
               </node>
-              <node concept="3_jBKm" id="7UWpXYgyJ25" role="3_jBME" />
+              <node concept="3TnuRC" id="CFk$RNu78A" role="3_jBME" />
             </node>
           </node>
           <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">
