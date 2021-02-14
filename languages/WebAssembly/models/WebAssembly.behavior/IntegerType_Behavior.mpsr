@@ -14,7 +14,6 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="1225194472832" name="isVirtual" index="13i0it" />
-        <property id="1225194472834" name="isAbstract" index="13i0iv" />
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -31,7 +30,13 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -60,10 +65,13 @@
     <node concept="13i0hz" id="7UWpXYgxNWy" role="13h7CS">
       <property role="TrG5h" value="isValid" />
       <property role="13i0it" value="true" />
-      <property role="13i0iv" value="true" />
       <node concept="3Tm1VV" id="7UWpXYgxNWz" role="1B3o_S" />
       <node concept="10P_77" id="7UWpXYgxNWM" role="3clF45" />
-      <node concept="3clFbS" id="7UWpXYgxNW_" role="3clF47" />
+      <node concept="3clFbS" id="7UWpXYgxNW_" role="3clF47">
+        <node concept="3cpWs6" id="7UWpXYgyFjx" role="3cqZAp">
+          <node concept="3clFbT" id="7UWpXYgyFjO" role="3cqZAk" />
+        </node>
+      </node>
       <node concept="37vLTG" id="7UWpXYgxNXe" role="3clF46">
         <property role="TrG5h" value="number" />
         <node concept="3Tqbb2" id="7UWpXYgxNXA" role="1tU5fm">
