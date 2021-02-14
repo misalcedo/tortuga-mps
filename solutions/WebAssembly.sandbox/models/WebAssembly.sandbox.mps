@@ -61,7 +61,7 @@
       <concept id="8791998381326635401" name="WebAssembly.structure.TypeUse" flags="ng" index="1qMY9V">
         <reference id="6982209414176589396" name="type" index="1BxSKG" />
       </concept>
-      <concept id="6854685881042830732" name="WebAssembly.structure.Integer64" flags="ng" index="3_kjBL" />
+      <concept id="6854685881042649195" name="WebAssembly.structure.Integer32" flags="ng" index="3_jBKm" />
       <concept id="9194139242018672590" name="WebAssembly.structure.Integer" flags="ng" index="3JAaGz">
         <property id="9194139242018672608" name="value" index="3JAaGd" />
       </concept>
@@ -125,9 +125,9 @@
             <node concept="2todem" id="2_rep6OfuII" role="2qeo_x" />
             <node concept="2q3Xmd" id="5WwJ7QUsogx" role="2qeo_x">
               <node concept="3JAaGz" id="5WwJ7QUsog_" role="2q3XnM">
-                <property role="3JAaGd" value="-555500000000" />
+                <property role="3JAaGd" value="-55550000" />
               </node>
-              <node concept="3_kjBL" id="7UWpXYgyDhE" role="3_jBME" />
+              <node concept="3_jBKm" id="7UWpXYgyJ25" role="3_jBME" />
             </node>
           </node>
           <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">
