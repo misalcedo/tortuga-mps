@@ -13,7 +13,7 @@
       <concept id="2220688952221504191" name="WebAssembly.structure.Expression" flags="ng" index="77mDD">
         <child id="3655016016376803538" name="instructions" index="2qeo_x" />
       </concept>
-      <concept id="3655016016380357694" name="WebAssembly.structure.IntegerConstant" flags="ng" index="2q3Xmd">
+      <concept id="3655016016380357694" name="WebAssembly.structure.Constant" flags="ng" index="2q3Xmd">
         <child id="3655016016380357697" name="value" index="2q3XnM" />
         <child id="6854685881042649303" name="type" index="3_jBME" />
       </concept>
@@ -60,6 +60,7 @@
       </concept>
       <concept id="8791998381326635401" name="WebAssembly.structure.TypeUse" flags="ng" index="1qMY9V">
         <reference id="6982209414176589396" name="type" index="1BxSKG" />
+        <child id="3354811992909733180" name="functype" index="2b57a7" />
       </concept>
       <concept id="6854685881042649195" name="WebAssembly.structure.Integer32" flags="ng" index="3_jBKm" />
       <concept id="6854685881042830732" name="WebAssembly.structure.Integer64" flags="ng" index="3_kjBL" />
@@ -145,6 +146,14 @@
       </node>
       <node concept="1qMY9V" id="5quRwEuxGIF" role="2TZLqU">
         <ref role="1BxSKG" node="5jQhInovRcP" resolve="$a" />
+        <node concept="1qLTPQ" id="CFk$RNtqth" role="2b57a7">
+          <node concept="2S2_qk" id="CFk$RNtqtj" role="1qLTPI">
+            <node concept="3_jBKm" id="CFk$RNtFBY" role="3ThHWX" />
+          </node>
+          <node concept="2S2_qk" id="CFk$RNtqtq" role="1qLTPI">
+            <node concept="3_kjBL" id="CFk$RNtqtw" role="3ThHWX" />
+          </node>
+        </node>
       </node>
       <node concept="1Wv_3O" id="5quRwEuxGIR" role="1WuSST">
         <node concept="20XRx3" id="5quRwEuxGJU" role="2whVRh">

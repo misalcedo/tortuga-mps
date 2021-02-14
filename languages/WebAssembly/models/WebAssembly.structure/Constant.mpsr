@@ -30,26 +30,26 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="3aTereCHIL3">
-    <property role="EcuMT" value="3655016016380357699" />
+  <node concept="1TIwiD" id="3aTereCHIKY">
+    <property role="EcuMT" value="3655016016380357694" />
     <property role="3GE5qa" value="instructions.numeric" />
-    <property role="TrG5h" value="FloatConstant" />
-    <property role="34LRSv" value="fnn.const" />
-    <property role="R4oN_" value="Return a static float constant." />
+    <property role="TrG5h" value="Constant" />
+    <property role="34LRSv" value="xnn.const" />
+    <property role="R4oN_" value="Return a static numeric constant." />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />
-    <node concept="1TJgyj" id="CFk$RNroPA" role="1TKVEi">
-      <property role="IQ2ns" value="732769859127840102" />
+    <node concept="1TJgyj" id="5WwJ7QUrG3n" role="1TKVEi">
+      <property role="IQ2ns" value="6854685881042649303" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="CFk$RNroPD" resolve="FloatingPointType" />
+      <ref role="20lvS9" node="5WwJ7QUrDCR" resolve="ValueType" />
     </node>
-    <node concept="1TJgyj" id="3aTereCHIL5" role="1TKVEi">
-      <property role="IQ2ns" value="3655016016380357701" />
+    <node concept="1TJgyj" id="3aTereCHIL1" role="1TKVEi">
+      <property role="IQ2ns" value="3655016016380357697" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3aTereCHIL3" resolve="FloatConstant" />
+      <ref role="20lvS9" node="7UWpXYgxGKT" resolve="Number" />
     </node>
   </node>
 </model>

@@ -58,7 +58,7 @@
   </registry>
   <node concept="13h7C7" id="7UWpXYgxNWn">
     <property role="3GE5qa" value="types" />
-    <ref role="13h7C2" to="aqb7:5WwJ7QUrEeb" resolve="IntegerType" />
+    <ref role="13h7C2" to="aqb7:5WwJ7QUrDCR" resolve="ValueType" />
     <node concept="13hLZK" id="7UWpXYgxNWo" role="13h7CW">
       <node concept="3clFbS" id="7UWpXYgxNWp" role="2VODD2" />
     </node>

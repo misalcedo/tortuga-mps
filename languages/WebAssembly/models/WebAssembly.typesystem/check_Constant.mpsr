@@ -66,7 +66,7 @@
     </language>
   </registry>
   <node concept="18kY7G" id="7UWpXYgy8og">
-    <property role="TrG5h" value="check_IntegerConstant" />
+    <property role="TrG5h" value="check_Constant" />
     <property role="3GE5qa" value="instructions.numeric" />
     <node concept="3clFbS" id="7UWpXYgy8oh" role="18ibNy">
       <node concept="3clFbJ" id="7UWpXYgy8on" role="3cqZAp">
@@ -74,7 +74,7 @@
           <node concept="2OqwBi" id="7UWpXYgy9zh" role="3fr31v">
             <node concept="2OqwBi" id="7UWpXYgy9zi" role="2Oq$k0">
               <node concept="1YBJjd" id="7UWpXYgy9zj" role="2Oq$k0">
-                <ref role="1YBMHb" node="7UWpXYgy8oj" resolve="integerConstant" />
+                <ref role="1YBMHb" node="7UWpXYgy8oj" resolve="constant" />
               </node>
               <node concept="3TrEf2" id="7UWpXYgy9zk" role="2OqNvi">
                 <ref role="3Tt5mk" to="aqb7:5WwJ7QUrG3n" resolve="type" />
@@ -84,7 +84,7 @@
               <ref role="37wK5l" to="fhke:7UWpXYgxNWy" resolve="isValid" />
               <node concept="2OqwBi" id="7UWpXYgy9zm" role="37wK5m">
                 <node concept="1YBJjd" id="7UWpXYgy9zn" role="2Oq$k0">
-                  <ref role="1YBMHb" node="7UWpXYgy8oj" resolve="integerConstant" />
+                  <ref role="1YBMHb" node="7UWpXYgy8oj" resolve="constant" />
                 </node>
                 <node concept="3TrEf2" id="7UWpXYgy9zo" role="2OqNvi">
                   <ref role="3Tt5mk" to="aqb7:3aTereCHIL1" resolve="value" />
@@ -96,11 +96,11 @@
         <node concept="3clFbS" id="7UWpXYgy8op" role="3clFbx">
           <node concept="2MkqsV" id="7UWpXYgy9$c" role="3cqZAp">
             <node concept="Xl_RD" id="7UWpXYgy9$o" role="2MkJ7o">
-              <property role="Xl_RC" value="Integer value out of range allowed for the bit size." />
+              <property role="Xl_RC" value="Constant value out of allowed range for the bit size." />
             </node>
             <node concept="2OqwBi" id="7UWpXYgy9Jj" role="1urrMF">
               <node concept="1YBJjd" id="7UWpXYgy9Aq" role="2Oq$k0">
-                <ref role="1YBMHb" node="7UWpXYgy8oj" resolve="integerConstant" />
+                <ref role="1YBMHb" node="7UWpXYgy8oj" resolve="constant" />
               </node>
               <node concept="3TrEf2" id="7UWpXYgya0l" role="2OqNvi">
                 <ref role="3Tt5mk" to="aqb7:3aTereCHIL1" resolve="value" />
@@ -111,8 +111,8 @@
       </node>
     </node>
     <node concept="1YaCAy" id="7UWpXYgy8oj" role="1YuTPh">
-      <property role="TrG5h" value="integerConstant" />
-      <ref role="1YaFvo" to="aqb7:3aTereCHIKY" resolve="IntegerConstant" />
+      <property role="TrG5h" value="constant" />
+      <ref role="1YaFvo" to="aqb7:3aTereCHIKY" resolve="Constant" />
     </node>
   </node>
 </model>
