@@ -60,13 +60,19 @@
             <property role="ld1Su" value="true" />
             <node concept="2OqwBi" id="2_rep6OgepE" role="lb14g">
               <node concept="117lpO" id="2_rep6OgefU" role="2Oq$k0" />
-              <node concept="3TrEf2" id="CFk$RNrJxm" role="2OqNvi">
-                <ref role="3Tt5mk" to="aqb7:CFk$RNroPI" resolve="type" />
+              <node concept="3TrEf2" id="5_S81t4w7YU" role="2OqNvi">
+                <ref role="3Tt5mk" to="aqb7:5_S81t4w05U" resolve="type" />
               </node>
             </node>
           </node>
           <node concept="la8eA" id="2_rep6Ogf6k" role="lcghm">
             <property role="lacIc" value=".load" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="5_S81t4xACM" role="3cqZAp">
+          <node concept="1bDJIP" id="5_S81t4xADK" role="lcghm">
+            <ref role="1rvKf6" node="5_S81t4xtvD" resolve="storageSizeOf" />
+            <node concept="117lpO" id="5_S81t4xAE3" role="1ryhcI" />
           </node>
         </node>
         <node concept="lc7rE" id="5_S81t4s8yQ" role="3cqZAp">

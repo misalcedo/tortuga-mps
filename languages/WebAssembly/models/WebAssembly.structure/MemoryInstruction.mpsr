@@ -9,8 +9,12 @@
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -35,6 +39,12 @@
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="MemoryInstruction" />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />
+    <node concept="1TJgyj" id="5_S81t4x5dO" role="1TKVEi">
+      <property role="IQ2ns" value="6446938150886724468" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="storageSize" />
+      <ref role="20lvS9" node="5_S81t4vXKj" resolve="BitWidth" />
+    </node>
     <node concept="1TJgyj" id="5_S81t4qvzt" role="1TKVEi">
       <property role="IQ2ns" value="6446938150884997341" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -48,12 +58,8 @@
       <property role="20kJfa" value="align" />
       <ref role="20lvS9" node="7Yo9eQg08Ze" resolve="Integer" />
     </node>
-    <node concept="1TJgyj" id="CFk$RNroPI" role="1TKVEi">
-      <property role="IQ2ns" value="732769859127840110" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5WwJ7QUrDCR" resolve="ValueType" />
+    <node concept="PrWs8" id="5_S81t4w1iW" role="PzmwI">
+      <ref role="PrY4T" node="5_S81t4w05T" resolve="Typed" />
     </node>
   </node>
 </model>

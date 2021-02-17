@@ -21,12 +21,17 @@
       <concept id="3655016016377133611" name="WebAssembly.structure.Block" flags="ng" index="2qf8eo">
         <child id="3655016016377655907" name="expression" index="2qd8Jg" />
       </concept>
+      <concept id="6446938150886431763" name="WebAssembly.structure.BitWidth" flags="ng" index="t1ZK4">
+        <property id="6446938150886431764" name="width" index="t1ZK3" />
+      </concept>
       <concept id="2980038876392581639" name="WebAssembly.structure.MemorySize" flags="ng" index="2todem" />
       <concept id="2980038876392795139" name="WebAssembly.structure.MemoryLoad" flags="ng" index="2tp1mi" />
       <concept id="2980038876392713143" name="WebAssembly.structure.MemoryInstruction" flags="ng" index="2tpH8A">
         <child id="6446938150884997341" name="offset" index="t4tza" />
-        <child id="6446938150884997344" name="align" index="t4tzR" />
-        <child id="732769859127840110" name="type" index="3ThHWz" />
+        <child id="6446938150886724468" name="storageSize" index="tZ7dz" />
+      </concept>
+      <concept id="6446938150886441337" name="WebAssembly.structure.Typed" flags="ng" index="tY25I">
+        <child id="6446938150886441338" name="type" index="tY25H" />
       </concept>
       <concept id="5332635540775466635" name="WebAssembly.structure.Global" flags="ng" index="uyyle">
         <child id="2220688952221504193" name="expression" index="77mCn" />
@@ -146,20 +151,20 @@
               </node>
               <node concept="3TnuRC" id="CFk$RNu78A" role="3_jBME" />
             </node>
-            <node concept="2tp1mi" id="5_S81t4rS5y" role="2qeo_x">
-              <node concept="3JAaGz" id="5_S81t4rS5z" role="t4tza">
+            <node concept="2tp1mi" id="5_S81t4xtgU" role="2qeo_x">
+              <node concept="3JAaGz" id="5_S81t4xtgV" role="t4tza">
                 <property role="3JAaGd" value="0" />
               </node>
-              <node concept="3_jBKm" id="5_S81t4rS5I" role="3ThHWz" />
-              <node concept="3JAaGz" id="5_S81t4sBzc" role="t4tzR">
-                <property role="3JAaGd" value="4" />
-              </node>
+              <node concept="3_jBKm" id="5_S81t4xth9" role="tY25H" />
             </node>
-            <node concept="HmwAO" id="5_S81t4sVhR" role="2qeo_x">
-              <node concept="3JAaGz" id="5_S81t4sVhS" role="t4tza">
+            <node concept="HmwAO" id="5_S81t4xthx" role="2qeo_x">
+              <node concept="3JAaGz" id="5_S81t4xthy" role="t4tza">
                 <property role="3JAaGd" value="0" />
               </node>
-              <node concept="3_kjBL" id="5_S81t4sVi7" role="3ThHWz" />
+              <node concept="3_kjBL" id="5_S81t4xthK" role="tY25H" />
+              <node concept="t1ZK4" id="5_S81t4xthN" role="tZ7dz">
+                <property role="t1ZK3" value="32" />
+              </node>
             </node>
           </node>
           <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">
