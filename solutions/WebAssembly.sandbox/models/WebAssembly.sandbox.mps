@@ -34,6 +34,7 @@
       <concept id="3687465748074807126" name="WebAssembly.structure.Identified" flags="ng" index="2whVRp">
         <child id="3687465748074807134" name="id" index="2whVRh" />
       </concept>
+      <concept id="199200923289501083" name="WebAssembly.structure.MemoryStore" flags="ng" index="HmwAO" />
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
         <child id="732769859127840112" name="type" index="3ThHWX" />
       </concept>
@@ -153,6 +154,12 @@
               <node concept="3JAaGz" id="5_S81t4sBzc" role="t4tzR">
                 <property role="3JAaGd" value="4" />
               </node>
+            </node>
+            <node concept="HmwAO" id="5_S81t4sVhR" role="2qeo_x">
+              <node concept="3JAaGz" id="5_S81t4sVhS" role="t4tza">
+                <property role="3JAaGd" value="0" />
+              </node>
+              <node concept="3_kjBL" id="5_S81t4sVi7" role="3ThHWz" />
             </node>
           </node>
           <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">
