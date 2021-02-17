@@ -30,8 +30,14 @@
         <child id="6446938150884997341" name="offset" index="t4tza" />
         <child id="6446938150886724468" name="storageSize" index="tZ7dz" />
       </concept>
+      <concept id="6446938150887065663" name="WebAssembly.structure.Signed" flags="ng" index="tWqwC">
+        <child id="6446938150887065664" name="signExtension" index="tWqxn" />
+      </concept>
       <concept id="6446938150886441337" name="WebAssembly.structure.Typed" flags="ng" index="tY25I">
         <child id="6446938150886441338" name="type" index="tY25H" />
+      </concept>
+      <concept id="6446938150886913365" name="WebAssembly.structure.SignExtension" flags="ng" index="tZLl2">
+        <property id="6446938150886913366" name="sign" index="tZLl1" />
       </concept>
       <concept id="5332635540775466635" name="WebAssembly.structure.Global" flags="ng" index="uyyle">
         <child id="2220688952221504193" name="expression" index="77mCn" />
@@ -151,11 +157,17 @@
               </node>
               <node concept="3TnuRC" id="CFk$RNu78A" role="3_jBME" />
             </node>
-            <node concept="2tp1mi" id="5_S81t4xtgU" role="2qeo_x">
-              <node concept="3JAaGz" id="5_S81t4xtgV" role="t4tza">
+            <node concept="2tp1mi" id="5_S81t4zn1l" role="2qeo_x">
+              <node concept="3JAaGz" id="5_S81t4zn1m" role="t4tza">
                 <property role="3JAaGd" value="0" />
               </node>
-              <node concept="3_jBKm" id="5_S81t4xth9" role="tY25H" />
+              <node concept="3_jBKm" id="5_S81t4zn1_" role="tY25H" />
+              <node concept="t1ZK4" id="5_S81t4$Ep$" role="tZ7dz">
+                <property role="t1ZK3" value="16" />
+              </node>
+              <node concept="tZLl2" id="5_S81t4_05v" role="tWqxn">
+                <property role="tZLl1" value="5_S81t4xKzk/Unsigned" />
+              </node>
             </node>
             <node concept="HmwAO" id="5_S81t4xthx" role="2qeo_x">
               <node concept="3JAaGz" id="5_S81t4xthy" role="t4tza">
