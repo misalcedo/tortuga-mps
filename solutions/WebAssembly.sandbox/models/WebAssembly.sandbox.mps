@@ -22,6 +22,12 @@
         <child id="3655016016377655907" name="expression" index="2qd8Jg" />
       </concept>
       <concept id="2980038876392581639" name="WebAssembly.structure.MemorySize" flags="ng" index="2todem" />
+      <concept id="2980038876392795139" name="WebAssembly.structure.MemoryLoad" flags="ng" index="2tp1mi" />
+      <concept id="2980038876392713143" name="WebAssembly.structure.MemoryInstruction" flags="ng" index="2tpH8A">
+        <child id="6446938150884997341" name="offset" index="t4tza" />
+        <child id="6446938150884997344" name="align" index="t4tzR" />
+        <child id="732769859127840110" name="type" index="3ThHWz" />
+      </concept>
       <concept id="5332635540775466635" name="WebAssembly.structure.Global" flags="ng" index="uyyle">
         <child id="2220688952221504193" name="expression" index="77mCn" />
       </concept>
@@ -138,6 +144,15 @@
                 <property role="3JAaGd" value="-55550000" />
               </node>
               <node concept="3TnuRC" id="CFk$RNu78A" role="3_jBME" />
+            </node>
+            <node concept="2tp1mi" id="5_S81t4rS5y" role="2qeo_x">
+              <node concept="3JAaGz" id="5_S81t4rS5z" role="t4tza">
+                <property role="3JAaGd" value="0" />
+              </node>
+              <node concept="3_jBKm" id="5_S81t4rS5I" role="3ThHWz" />
+              <node concept="3JAaGz" id="5_S81t4sBzc" role="t4tzR">
+                <property role="3JAaGd" value="4" />
+              </node>
             </node>
           </node>
           <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">

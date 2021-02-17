@@ -42,6 +42,9 @@
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+      <concept id="4269842503726207156" name="jetbrains.mps.baseLanguage.structure.LongLiteral" flags="nn" index="1adDum">
+        <property id="4269842503726207157" name="value" index="1adDun" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
@@ -59,6 +62,7 @@
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
+      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -270,6 +274,19 @@
           <ref role="ehGHo" to="aqb7:7Yo9eQg08Ze" resolve="Integer" />
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="5_S81t4q_sM" role="13h7CS">
+      <property role="TrG5h" value="getNaturalAlignment" />
+      <ref role="13i0hy" node="5_S81t4qvzZ" resolve="getNaturalAlignment" />
+      <node concept="3clFbS" id="5_S81t4q_sP" role="3clF47">
+        <node concept="3cpWs6" id="5_S81t4q_uy" role="3cqZAp">
+          <node concept="1adDum" id="5_S81t4sRzI" role="3cqZAk">
+            <property role="1adDun" value="8L" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWsb" id="5_S81t4sRyC" role="3clF45" />
+      <node concept="3Tm1VV" id="5_S81t4q_un" role="1B3o_S" />
     </node>
     <node concept="13hLZK" id="7UWpXYgxVbr" role="13h7CW">
       <node concept="3clFbS" id="7UWpXYgxVbs" role="2VODD2" />

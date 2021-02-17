@@ -57,6 +57,9 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
@@ -234,6 +237,19 @@
         <property role="TrG5h" value="value" />
         <node concept="3cpWsb" id="7UWpXYgyt4t" role="1tU5fm" />
       </node>
+    </node>
+    <node concept="13i0hz" id="5_S81t4q_bn" role="13h7CS">
+      <property role="TrG5h" value="getNaturalAlignment" />
+      <ref role="13i0hy" node="5_S81t4qvzZ" resolve="getNaturalAlignment" />
+      <node concept="3clFbS" id="5_S81t4q_bq" role="3clF47">
+        <node concept="3cpWs6" id="5_S81t4q_cO" role="3cqZAp">
+          <node concept="1adDum" id="5_S81t4sRVG" role="3cqZAk">
+            <property role="1adDun" value="4L" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5_S81t4q_cD" role="1B3o_S" />
+      <node concept="3cpWsb" id="5_S81t4sS3f" role="3clF45" />
     </node>
   </node>
 </model>
