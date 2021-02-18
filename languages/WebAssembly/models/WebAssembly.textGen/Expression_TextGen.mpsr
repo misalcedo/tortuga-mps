@@ -89,9 +89,6 @@
           </node>
         </node>
         <node concept="11pn5k" id="3aTereCAsDi" role="3cqZAp" />
-        <node concept="lc7rE" id="3aTereCCg7h" role="3cqZAp">
-          <node concept="l8MVK" id="3aTereCCg8F" role="lcghm" />
-        </node>
       </node>
     </node>
   </node>
