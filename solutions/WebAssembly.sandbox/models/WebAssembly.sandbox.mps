@@ -110,6 +110,27 @@
       <concept id="4645246054938785157" name="WebAssembly.structure.FloatDivision" flags="ng" index="2ABwWD">
         <child id="4645246054938785158" name="type" index="2ABwWE" />
       </concept>
+      <concept id="4645246054943558875" name="WebAssembly.structure.Nearest" flags="ng" index="2BhjpR">
+        <child id="4645246054943558880" name="type" index="2Bhjpc" />
+      </concept>
+      <concept id="4645246054943556912" name="WebAssembly.structure.Truncate" flags="ng" index="2BhjYs">
+        <child id="4645246054943556913" name="type" index="2BhjYt" />
+      </concept>
+      <concept id="4645246054943555028" name="WebAssembly.structure.Floot" flags="ng" index="2BhGtS">
+        <child id="4645246054943555029" name="type" index="2BhGtT" />
+      </concept>
+      <concept id="4645246054943553079" name="WebAssembly.structure.Ceiling" flags="ng" index="2BhGMr">
+        <child id="4645246054943553382" name="type" index="2BhGRa" />
+      </concept>
+      <concept id="4645246054943551173" name="WebAssembly.structure.SquareRoot" flags="ng" index="2BhHhD">
+        <child id="4645246054943551174" name="type" index="2BhHhE" />
+      </concept>
+      <concept id="4645246054943547674" name="WebAssembly.structure.AbsoluteValue" flags="ng" index="2BhHIQ">
+        <child id="4645246054943547675" name="type" index="2BhHIR" />
+      </concept>
+      <concept id="4645246054943549304" name="WebAssembly.structure.Negate" flags="ng" index="2BhHRk">
+        <child id="4645246054943549305" name="type" index="2BhHRl" />
+      </concept>
       <concept id="4645246054942705349" name="WebAssembly.structure.Extend" flags="ng" index="2BkzLD" />
       <concept id="4645246054942515900" name="WebAssembly.structure.CountTrailingZeros" flags="ng" index="2Blhwg">
         <child id="4645246054942515901" name="type" index="2Blhwh" />
@@ -233,6 +254,27 @@
           </node>
           <node concept="tZLl2" id="41ReENBcgBF" role="tWqxn" />
           <node concept="3_jBKm" id="41ReENBcu4n" role="tY25H" />
+        </node>
+        <node concept="2BhjpR" id="41ReENBdd9o" role="2qeo_x">
+          <node concept="3Tnpbc" id="41ReENBddaX" role="2Bhjpc" />
+        </node>
+        <node concept="2BhGMr" id="41ReENBddhb" role="2qeo_x">
+          <node concept="3TnuRC" id="41ReENBddiM" role="2BhGRa" />
+        </node>
+        <node concept="2BhGtS" id="41ReENBddkq" role="2qeo_x">
+          <node concept="3TnuRC" id="41ReENBddm3" role="2BhGtT" />
+        </node>
+        <node concept="2BhjYs" id="41ReENBddnH" role="2qeo_x">
+          <node concept="3Tnpbc" id="41ReENBddpo" role="2BhjYt" />
+        </node>
+        <node concept="2BhHIQ" id="41ReENBddr4" role="2qeo_x">
+          <node concept="3TnuRC" id="41ReENBddsL" role="2BhHIR" />
+        </node>
+        <node concept="2BhHRk" id="41ReENBdduv" role="2qeo_x">
+          <node concept="3Tnpbc" id="41ReENBddwe" role="2BhHRl" />
+        </node>
+        <node concept="2BhHhD" id="41ReENBddxY" role="2qeo_x">
+          <node concept="3TnuRC" id="41ReENBddzJ" role="2BhHhE" />
         </node>
         <node concept="387qJ5" id="5quRwEuxGJz" role="2qeo_x">
           <ref role="387qJq" node="5quRwEuxGIR" resolve="$a" />
