@@ -91,7 +91,7 @@
     </language>
   </registry>
   <node concept="18kY7G" id="5_S81t4tuXi">
-    <property role="TrG5h" value="check_MemoryInstruction" />
+    <property role="TrG5h" value="check_BitWidth" />
     <property role="3GE5qa" value="instructions.memory" />
     <node concept="3clFbS" id="5_S81t4tuXj" role="18ibNy">
       <node concept="3clFbJ" id="5_S81t4tuXp" role="3cqZAp">

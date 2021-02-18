@@ -110,6 +110,7 @@
       <concept id="4645246054938785157" name="WebAssembly.structure.FloatDivision" flags="ng" index="2ABwWD">
         <child id="4645246054938785158" name="type" index="2ABwWE" />
       </concept>
+      <concept id="4645246054942705349" name="WebAssembly.structure.Extend" flags="ng" index="2BkzLD" />
       <concept id="4645246054942515900" name="WebAssembly.structure.CountTrailingZeros" flags="ng" index="2Blhwg">
         <child id="4645246054942515901" name="type" index="2Blhwh" />
       </concept>
@@ -220,6 +221,19 @@
     </node>
     <node concept="1WuSSW" id="5quRwEuxGIB" role="2b4fI3">
       <node concept="77mDD" id="5quRwEuxGID" role="77mC6">
+        <node concept="2q3Xmd" id="41ReENB9UPS" role="2qeo_x">
+          <node concept="3_jBKm" id="41ReENB9URu" role="tY25H" />
+          <node concept="3JAaGz" id="41ReENB9UWf" role="2q3XnM">
+            <property role="3JAaGd" value="42" />
+          </node>
+        </node>
+        <node concept="2BkzLD" id="41ReENBcgBD" role="2qeo_x">
+          <node concept="t1ZK4" id="41ReENBcgBE" role="2BvZl_">
+            <property role="t1ZK3" value="16" />
+          </node>
+          <node concept="tZLl2" id="41ReENBcgBF" role="tWqxn" />
+          <node concept="3_jBKm" id="41ReENBcu4n" role="tY25H" />
+        </node>
         <node concept="387qJ5" id="5quRwEuxGJz" role="2qeo_x">
           <ref role="387qJq" node="5quRwEuxGIR" resolve="$a" />
         </node>
