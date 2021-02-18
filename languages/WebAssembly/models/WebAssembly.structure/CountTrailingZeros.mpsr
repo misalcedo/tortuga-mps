@@ -34,7 +34,7 @@
     <property role="EcuMT" value="4645246054942515900" />
     <property role="3GE5qa" value="instructions.numeric" />
     <property role="TrG5h" value="CountTrailingZeros" />
-    <property role="34LRSv" value="inn.clz" />
+    <property role="34LRSv" value="inn.ctz" />
     <property role="R4oN_" value="Sign-agnostic count trailing zero bits (All zero bits are considered trailing if the value is zero)." />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />
     <node concept="1TJgyj" id="41ReENB8yaX" role="1TKVEi">

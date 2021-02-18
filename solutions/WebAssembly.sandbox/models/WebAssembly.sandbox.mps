@@ -110,6 +110,15 @@
       <concept id="4645246054938785157" name="WebAssembly.structure.FloatDivision" flags="ng" index="2ABwWD">
         <child id="4645246054938785158" name="type" index="2ABwWE" />
       </concept>
+      <concept id="4645246054942515900" name="WebAssembly.structure.CountTrailingZeros" flags="ng" index="2Blhwg">
+        <child id="4645246054942515901" name="type" index="2Blhwh" />
+      </concept>
+      <concept id="4645246054942517090" name="WebAssembly.structure.CountOnes" flags="ng" index="2BlhRe">
+        <child id="4645246054942517091" name="type" index="2BlhRf" />
+      </concept>
+      <concept id="4645246054942513972" name="WebAssembly.structure.CountLeadingZeros" flags="ng" index="2Bli6o">
+        <child id="4645246054942513973" name="type" index="2Bli6p" />
+      </concept>
       <concept id="4645246054940437543" name="WebAssembly.structure.MemoryLoadAndExtend" flags="ng" index="2Btlqb" />
       <concept id="4645246054940856264" name="WebAssembly.structure.Sized" flags="ng" index="2BvZl$">
         <child id="4645246054940856265" name="storageSize" index="2BvZl_" />
@@ -247,6 +256,15 @@
             <property role="3JAaGd" value="0" />
           </node>
           <node concept="3_kjBL" id="41ReENB2YcU" role="tY25H" />
+        </node>
+        <node concept="2Bli6o" id="41ReENB9cJc" role="2qeo_x">
+          <node concept="3_jBKm" id="41ReENB9cK$" role="2Bli6p" />
+        </node>
+        <node concept="2Blhwg" id="41ReENB9gmL" role="2qeo_x">
+          <node concept="3_kjBL" id="41ReENB9gob" role="2Blhwh" />
+        </node>
+        <node concept="2BlhRe" id="41ReENB9gpA" role="2qeo_x">
+          <node concept="3_jBKm" id="41ReENB9gr2" role="2BlhRf" />
         </node>
         <node concept="2qf8eo" id="6JgniV5AXaV" role="2qeo_x">
           <node concept="77mDD" id="6JgniV5AXaX" role="2qd8Jg">
