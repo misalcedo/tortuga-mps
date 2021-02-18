@@ -28,7 +28,6 @@
       <concept id="2980038876392795139" name="WebAssembly.structure.MemoryLoad" flags="ng" index="2tp1mi" />
       <concept id="2980038876392713143" name="WebAssembly.structure.MemoryInstruction" flags="ng" index="2tpH8A">
         <child id="6446938150884997341" name="offset" index="t4tza" />
-        <child id="6446938150886724468" name="storageSize" index="tZ7dz" />
       </concept>
       <concept id="6446938150887065663" name="WebAssembly.structure.Signed" flags="ng" index="tWqwC">
         <child id="6446938150887065664" name="signExtension" index="tWqxn" />
@@ -129,6 +128,10 @@
       </concept>
       <concept id="4645246054938785157" name="WebAssembly.structure.FloatDivision" flags="ng" index="2ABwWD">
         <child id="4645246054938785158" name="type" index="2ABwWE" />
+      </concept>
+      <concept id="4645246054940437543" name="WebAssembly.structure.MemoryLoadAndExtend" flags="ng" index="2Btlqb" />
+      <concept id="4645246054940856264" name="WebAssembly.structure.Sized" flags="ng" index="2BvZl$">
+        <child id="4645246054940856265" name="storageSize" index="2BvZl_" />
       </concept>
       <concept id="199200923289501083" name="WebAssembly.structure.MemoryStore" flags="ng" index="HmwAO" />
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
@@ -234,6 +237,28 @@
         <node concept="387SSg" id="5quRwEuxGK8" role="2qeo_x">
           <ref role="387SSh" node="5quRwEuxGJ6" resolve="$b" />
         </node>
+        <node concept="2tp1mi" id="41ReENB1rKf" role="2qeo_x">
+          <node concept="3JAaGz" id="41ReENB1rKg" role="t4tza">
+            <property role="3JAaGd" value="0" />
+          </node>
+          <node concept="3TnuRC" id="41ReENB1rLu" role="tY25H" />
+        </node>
+        <node concept="2Btlqb" id="41ReENB3wnL" role="2qeo_x">
+          <node concept="3JAaGz" id="41ReENB3wnM" role="t4tza">
+            <property role="3JAaGd" value="0" />
+          </node>
+          <node concept="t1ZK4" id="41ReENB3wnN" role="2BvZl_">
+            <property role="t1ZK3" value="32" />
+          </node>
+          <node concept="tZLl2" id="41ReENB3wnO" role="tWqxn" />
+          <node concept="3_kjBL" id="41ReENB4hyd" role="tY25H" />
+        </node>
+        <node concept="HmwAO" id="41ReENB2YbC" role="2qeo_x">
+          <node concept="3JAaGz" id="41ReENB2YbD" role="t4tza">
+            <property role="3JAaGd" value="0" />
+          </node>
+          <node concept="3_kjBL" id="41ReENB2YcU" role="tY25H" />
+        </node>
         <node concept="2qf8eo" id="6JgniV5AXaV" role="2qeo_x">
           <node concept="77mDD" id="6JgniV5AXaX" role="2qd8Jg">
             <node concept="2todem" id="2_rep6OfuII" role="2qeo_x" />
@@ -333,27 +358,6 @@
                 <property role="3JAaGd" value="-55550000" />
               </node>
               <node concept="3TnuRC" id="CFk$RNu78A" role="3_jBME" />
-            </node>
-            <node concept="2tp1mi" id="5_S81t4zn1l" role="2qeo_x">
-              <node concept="3JAaGz" id="5_S81t4zn1m" role="t4tza">
-                <property role="3JAaGd" value="0" />
-              </node>
-              <node concept="3_jBKm" id="5_S81t4zn1_" role="tY25H" />
-              <node concept="t1ZK4" id="5_S81t4$Ep$" role="tZ7dz">
-                <property role="t1ZK3" value="16" />
-              </node>
-              <node concept="tZLl2" id="5_S81t4_05v" role="tWqxn">
-                <property role="tZLl1" value="5_S81t4xKzk/Unsigned" />
-              </node>
-            </node>
-            <node concept="HmwAO" id="5_S81t4xthx" role="2qeo_x">
-              <node concept="3JAaGz" id="5_S81t4xthy" role="t4tza">
-                <property role="3JAaGd" value="0" />
-              </node>
-              <node concept="3_kjBL" id="5_S81t4xthK" role="tY25H" />
-              <node concept="t1ZK4" id="5_S81t4xthN" role="tZ7dz">
-                <property role="t1ZK3" value="32" />
-              </node>
             </node>
           </node>
           <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">

@@ -27,7 +27,7 @@
     <property role="3GE5qa" value="instructions.memory" />
     <property role="TrG5h" value="MemoryGrow" />
     <property role="34LRSv" value="memory.grow" />
-    <property role="R4oN_" value="Grows memory by a given delta and returns the previous size, or −1 if enough memory cannot be allocated. Operates in units of page size." />
+    <property role="R4oN_" value="Grow linear memory by a given unsigned delta of pages. Return the previous memory size in units of pages or -1 on failure." />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />
   </node>
 </model>

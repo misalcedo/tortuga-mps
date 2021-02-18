@@ -58,47 +58,53 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="b3H2WJArQs">
+  <node concept="24kQdi" id="41ReENB1rO9">
     <property role="3GE5qa" value="instructions.memory" />
-    <ref role="1XX52x" to="aqb7:b3H2WJArQr" resolve="MemoryStore" />
-    <node concept="3EZMnI" id="b3H2WJArQt" role="2wV5jI">
-      <node concept="3F1sOY" id="CFk$RNrIVo" role="3EZMnx">
+    <ref role="1XX52x" to="aqb7:41ReENB0AKB" resolve="MemoryLoadAndExtend" />
+    <node concept="3EZMnI" id="41ReENB1rOa" role="2wV5jI">
+      <node concept="3F1sOY" id="41ReENB1rOb" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:5_S81t4w05U" resolve="type" />
       </node>
-      <node concept="3F0ifn" id="b3H2WJArQv" role="3EZMnx">
-        <property role="3F0ifm" value=".store" />
+      <node concept="3F0ifn" id="41ReENB1rOc" role="3EZMnx">
+        <property role="3F0ifm" value=".load" />
       </node>
-      <node concept="3F1sOY" id="5_S81t4x8lj" role="3EZMnx">
+      <node concept="3F1sOY" id="41ReENB1s9H" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:41ReENB2cZ9" resolve="storageSize" />
       </node>
-      <node concept="3F0ifn" id="5_S81t4sU6J" role="3EZMnx">
+      <node concept="3F0ifn" id="41ReENB1sbt" role="3EZMnx">
+        <property role="3F0ifm" value="_" />
+      </node>
+      <node concept="3F1sOY" id="41ReENB1sdf" role="3EZMnx">
+        <ref role="1NtTu8" to="aqb7:5_S81t4yox0" resolve="signExtension" />
+      </node>
+      <node concept="3F0ifn" id="41ReENB1rOd" role="3EZMnx">
         <property role="3F0ifm" value="offset=" />
       </node>
-      <node concept="3F1sOY" id="5_S81t4sU6T" role="3EZMnx">
+      <node concept="3F1sOY" id="41ReENB1rOe" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:5_S81t4qvzt" resolve="offset" />
       </node>
-      <node concept="3F0ifn" id="5_S81t4sU75" role="3EZMnx">
+      <node concept="3F0ifn" id="41ReENB1rOf" role="3EZMnx">
         <property role="3F0ifm" value="align=" />
-        <node concept="pkWqt" id="5_S81t4sU7r" role="pqm2j">
-          <node concept="3clFbS" id="5_S81t4sU7s" role="2VODD2">
-            <node concept="3clFbF" id="5_S81t4sUbm" role="3cqZAp">
-              <node concept="2OqwBi" id="5_S81t4sUN7" role="3clFbG">
-                <node concept="2OqwBi" id="5_S81t4sUqk" role="2Oq$k0">
-                  <node concept="pncrf" id="5_S81t4sUbl" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="5_S81t4sUCJ" role="2OqNvi">
+        <node concept="pkWqt" id="41ReENB1rOg" role="pqm2j">
+          <node concept="3clFbS" id="41ReENB1rOh" role="2VODD2">
+            <node concept="3clFbF" id="41ReENB1rOi" role="3cqZAp">
+              <node concept="2OqwBi" id="41ReENB1rOj" role="3clFbG">
+                <node concept="2OqwBi" id="41ReENB1rOk" role="2Oq$k0">
+                  <node concept="pncrf" id="41ReENB1rOl" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="41ReENB1rOm" role="2OqNvi">
                     <ref role="3Tt5mk" to="aqb7:5_S81t4qvzw" resolve="align" />
                   </node>
                 </node>
-                <node concept="3x8VRR" id="5_S81t4sV2b" role="2OqNvi" />
+                <node concept="3x8VRR" id="41ReENB1rOn" role="2OqNvi" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="3F1sOY" id="5_S81t4sU7j" role="3EZMnx">
+      <node concept="3F1sOY" id="41ReENB1rOo" role="3EZMnx">
         <ref role="1NtTu8" to="aqb7:5_S81t4qvzw" resolve="align" />
       </node>
-      <node concept="l2Vlx" id="b3H2WJArQw" role="2iSdaV" />
+      <node concept="l2Vlx" id="41ReENB1rOp" role="2iSdaV" />
     </node>
   </node>
 </model>
