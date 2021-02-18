@@ -35,6 +35,9 @@
       <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
+      <concept id="1237305557638" name="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart" flags="ng" index="la8eA">
+        <property id="1237305576108" name="value" index="lacIc" />
+      </concept>
       <concept id="1237306079178" name="jetbrains.mps.lang.textGen.structure.AppendOperation" flags="nn" index="lc7rE">
         <child id="1237306115446" name="part" index="lcghm" />
       </concept>
@@ -62,7 +65,7 @@
     </language>
   </registry>
   <node concept="1bsvg0" id="5_S81t4xOYH">
-    <property role="3GE5qa" value="instructions.numeric" />
+    <property role="3GE5qa" value="instructions.memory" />
     <property role="TrG5h" value="SignExtensionMode_TextGen" />
     <node concept="1bwezc" id="5_S81t4xOYI" role="1bwxVq">
       <property role="TrG5h" value="signExtensionOf" />
@@ -71,6 +74,9 @@
         <node concept="3clFbJ" id="5_S81t4xOYL" role="3cqZAp">
           <node concept="3clFbS" id="5_S81t4xOYM" role="3clFbx">
             <node concept="lc7rE" id="5_S81t4xOYN" role="3cqZAp">
+              <node concept="la8eA" id="41ReENATAUR" role="lcghm">
+                <property role="lacIc" value="_" />
+              </node>
               <node concept="l9hG8" id="5_S81t4xOYO" role="lcghm">
                 <node concept="2OqwBi" id="5_S81t4xQfl" role="lb14g">
                   <node concept="37vLTw" id="5_S81t4xQ7N" role="2Oq$k0">

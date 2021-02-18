@@ -45,6 +45,57 @@
       <concept id="3687465748074807126" name="WebAssembly.structure.Identified" flags="ng" index="2whVRp">
         <child id="3687465748074807134" name="id" index="2whVRh" />
       </concept>
+      <concept id="4645246054939236370" name="WebAssembly.structure.RotateRight" flags="ng" index="2AxMaY">
+        <child id="4645246054939236371" name="type" index="2AxMaZ" />
+      </concept>
+      <concept id="4645246054939234020" name="WebAssembly.structure.RotateLeft" flags="ng" index="2AxNh8">
+        <child id="4645246054939234021" name="type" index="2AxNh9" />
+      </concept>
+      <concept id="4645246054939234016" name="WebAssembly.structure.ShiftLeft" flags="ng" index="2AxNhc">
+        <child id="4645246054939234017" name="type" index="2AxNhd" />
+      </concept>
+      <concept id="4645246054939234018" name="WebAssembly.structure.ShiftRight" flags="ng" index="2AxNhe">
+        <child id="4645246054939747986" name="signExtension" index="2AwdKY" />
+        <child id="4645246054939234019" name="type" index="2AxNhf" />
+      </concept>
+      <concept id="4645246054939914356" name="WebAssembly.structure.Maximum" flags="ng" index="2AzkFo">
+        <child id="4645246054939914357" name="type" index="2AzkFp" />
+      </concept>
+      <concept id="4645246054939916274" name="WebAssembly.structure.CopySign" flags="ng" index="2AzkPu">
+        <child id="4645246054939916275" name="type" index="2AzkPv" />
+      </concept>
+      <concept id="4645246054939912437" name="WebAssembly.structure.Minimum" flags="ng" index="2Azl9p">
+        <child id="4645246054939912438" name="type" index="2Azl9q" />
+      </concept>
+      <concept id="4645246054938645084" name="WebAssembly.structure.Multiply" flags="ng" index="2A$2zK">
+        <child id="4645246054938645085" name="type" index="2A$2zL" />
+      </concept>
+      <concept id="4645246054938643417" name="WebAssembly.structure.Subtract" flags="ng" index="2A$35P">
+        <child id="4645246054938643418" name="type" index="2A$35Q" />
+      </concept>
+      <concept id="4645246054938389388" name="WebAssembly.structure.Add" flags="ng" index="2A_14w">
+        <child id="4645246054938389389" name="type" index="2A_14x" />
+      </concept>
+      <concept id="4645246054939081918" name="WebAssembly.structure.ExclusiveOr" flags="ng" index="2AACoi">
+        <child id="4645246054939081919" name="type" index="2AACoj" />
+      </concept>
+      <concept id="4645246054939078795" name="WebAssembly.structure.And" flags="ng" index="2AACCB">
+        <child id="4645246054939078796" name="type" index="2AACCw" />
+      </concept>
+      <concept id="4645246054939080260" name="WebAssembly.structure.Or" flags="ng" index="2AACNC">
+        <child id="4645246054939080261" name="type" index="2AACND" />
+      </concept>
+      <concept id="4645246054938932846" name="WebAssembly.structure.Remainder" flags="ng" index="2AB4N2">
+        <child id="4645246054939537537" name="signExtension" index="2AwSCH" />
+        <child id="4645246054938932849" name="type" index="2AB4Nt" />
+      </concept>
+      <concept id="4645246054938786380" name="WebAssembly.structure.IntegerDivision" flags="ng" index="2ABw3w">
+        <child id="4645246054939529930" name="signExtension" index="2AwUxA" />
+        <child id="4645246054938786383" name="type" index="2ABw3z" />
+      </concept>
+      <concept id="4645246054938785157" name="WebAssembly.structure.FloatDivision" flags="ng" index="2ABwWD">
+        <child id="4645246054938785158" name="type" index="2ABwWE" />
+      </concept>
       <concept id="199200923289501083" name="WebAssembly.structure.MemoryStore" flags="ng" index="HmwAO" />
       <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
         <child id="732769859127840112" name="type" index="3ThHWX" />
@@ -93,6 +144,7 @@
         <child id="3354811992909960248" name="fields" index="2b4fI3" />
         <child id="4888076528020804589" name="id" index="1WjNLp" />
       </concept>
+      <concept id="732769859128443009" name="WebAssembly.structure.Float64" flags="ng" index="3Tnpbc" />
       <concept id="732769859128442789" name="WebAssembly.structure.Float32" flags="ng" index="3TnuRC" />
       <concept id="4888076528022086024" name="WebAssembly.structure.Function" flags="ng" index="1WuSSW">
         <child id="2220688952221504208" name="body" index="77mC6" />
@@ -151,6 +203,59 @@
         <node concept="2qf8eo" id="6JgniV5AXaV" role="2qeo_x">
           <node concept="77mDD" id="6JgniV5AXaX" role="2qd8Jg">
             <node concept="2todem" id="2_rep6OfuII" role="2qeo_x" />
+            <node concept="2A_14w" id="41ReENATAFH" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENATAG0" role="2A_14x" />
+            </node>
+            <node concept="2A$35P" id="41ReENAWBmy" role="2qeo_x">
+              <node concept="3_kjBL" id="41ReENAWBmR" role="2A$35Q" />
+            </node>
+            <node concept="2A$2zK" id="41ReENAWBnd" role="2qeo_x">
+              <node concept="3TnuRC" id="41ReENAWBn$" role="2A$2zL" />
+            </node>
+            <node concept="2ABwWD" id="41ReENAWBnW" role="2qeo_x">
+              <node concept="3Tnpbc" id="41ReENAWBol" role="2ABwWE" />
+            </node>
+            <node concept="2ABw3w" id="41ReENAXYol" role="2qeo_x">
+              <node concept="3_kjBL" id="41ReENAXYoX" role="2ABw3z" />
+              <node concept="tZLl2" id="41ReENAXYop" role="2AwUxA" />
+            </node>
+            <node concept="2AB4N2" id="41ReENAXYp$" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENAXYqf" role="2AB4Nt" />
+              <node concept="tZLl2" id="41ReENAXYpC" role="2AwSCH" />
+            </node>
+            <node concept="2AACCB" id="41ReENAX95U" role="2qeo_x">
+              <node concept="3_kjBL" id="41ReENAX96r" role="2AACCw" />
+            </node>
+            <node concept="2AACNC" id="41ReENAX96X" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENAX97w" role="2AACND" />
+            </node>
+            <node concept="2AACoi" id="41ReENAX984" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENAX98D" role="2AACoj" />
+            </node>
+            <node concept="2AxNhc" id="41ReENAX99f" role="2qeo_x">
+              <node concept="3_kjBL" id="41ReENAX99Q" role="2AxNhd" />
+            </node>
+            <node concept="2AxNhe" id="41ReENAYzpn" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENAYzq3" role="2AxNhf" />
+              <node concept="tZLl2" id="41ReENAYzpr" role="2AwdKY">
+                <property role="tZLl1" value="5_S81t4xKzk/Unsigned" />
+              </node>
+            </node>
+            <node concept="2AxNh8" id="41ReENAYzqI" role="2qeo_x">
+              <node concept="3_kjBL" id="41ReENAYzrq" role="2AxNh9" />
+            </node>
+            <node concept="2AxMaY" id="41ReENAYzs7" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENAYzsP" role="2AxMaZ" />
+            </node>
+            <node concept="2AzkPu" id="41ReENAZegi" role="2qeo_x">
+              <node concept="3TnuRC" id="41ReENAZeh2" role="2AzkPv" />
+            </node>
+            <node concept="2AzkFo" id="41ReENAZehN" role="2qeo_x">
+              <node concept="3Tnpbc" id="41ReENAZei_" role="2AzkFp" />
+            </node>
+            <node concept="2Azl9p" id="41ReENAZejo" role="2qeo_x">
+              <node concept="3TnuRC" id="41ReENAZekc" role="2Azl9q" />
+            </node>
             <node concept="2q3Xmd" id="5WwJ7QUsogx" role="2qeo_x">
               <node concept="3JAaGz" id="5WwJ7QUsog_" role="2q3XnM">
                 <property role="3JAaGd" value="-55550000" />

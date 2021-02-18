@@ -5,16 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Generate expression text in global.">
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/SignExtension.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Signed.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/sx.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/SignExtension_TextGen.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/SignExtension_TextGen2.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/Add_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/And_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/ExclusiveOr_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/FloatDivision_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/IntegerDivision_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/Multiply_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/Or_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/Remainder_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/RotateLeft_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/RotateRight_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/ShiftLeft_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/ShiftRight_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/Subtract_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Add.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/And.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/ExclusiveOr.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/FloatDivision.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/IntegerDivision.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Multiply.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Or.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Remainder.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/RotateLeft.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/RotateRight.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/ShiftLeft.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/ShiftRight.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Subtract.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/Add_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/And_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/ExclusiveOr_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/FloatDivision_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/IntegerDivision_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/Multiply_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/Or_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/Remainder_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/RotateLeft_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/RotateRight_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/ShiftLeft_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/ShiftRight_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/Subtract_TextGen.mpsr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/MemoryLoad_Editor.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/MemoryLoad_Editor.mpsr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/MemoryLoad.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/MemoryLoad.mpsr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/MemoryLoad_TextGen.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/MemoryLoad_TextGen.mpsr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/StorageSize_TextGen.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/StorageSize_TextGen.mpsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Signed.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Signed.mpsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/.model" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/SignExtensionMode_TextGen.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/SignExtensionMode_TextGen.mpsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +61,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="7e4b68c8-aac8-42ec-861e-2508e7abac6a/r:6bf1837d-24f4-4151-98d5-12d5f2ce0387(TempModule7e4b68c8-aac8-42ec-861e-2508e7abac6a/ConsoleModel_1015777110190)">
+            <model ref="75db1ede-a84b-4df8-8989-a1da41299607/r:e644dbb0-a699-4fc3-b660-3889aa0ae0d3(TempModule75db1ede-a84b-4df8-8989-a1da41299607/ConsoleModel_2662039022261)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -47,11 +81,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5_S81t4qvyu">
-                <node concept="3balQm" id="5_S81t4qvyv" role="aymYE" />
-                <node concept="2Clz$F" id="5_S81t4qvyw" role="aymYO" />
-                <node concept="2_V_lH" id="5_S81t4qvyx" role="1PhJh3">
-                  <ref role="2_V_lI" node="5_S81t4qvyw" resolve="CommandHolder" />
+              <node concept="aymSD" id="41ReENASLWR">
+                <node concept="3balQm" id="41ReENASLWS" role="aymYE" />
+                <node concept="2Clz$F" id="41ReENASLWT" role="aymYO" />
+                <node concept="2_V_lH" id="41ReENASLWU" role="1PhJh3">
+                  <ref role="2_V_lI" node="41ReENASLWT" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -186,29 +220,21 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Open Files'; set:Open Files; class com.intellij.openapi.fileEditor.impl.OpenFilesScope">
           <expand>
             <path>
-              <item name="" type="" />
+              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
+              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -216,28 +242,6 @@
       </pane>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="numeric" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
@@ -261,12 +265,32 @@
               <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="types" />
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.behavior]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,7 +304,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemId" value="r:2d100c56-b572-41d0-8307-c303ded80713(WebAssembly.typesystem) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.typesystem]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,43 +340,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="numeric" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen]" />
+              <option name="myItemId" value="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.constraints]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -362,11 +358,19 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebAssembly" />
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="memory" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,6 +411,156 @@
               <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.behavior]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numeric" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:2d100c56-b572-41d0-8307-c303ded80713(WebAssembly.typesystem) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.typesystem]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:2d100c56-b572-41d0-8307-c303ded80713(WebAssembly.typesystem) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.typesystem]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numeric" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAssembly" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numeric" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
@@ -434,27 +588,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="memory" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemId" value="types" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,28 +603,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.constraints]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,31 +624,39 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="memory" />
+              <option name="myItemId" value="numeric" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2980038876392795139" />
+              <option name="myItemId" value="4645246054939234018" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Open Files'; set:Open Files; class com.intellij.openapi.fileEditor.impl.OpenFilesScope">
+      <pane id="FileSystem">
+        <subPane>
           <expand>
             <path>
-              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="" type="" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
             </path>
           </expand>
           <select />
@@ -571,13 +691,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611063502786</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Add description to all nodes except import descriptoins.">
-      <created>1611263684226</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1611263684226</updated>
     </task>
     <task id="LOCAL-00020" summary="Add description to all nodes except import descriptions.">
       <created>1611263691043</created>
@@ -915,7 +1028,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613577274227</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Add sign extensions to memory load.">
+      <created>1613578004760</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1613578004760</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -939,7 +1059,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Make functype display (func)" />
     <MESSAGE value="Fix start to not use the function index so it can display the reference how it sees fit." />
     <MESSAGE value="Update start." />
     <MESSAGE value="Fix bug with limiting a module to only one child of the start concept." />
@@ -967,6 +1086,7 @@
     <MESSAGE value="Add memory arg to memory instructions." />
     <MESSAGE value="Add memory arg to memory store instruction." />
     <MESSAGE value="Add storage size to memory instructions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add storage size to memory instructions." />
+    <MESSAGE value="Add sign extensions to memory load." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add sign extensions to memory load." />
   </component>
 </project>
