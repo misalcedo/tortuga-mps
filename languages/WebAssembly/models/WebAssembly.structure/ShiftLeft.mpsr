@@ -34,7 +34,7 @@
     <property role="EcuMT" value="4645246054939234016" />
     <property role="3GE5qa" value="instructions.numeric" />
     <property role="TrG5h" value="ShiftLeft" />
-    <property role="34LRSv" value="xnn.shl" />
+    <property role="34LRSv" value="inn.shl" />
     <property role="R4oN_" value="Bit-wise shift left." />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />
     <node concept="1TJgyj" id="41ReENAW0Vx" role="1TKVEi">

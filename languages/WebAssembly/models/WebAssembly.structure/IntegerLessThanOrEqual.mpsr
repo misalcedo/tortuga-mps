@@ -10,8 +10,12 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -34,7 +38,7 @@
     <property role="EcuMT" value="4645246054940244408" />
     <property role="3GE5qa" value="instructions.numeric" />
     <property role="TrG5h" value="IntegerLessThanOrEqual" />
-    <property role="34LRSv" value="inn.le" />
+    <property role="34LRSv" value="inn.le_sx" />
     <property role="R4oN_" value="Tests whether one integer is less than or equal to another." />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />
     <node concept="1TJgyj" id="41ReENAZRAT" role="1TKVEi">
@@ -44,12 +48,8 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5WwJ7QUrEeb" resolve="IntegerType" />
     </node>
-    <node concept="1TJgyj" id="41ReENAZRAU" role="1TKVEi">
-      <property role="IQ2ns" value="4645246054940244410" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="signExtension" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5_S81t4xNll" resolve="SignExtension" />
+    <node concept="PrWs8" id="41ReENB5dqR" role="PzmwI">
+      <ref role="PrY4T" node="5_S81t4yowZ" resolve="Signed" />
     </node>
   </node>
 </model>

@@ -15,7 +15,6 @@
       </concept>
       <concept id="3655016016380357694" name="WebAssembly.structure.Constant" flags="ng" index="2q3Xmd">
         <child id="3655016016380357697" name="value" index="2q3XnM" />
-        <child id="6854685881042649303" name="type" index="3_jBME" />
       </concept>
       <concept id="3655016016376803515" name="WebAssembly.structure.Nop" flags="ng" index="2qeo$8" />
       <concept id="3655016016377133611" name="WebAssembly.structure.Block" flags="ng" index="2qf8eo">
@@ -54,23 +53,18 @@
         <child id="4645246054939234017" name="type" index="2AxNhd" />
       </concept>
       <concept id="4645246054939234018" name="WebAssembly.structure.ShiftRight" flags="ng" index="2AxNhe">
-        <child id="4645246054939747986" name="signExtension" index="2AwdKY" />
         <child id="4645246054939234019" name="type" index="2AxNhf" />
       </concept>
       <concept id="4645246054940244397" name="WebAssembly.structure.IntegerGreaterThan" flags="ng" index="2Ay4c1">
         <child id="4645246054940244398" name="type" index="2Ay4c2" />
-        <child id="4645246054940244399" name="signExtension" index="2Ay4c3" />
       </concept>
       <concept id="4645246054940244408" name="WebAssembly.structure.IntegerLessThanOrEqual" flags="ng" index="2Ay4ck">
         <child id="4645246054940244409" name="type" index="2Ay4cl" />
-        <child id="4645246054940244410" name="signExtension" index="2Ay4cm" />
       </concept>
       <concept id="4645246054940244405" name="WebAssembly.structure.IntegerLessThan" flags="ng" index="2Ay4cp">
         <child id="4645246054940244406" name="type" index="2Ay4cq" />
-        <child id="4645246054940244407" name="signExtension" index="2Ay4cr" />
       </concept>
       <concept id="4645246054940244402" name="WebAssembly.structure.IntegerGreaterThanOrEqual" flags="ng" index="2Ay4cu">
-        <child id="4645246054940244404" name="signExtension" index="2Ay4co" />
         <child id="4645246054940244403" name="type" index="2Ay4cv" />
       </concept>
       <concept id="4645246054940079733" name="WebAssembly.structure.FloatLessThanOrEqual" flags="ng" index="2AyWNp">
@@ -82,15 +76,11 @@
       <concept id="4645246054940079731" name="WebAssembly.structure.FloatGreaterThanOrEqual" flags="ng" index="2AyWNv">
         <child id="4645246054940079732" name="type" index="2AyWNo" />
       </concept>
-      <concept id="4645246054940076884" name="WebAssembly.structure.NotEqual" flags="ng" index="2AyX7S">
-        <child id="4645246054940076885" name="type" index="2AyX7T" />
-      </concept>
+      <concept id="4645246054940076884" name="WebAssembly.structure.NotEqual" flags="ng" index="2AyX7S" />
       <concept id="4645246054940078067" name="WebAssembly.structure.FloatLessThan" flags="ng" index="2AyXlv">
         <child id="4645246054940078068" name="type" index="2AyXlo" />
       </concept>
-      <concept id="4645246054940075279" name="WebAssembly.structure.Equal" flags="ng" index="2AyXYz">
-        <child id="4645246054940075280" name="type" index="2AyXYW" />
-      </concept>
+      <concept id="4645246054940075279" name="WebAssembly.structure.Equal" flags="ng" index="2AyXYz" />
       <concept id="4645246054939914356" name="WebAssembly.structure.Maximum" flags="ng" index="2AzkFo">
         <child id="4645246054939914357" name="type" index="2AzkFp" />
       </concept>
@@ -100,30 +90,22 @@
       <concept id="4645246054939912437" name="WebAssembly.structure.Minimum" flags="ng" index="2Azl9p">
         <child id="4645246054939912438" name="type" index="2Azl9q" />
       </concept>
-      <concept id="4645246054938645084" name="WebAssembly.structure.Multiply" flags="ng" index="2A$2zK">
-        <child id="4645246054938645085" name="type" index="2A$2zL" />
-      </concept>
+      <concept id="4645246054938645084" name="WebAssembly.structure.Multiply" flags="ng" index="2A$2zK" />
       <concept id="4645246054938643417" name="WebAssembly.structure.Subtract" flags="ng" index="2A$35P">
         <child id="4645246054938643418" name="type" index="2A$35Q" />
       </concept>
-      <concept id="4645246054938389388" name="WebAssembly.structure.Add" flags="ng" index="2A_14w">
-        <child id="4645246054938389389" name="type" index="2A_14x" />
-      </concept>
+      <concept id="4645246054938389388" name="WebAssembly.structure.Add" flags="ng" index="2A_14w" />
       <concept id="4645246054939081918" name="WebAssembly.structure.ExclusiveOr" flags="ng" index="2AACoi">
         <child id="4645246054939081919" name="type" index="2AACoj" />
       </concept>
-      <concept id="4645246054939078795" name="WebAssembly.structure.And" flags="ng" index="2AACCB">
-        <child id="4645246054939078796" name="type" index="2AACCw" />
-      </concept>
+      <concept id="4645246054939078795" name="WebAssembly.structure.And" flags="ng" index="2AACCB" />
       <concept id="4645246054939080260" name="WebAssembly.structure.Or" flags="ng" index="2AACNC">
         <child id="4645246054939080261" name="type" index="2AACND" />
       </concept>
       <concept id="4645246054938932846" name="WebAssembly.structure.Remainder" flags="ng" index="2AB4N2">
-        <child id="4645246054939537537" name="signExtension" index="2AwSCH" />
         <child id="4645246054938932849" name="type" index="2AB4Nt" />
       </concept>
       <concept id="4645246054938786380" name="WebAssembly.structure.IntegerDivision" flags="ng" index="2ABw3w">
-        <child id="4645246054939529930" name="signExtension" index="2AwUxA" />
         <child id="4645246054938786383" name="type" index="2ABw3z" />
       </concept>
       <concept id="4645246054938785157" name="WebAssembly.structure.FloatDivision" flags="ng" index="2ABwWD">
@@ -170,6 +152,9 @@
       </concept>
       <concept id="6854685881042649195" name="WebAssembly.structure.Integer32" flags="ng" index="3_jBKm" />
       <concept id="6854685881042830732" name="WebAssembly.structure.Integer64" flags="ng" index="3_kjBL" />
+      <concept id="9194139242018672591" name="WebAssembly.structure.FloatingPoint" flags="ng" index="3JAaGy">
+        <property id="9194139242018672611" name="value" index="3JAaGe" />
+      </concept>
       <concept id="9194139242018672590" name="WebAssembly.structure.Integer" flags="ng" index="3JAaGz">
         <property id="9194139242018672608" name="value" index="3JAaGd" />
       </concept>
@@ -262,28 +247,30 @@
         <node concept="2qf8eo" id="6JgniV5AXaV" role="2qeo_x">
           <node concept="77mDD" id="6JgniV5AXaX" role="2qd8Jg">
             <node concept="2todem" id="2_rep6OfuII" role="2qeo_x" />
-            <node concept="2A_14w" id="41ReENATAFH" role="2qeo_x">
-              <node concept="3_jBKm" id="41ReENATAG0" role="2A_14x" />
+            <node concept="2A_14w" id="41ReENB5d7g" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENB5d8j" role="tY25H" />
             </node>
             <node concept="2A$35P" id="41ReENAWBmy" role="2qeo_x">
               <node concept="3_kjBL" id="41ReENAWBmR" role="2A$35Q" />
             </node>
-            <node concept="2A$2zK" id="41ReENAWBnd" role="2qeo_x">
-              <node concept="3TnuRC" id="41ReENAWBn$" role="2A$2zL" />
+            <node concept="2A$2zK" id="41ReENB6BGF" role="2qeo_x">
+              <node concept="3TnuRC" id="41ReENB6BHI" role="tY25H" />
             </node>
             <node concept="2ABwWD" id="41ReENAWBnW" role="2qeo_x">
               <node concept="3Tnpbc" id="41ReENAWBol" role="2ABwWE" />
             </node>
-            <node concept="2ABw3w" id="41ReENAXYol" role="2qeo_x">
-              <node concept="3_kjBL" id="41ReENAXYoX" role="2ABw3z" />
-              <node concept="tZLl2" id="41ReENAXYop" role="2AwUxA" />
+            <node concept="2ABw3w" id="41ReENB5dag" role="2qeo_x">
+              <node concept="3_kjBL" id="41ReENB5dbl" role="2ABw3z" />
+              <node concept="tZLl2" id="41ReENB5dak" role="tWqxn">
+                <property role="tZLl1" value="5_S81t4xKzk/Unsigned" />
+              </node>
             </node>
-            <node concept="2AB4N2" id="41ReENAXYp$" role="2qeo_x">
-              <node concept="3_jBKm" id="41ReENAXYqf" role="2AB4Nt" />
-              <node concept="tZLl2" id="41ReENAXYpC" role="2AwSCH" />
+            <node concept="2AB4N2" id="41ReENB6BJF" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENB6BKK" role="2AB4Nt" />
+              <node concept="tZLl2" id="41ReENB6BJJ" role="tWqxn" />
             </node>
-            <node concept="2AACCB" id="41ReENAX95U" role="2qeo_x">
-              <node concept="3_kjBL" id="41ReENAX96r" role="2AACCw" />
+            <node concept="2AACCB" id="41ReENB5ddk" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENB5den" role="tY25H" />
             </node>
             <node concept="2AACNC" id="41ReENAX96X" role="2qeo_x">
               <node concept="3_jBKm" id="41ReENAX97w" role="2AACND" />
@@ -294,9 +281,9 @@
             <node concept="2AxNhc" id="41ReENAX99f" role="2qeo_x">
               <node concept="3_kjBL" id="41ReENAX99Q" role="2AxNhd" />
             </node>
-            <node concept="2AxNhe" id="41ReENAYzpn" role="2qeo_x">
-              <node concept="3_jBKm" id="41ReENAYzq3" role="2AxNhf" />
-              <node concept="tZLl2" id="41ReENAYzpr" role="2AwdKY">
+            <node concept="2AxNhe" id="41ReENB6By$" role="2qeo_x">
+              <node concept="3_kjBL" id="41ReENB6BzD" role="2AxNhf" />
+              <node concept="tZLl2" id="41ReENB6ByC" role="tWqxn">
                 <property role="tZLl1" value="5_S81t4xKzk/Unsigned" />
               </node>
             </node>
@@ -327,37 +314,37 @@
             <node concept="2AyWNv" id="41ReENAZRw2" role="2qeo_x">
               <node concept="3Tnpbc" id="41ReENAZRwY" role="2AyWNo" />
             </node>
-            <node concept="2AyXYz" id="41ReENAZRzH" role="2qeo_x">
-              <node concept="3_jBKm" id="41ReENAZR$F" role="2AyXYW" />
+            <node concept="2AyXYz" id="41ReENB5dgm" role="2qeo_x">
+              <node concept="3TnuRC" id="41ReENB5dhp" role="tY25H" />
             </node>
-            <node concept="2AyX7S" id="41ReENAZR_E" role="2qeo_x">
-              <node concept="3TnuRC" id="41ReENAZRAE" role="2AyX7T" />
+            <node concept="2AyX7S" id="41ReENB6Bv$" role="2qeo_x">
+              <node concept="3TnuRC" id="41ReENB6BwB" role="tY25H" />
             </node>
-            <node concept="2Ay4ck" id="41ReENB0yWl" role="2qeo_x">
-              <node concept="3_jBKm" id="41ReENB0AsM" role="2Ay4cl" />
-              <node concept="tZLl2" id="41ReENB0yWp" role="2Ay4cm" />
-            </node>
-            <node concept="2Ay4cp" id="41ReENB0AtQ" role="2qeo_x">
-              <node concept="3_kjBL" id="41ReENB0AuY" role="2Ay4cq" />
-              <node concept="tZLl2" id="41ReENB0AtU" role="2Ay4cr">
+            <node concept="2Ay4ck" id="41ReENB5Znt" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENB5Zoy" role="2Ay4cl" />
+              <node concept="tZLl2" id="41ReENB5Znx" role="tWqxn">
                 <property role="tZLl1" value="5_S81t4xKzk/Unsigned" />
               </node>
             </node>
-            <node concept="2Ay4c1" id="41ReENB0Aw5" role="2qeo_x">
-              <node concept="3_jBKm" id="41ReENB0Axg" role="2Ay4c2" />
-              <node concept="tZLl2" id="41ReENB0Aw9" role="2Ay4c3">
+            <node concept="2Ay4cp" id="41ReENB5Zqv" role="2qeo_x">
+              <node concept="3_kjBL" id="41ReENB5Zr$" role="2Ay4cq" />
+              <node concept="tZLl2" id="41ReENB5Zqz" role="tWqxn">
                 <property role="tZLl1" value="5_S81t4xKzk/Unsigned" />
               </node>
             </node>
-            <node concept="2Ay4cu" id="41ReENB0Ayq" role="2qeo_x">
-              <node concept="3_kjBL" id="41ReENB0AzC" role="2Ay4cv" />
-              <node concept="tZLl2" id="41ReENB0Ayu" role="2Ay4co" />
+            <node concept="2Ay4c1" id="41ReENB5djm" role="2qeo_x">
+              <node concept="3_jBKm" id="41ReENB5dkr" role="2Ay4c2" />
+              <node concept="tZLl2" id="41ReENB5djq" role="tWqxn" />
             </node>
-            <node concept="2q3Xmd" id="5WwJ7QUsogx" role="2qeo_x">
-              <node concept="3JAaGz" id="5WwJ7QUsog_" role="2q3XnM">
-                <property role="3JAaGd" value="-55550000" />
+            <node concept="2Ay4cu" id="41ReENB5dmo" role="2qeo_x">
+              <node concept="3_kjBL" id="41ReENB5dnt" role="2Ay4cv" />
+              <node concept="tZLl2" id="41ReENB5dms" role="tWqxn" />
+            </node>
+            <node concept="2q3Xmd" id="41ReENB5dps" role="2qeo_x">
+              <node concept="3JAaGy" id="41ReENB5dq$" role="2q3XnM">
+                <property role="3JAaGe" value="-55" />
               </node>
-              <node concept="3TnuRC" id="CFk$RNu78A" role="3_jBME" />
+              <node concept="3TnuRC" id="41ReENB5dqx" role="tY25H" />
             </node>
           </node>
           <node concept="20XRx3" id="6JgniV5AXb6" role="2whVRh">

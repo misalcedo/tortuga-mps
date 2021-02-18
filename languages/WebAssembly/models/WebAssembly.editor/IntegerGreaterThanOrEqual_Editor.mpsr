@@ -40,10 +40,10 @@
         <ref role="1NtTu8" to="aqb7:41ReENAZRAN" resolve="type" />
       </node>
       <node concept="3F0ifn" id="41ReENAZRBd" role="3EZMnx">
-        <property role="3F0ifm" value=".ge_" />
+        <property role="3F0ifm" value=".ge" />
       </node>
       <node concept="3F1sOY" id="41ReENAZSjK" role="3EZMnx">
-        <ref role="1NtTu8" to="aqb7:41ReENAZRAO" resolve="signExtension" />
+        <ref role="1NtTu8" to="aqb7:5_S81t4yox0" resolve="signExtension" />
       </node>
       <node concept="l2Vlx" id="41ReENAZRBe" role="2iSdaV" />
     </node>
