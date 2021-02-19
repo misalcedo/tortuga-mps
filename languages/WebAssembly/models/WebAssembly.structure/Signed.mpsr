@@ -28,7 +28,7 @@
   </registry>
   <node concept="PlHQZ" id="5_S81t4yowZ">
     <property role="EcuMT" value="6446938150887065663" />
-    <property role="3GE5qa" value="instructions.memory" />
+    <property role="3GE5qa" value="instructions" />
     <property role="TrG5h" value="Signed" />
     <node concept="1TJgyj" id="5_S81t4yox0" role="1TKVEi">
       <property role="IQ2ns" value="6446938150887065664" />

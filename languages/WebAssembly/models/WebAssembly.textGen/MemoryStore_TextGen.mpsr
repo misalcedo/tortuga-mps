@@ -69,12 +69,6 @@
             <property role="lacIc" value=".store" />
           </node>
         </node>
-        <node concept="lc7rE" id="41ReENB2llH" role="3cqZAp">
-          <node concept="1bDJIP" id="41ReENB2lmF" role="lcghm">
-            <ref role="1rvKf6" node="5_S81t4xtvD" resolve="storageSizeOf" />
-            <node concept="117lpO" id="41ReENB2lmY" role="1ryhcI" />
-          </node>
-        </node>
         <node concept="lc7rE" id="5_S81t4sVfn" role="3cqZAp">
           <node concept="1bDJIP" id="5_S81t4sVga" role="lcghm">
             <ref role="1rvKf6" node="5_S81t4rSpC" resolve="memArgOf" />

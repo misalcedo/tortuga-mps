@@ -28,7 +28,7 @@
   </registry>
   <node concept="PlHQZ" id="5_S81t4w05T">
     <property role="EcuMT" value="6446938150886441337" />
-    <property role="3GE5qa" value="instructions.numeric" />
+    <property role="3GE5qa" value="instructions" />
     <property role="TrG5h" value="Typed" />
     <node concept="1TJgyj" id="5_S81t4w05U" role="1TKVEi">
       <property role="IQ2ns" value="6446938150886441338" />

@@ -26,18 +26,15 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="41ReENB0AKB">
-    <property role="EcuMT" value="4645246054940437543" />
+  <node concept="1TIwiD" id="7LOBZQy9A8E">
+    <property role="EcuMT" value="8967968669697466922" />
     <property role="3GE5qa" value="instructions.memory" />
-    <property role="TrG5h" value="MemoryLoadAndExtend" />
-    <property role="34LRSv" value="inn.load_sx" />
-    <property role="R4oN_" value="Load bytes and extend to the bit width of the value type." />
+    <property role="TrG5h" value="MemoryStoreWrapped" />
+    <property role="34LRSv" value="inn.store" />
+    <property role="R4oN_" value="Wrap an integer value as a smaller bit width and store in memory." />
     <ref role="1TJDcQ" node="2_rep6OfuIR" resolve="MemoryInstruction" />
-    <node concept="PrWs8" id="41ReENB2cZe" role="PzmwI">
+    <node concept="PrWs8" id="7LOBZQy9A8F" role="PzmwI">
       <ref role="PrY4T" node="41ReENB2cZ8" resolve="Sized" />
-    </node>
-    <node concept="PrWs8" id="41ReENB0AKC" role="PzmwI">
-      <ref role="PrY4T" node="5_S81t4yowZ" resolve="Signed" />
     </node>
   </node>
 </model>
