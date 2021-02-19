@@ -16,9 +16,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
     </language>
     <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen">
-      <concept id="1237305208784" name="jetbrains.mps.lang.textGen.structure.NewLineAppendPart" flags="ng" index="l8MVK" />
       <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
@@ -81,16 +81,19 @@
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="3aTereCGDOb" role="3cqZAp">
-          <node concept="l9hG8" id="3aTereCGDPN" role="lcghm">
-            <node concept="2OqwBi" id="3aTereCGDYX" role="lb14g">
-              <node concept="117lpO" id="3aTereCGDQD" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3aTereCGEbN" role="2OqNvi">
+        <node concept="lc7rE" id="7LOBZQyaNuR" role="3cqZAp">
+          <node concept="1bDJIP" id="7LOBZQyaNvT" role="lcghm">
+            <ref role="1rvKf6" node="7LOBZQyaDQP" resolve="expression" />
+            <node concept="2OqwBi" id="7LOBZQyaNE6" role="1ryhcI">
+              <node concept="117lpO" id="7LOBZQyaNwc" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7LOBZQyaNQr" role="2OqNvi">
                 <ref role="3Tt5mk" to="aqb7:1VhudopN1b1" resolve="expression" />
               </node>
             </node>
+            <node concept="3clFbT" id="7LOBZQybJ31" role="1ryhcI" />
           </node>
-          <node concept="l8MVK" id="7LOBZQy65GK" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3aTereCGDOb" role="3cqZAp">
           <node concept="la8eA" id="3aTereCGEda" role="lcghm">
             <property role="lacIc" value=")" />
             <property role="ldcpH" value="true" />

@@ -28,6 +28,10 @@
         <child id="3655016016378283314" name="true" index="2qbBM1" />
         <child id="3655016016378283316" name="false" index="2qbBM7" />
       </concept>
+      <concept id="3655016016377566704" name="WebAssembly.structure.Loop" flags="ng" index="2qdmL3">
+        <child id="3655016016377222672" name="expression" index="2qfyYz" />
+      </concept>
+      <concept id="3655016016376803515" name="WebAssembly.structure.Nop" flags="ng" index="2qeo$8" />
       <concept id="3655016016377105843" name="WebAssembly.structure.Branch" flags="ng" index="2qf7g0" />
       <concept id="3655016016377133611" name="WebAssembly.structure.Block" flags="ng" index="2qf8eo">
         <child id="3655016016377655907" name="expression" index="2qd8Jg" />
@@ -300,6 +304,40 @@
         </node>
       </node>
     </node>
+    <node concept="1WuSSW" id="7LOBZQyaCPL" role="2b4fI3">
+      <node concept="77mDD" id="7LOBZQyaCPN" role="77mC6" />
+      <node concept="1qMY9V" id="7LOBZQyaCPP" role="2TZLqU">
+        <ref role="1BxSKG" node="5jQhInoxeOO" resolve="1" />
+      </node>
+      <node concept="20XRx3" id="7LOBZQyaCSr" role="2whVRh">
+        <property role="20XRxs" value="test" />
+      </node>
+    </node>
+    <node concept="1WuSSW" id="7LOBZQyaCV4" role="2b4fI3">
+      <node concept="77mDD" id="7LOBZQyaCV6" role="77mC6">
+        <node concept="2qeo$8" id="7LOBZQyaCXM" role="2qeo_x" />
+      </node>
+      <node concept="1qMY9V" id="7LOBZQyaCV8" role="2TZLqU">
+        <ref role="1BxSKG" node="5jQhInovRcP" resolve="$a" />
+      </node>
+    </node>
+    <node concept="1WuSSW" id="7LOBZQyaD0v" role="2b4fI3">
+      <node concept="77mDD" id="7LOBZQyaD0x" role="77mC6">
+        <node concept="2qdmL3" id="7LOBZQyaD3h" role="2qeo_x">
+          <node concept="77mDD" id="7LOBZQyaD3i" role="2qfyYz" />
+        </node>
+        <node concept="2qbBM2" id="7LOBZQyaD3p" role="2qeo_x">
+          <node concept="77mDD" id="7LOBZQyaD3r" role="2qbBM1" />
+          <node concept="77mDD" id="7LOBZQyaD3t" role="2qbBM7" />
+        </node>
+        <node concept="2qf8eo" id="7LOBZQyaD3F" role="2qeo_x">
+          <node concept="77mDD" id="7LOBZQyaD3H" role="2qd8Jg" />
+        </node>
+      </node>
+      <node concept="1qMY9V" id="7LOBZQyaD0z" role="2TZLqU">
+        <ref role="1BxSKG" node="5jQhInovRcP" resolve="$a" />
+      </node>
+    </node>
     <node concept="bLLER" id="7qC2F9XvaG8" role="2b4fI3">
       <ref role="bLOGX" node="7qC2F9XsRZX" resolve="0" />
       <node concept="bOhLx" id="7qC2F9Xy02P" role="bOi_G">
@@ -308,7 +346,14 @@
       <node concept="bOhLx" id="7qC2F9Xy02R" role="bOi_G">
         <ref role="bOhLA" node="7qC2F9Xy05e" resolve="0" />
       </node>
-      <node concept="77mDD" id="7qC2F9XvaGa" role="bLOGZ" />
+      <node concept="77mDD" id="7qC2F9XvaGa" role="bLOGZ">
+        <node concept="2q3Xmd" id="7LOBZQycryi" role="2qeo_x">
+          <node concept="3JAaGz" id="7LOBZQycryr" role="2q3XnM">
+            <property role="3JAaGd" value="0" />
+          </node>
+          <node concept="3_jBKm" id="7LOBZQycryo" role="tY25H" />
+        </node>
+      </node>
     </node>
     <node concept="1WuSSW" id="5quRwEuxGIB" role="2b4fI3">
       <node concept="77mDD" id="5quRwEuxGID" role="77mC6">

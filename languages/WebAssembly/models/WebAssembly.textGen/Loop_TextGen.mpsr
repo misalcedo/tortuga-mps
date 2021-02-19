@@ -20,9 +20,11 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
     </language>
     <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen">
-      <concept id="1237305208784" name="jetbrains.mps.lang.textGen.structure.NewLineAppendPart" flags="ng" index="l8MVK" />
       <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
@@ -99,16 +101,21 @@
             <node concept="3x8VRR" id="3aTereCBWKS" role="2OqNvi" />
           </node>
         </node>
-        <node concept="lc7rE" id="3aTereCAYOp" role="3cqZAp">
-          <node concept="l9hG8" id="3aTereCAYOv" role="lcghm">
-            <node concept="2OqwBi" id="3aTereCAYOw" role="lb14g">
-              <node concept="117lpO" id="3aTereCAYOx" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3aTereCB0at" role="2OqNvi">
+        <node concept="lc7rE" id="7LOBZQyaLrP" role="3cqZAp">
+          <node concept="1bDJIP" id="7LOBZQyaLAR" role="lcghm">
+            <ref role="1rvKf6" node="7LOBZQyaDQP" resolve="expression" />
+            <node concept="2OqwBi" id="7LOBZQyaLL4" role="1ryhcI">
+              <node concept="117lpO" id="7LOBZQyaLBa" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7LOBZQyaLXp" role="2OqNvi">
                 <ref role="3Tt5mk" to="aqb7:3aTereCxLog" resolve="expression" />
               </node>
             </node>
+            <node concept="3clFbT" id="7LOBZQybJHV" role="1ryhcI">
+              <property role="3clFbU" value="true" />
+            </node>
           </node>
-          <node concept="l8MVK" id="7LOBZQy6oM3" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3aTereCAYOp" role="3cqZAp">
           <node concept="la8eA" id="3aTereCCW0s" role="lcghm">
             <property role="lacIc" value="end" />
             <property role="ldcpH" value="true" />
