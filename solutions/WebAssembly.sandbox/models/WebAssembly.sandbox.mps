@@ -32,6 +32,12 @@
         <child id="3655016016377222672" name="expression" index="2qfyYz" />
       </concept>
       <concept id="3655016016376803515" name="WebAssembly.structure.Nop" flags="ng" index="2qeo$8" />
+      <concept id="3655016016377105843" name="WebAssembly.structure.Branch" flags="ng" index="2qf7g0">
+        <reference id="4737472921530582361" name="block" index="3toyvs" />
+      </concept>
+      <concept id="3655016016377105844" name="WebAssembly.structure.BranchIf" flags="ng" index="2qf7g7">
+        <reference id="4737472921530579198" name="block" index="3to_DV" />
+      </concept>
       <concept id="3655016016377133611" name="WebAssembly.structure.Block" flags="ng" index="2qf8eo">
         <child id="3655016016377655907" name="expression" index="2qd8Jg" />
       </concept>
@@ -351,18 +357,6 @@
     </node>
     <node concept="bLLER" id="7qC2F9XvaG8" role="2b4fI3">
       <ref role="bLOGX" node="7qC2F9XsRZX" resolve="0" />
-      <node concept="bOhLx" id="7qC2F9Xy02P" role="bOi_G">
-        <ref role="bOhLA" node="5quRwEuxGIB" resolve="$foo" />
-      </node>
-      <node concept="bOhLx" id="46YSCmsQYVY" role="bOi_G">
-        <ref role="bOhLA" node="7LOBZQyaD0v" resolve="3" />
-      </node>
-      <node concept="bOhLx" id="46YSCmsQYW1" role="bOi_G">
-        <ref role="bOhLA" node="7LOBZQyaD0v" resolve="3" />
-      </node>
-      <node concept="bOhLx" id="46YSCmsQYW5" role="bOi_G">
-        <ref role="bOhLA" node="7LOBZQyaCV4" resolve="2" />
-      </node>
       <node concept="77mDD" id="7qC2F9XvaGa" role="bLOGZ">
         <node concept="2q3Xmd" id="7LOBZQycryi" role="2qeo_x">
           <node concept="3JAaGz" id="7LOBZQycryr" role="2q3XnM">
@@ -370,6 +364,15 @@
           </node>
           <node concept="3_jBKm" id="7LOBZQycryo" role="tY25H" />
         </node>
+      </node>
+      <node concept="bOhLx" id="46YSCmsRbzM" role="bOi_G">
+        <ref role="bOhLA" node="7LOBZQyaCV4" resolve="2" />
+      </node>
+      <node concept="bOhLx" id="46YSCmsRbzO" role="bOi_G">
+        <ref role="bOhLA" node="5quRwEuxGIB" resolve="$foo" />
+      </node>
+      <node concept="bOhLx" id="46YSCmsRbzR" role="bOi_G">
+        <ref role="bOhLA" node="7LOBZQyaD0v" resolve="3" />
       </node>
     </node>
     <node concept="bLLER" id="7LOBZQyi7kK" role="2b4fI3">
@@ -458,10 +461,14 @@
         </node>
         <node concept="2qbBM2" id="7LOBZQy6oOx" role="2qeo_x">
           <node concept="77mDD" id="7LOBZQy6oOz" role="2qbBM1">
-            <node concept="2qeo$8" id="7LOBZQyeMa4" role="2qeo_x" />
+            <node concept="2qf7g0" id="46YSCmsRTp8" role="2qeo_x">
+              <ref role="3toyvs" node="6JgniV5AXaV" resolve="$a" />
+            </node>
           </node>
           <node concept="77mDD" id="7LOBZQy6oO_" role="2qbBM7">
-            <node concept="2qeo$8" id="7LOBZQyeMa7" role="2qeo_x" />
+            <node concept="2qf7g7" id="46YSCmsRTpb" role="2qeo_x">
+              <ref role="3to_DV" node="7LOBZQy6oOx" resolve="0" />
+            </node>
             <node concept="2qeo$8" id="7LOBZQyeMad" role="2qeo_x" />
           </node>
         </node>
@@ -487,7 +494,7 @@
           <node concept="3TnuRC" id="41ReENBddzJ" role="2BhHhE" />
         </node>
         <node concept="387qJ5" id="5quRwEuxGJz" role="2qeo_x">
-          <ref role="387qJq" node="5quRwEuxGIR" resolve="$a" />
+          <ref role="387qJq" node="CFk$RNsqWR" resolve="1" />
         </node>
         <node concept="387qJr" id="5quRwEuxGJC" role="2qeo_x">
           <ref role="387qJo" node="5quRwEuxGIR" resolve="$a" />
@@ -654,6 +661,9 @@
         <node concept="1qLTPQ" id="CFk$RNtqth" role="2b57a7">
           <node concept="2S2_qk" id="CFk$RNtqtj" role="1qLTPI">
             <node concept="3_jBKm" id="CFk$RNtFBY" role="3ThHWX" />
+            <node concept="20XRx3" id="46YSCmsSrP7" role="2whVRh">
+              <property role="20XRxs" value="b" />
+            </node>
           </node>
           <node concept="2S2_qk" id="CFk$RNtqtq" role="1qLTPI">
             <node concept="3_kjBL" id="CFk$RNtqtw" role="3ThHWX" />
