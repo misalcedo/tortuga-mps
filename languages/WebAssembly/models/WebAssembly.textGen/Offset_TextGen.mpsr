@@ -13,7 +13,6 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -27,7 +26,6 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
-      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -110,17 +108,8 @@
               <node concept="la8eA" id="7LOBZQy6PHi" role="lcghm">
                 <property role="lacIc" value=")" />
               </node>
-            </node>
-            <node concept="3clFbJ" id="7LOBZQyndNa" role="3cqZAp">
-              <node concept="3clFbS" id="7LOBZQyndNc" role="3clFbx">
-                <node concept="lc7rE" id="7LOBZQyndNS" role="3cqZAp">
-                  <node concept="la8eA" id="7LOBZQyndO9" role="lcghm">
-                    <property role="lacIc" value=" " />
-                  </node>
-                </node>
-              </node>
-              <node concept="37vLTw" id="7LOBZQyndNC" role="3clFbw">
-                <ref role="3cqZAo" node="7LOBZQyndLI" resolve="withSpace" />
+              <node concept="la8eA" id="7LOBZQyocFy" role="lcghm">
+                <property role="lacIc" value=" " />
               </node>
             </node>
             <node concept="11p84A" id="7LOBZQyinYp" role="3cqZAp" />
@@ -165,19 +154,9 @@
                     <node concept="la8eA" id="7LOBZQyi8cK" role="lcghm">
                       <property role="lacIc" value=")" />
                     </node>
+                    <node concept="l8MVK" id="7LOBZQyosKJ" role="lcghm" />
+                    <node concept="2BGw6n" id="7LOBZQyosL5" role="lcghm" />
                   </node>
-                  <node concept="3clFbJ" id="7LOBZQynGGF" role="3cqZAp">
-                    <node concept="3clFbS" id="7LOBZQynGGG" role="3clFbx">
-                      <node concept="lc7rE" id="7LOBZQynGGH" role="3cqZAp">
-                        <node concept="l8MVK" id="7LOBZQynGHq" role="lcghm" />
-                        <node concept="2BGw6n" id="7LOBZQynGHP" role="lcghm" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="7LOBZQynGGJ" role="3clFbw">
-                      <ref role="3cqZAo" node="7LOBZQyndLI" resolve="withSpace" />
-                    </node>
-                  </node>
-                  <node concept="3clFbH" id="7LOBZQynGGl" role="3cqZAp" />
                 </node>
               </node>
             </node>
@@ -189,10 +168,6 @@
         <node concept="3Tqbb2" id="7LOBZQyl8Ss" role="1tU5fm">
           <ref role="ehGHo" to="aqb7:1VhudopN1aZ" resolve="Expression" />
         </node>
-      </node>
-      <node concept="37vLTG" id="7LOBZQyndLI" role="3clF46">
-        <property role="TrG5h" value="withSpace" />
-        <node concept="10P_77" id="7LOBZQyndMd" role="1tU5fm" />
       </node>
     </node>
   </node>
