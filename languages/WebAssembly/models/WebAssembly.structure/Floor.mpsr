@@ -33,7 +33,7 @@
   <node concept="1TIwiD" id="41ReENBcvRk">
     <property role="EcuMT" value="4645246054943555028" />
     <property role="3GE5qa" value="instructions.numeric" />
-    <property role="TrG5h" value="Floot" />
+    <property role="TrG5h" value="Floor" />
     <property role="34LRSv" value="fnn.floor" />
     <property role="R4oN_" value="Round down to the next whole number." />
     <ref role="1TJDcQ" node="3aTereCwb2O" resolve="PlainInstruction" />

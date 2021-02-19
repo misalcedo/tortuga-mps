@@ -83,9 +83,6 @@
         <node concept="3clFbJ" id="7C3sZ8wM9al" role="3cqZAp">
           <node concept="3clFbS" id="7C3sZ8wM9an" role="3clFbx">
             <node concept="lc7rE" id="7C3sZ8wMcH6" role="3cqZAp">
-              <node concept="la8eA" id="7C3sZ8wMcHs" role="lcghm">
-                <property role="lacIc" value=" " />
-              </node>
               <node concept="l9hG8" id="2UeFVI_AI6p" role="lcghm">
                 <node concept="2OqwBi" id="2UeFVI_AIdi" role="lb14g">
                   <node concept="117lpO" id="2UeFVI_AI7g" role="2Oq$k0" />

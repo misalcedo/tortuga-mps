@@ -133,7 +133,7 @@
       <concept id="4645246054943556912" name="WebAssembly.structure.Truncate" flags="ng" index="2BhjYs">
         <child id="4645246054943556913" name="type" index="2BhjYt" />
       </concept>
-      <concept id="4645246054943555028" name="WebAssembly.structure.Floot" flags="ng" index="2BhGtS">
+      <concept id="4645246054943555028" name="WebAssembly.structure.Floor" flags="ng" index="2BhGtS">
         <child id="4645246054943555029" name="type" index="2BhGtT" />
       </concept>
       <concept id="4645246054943553079" name="WebAssembly.structure.Ceiling" flags="ng" index="2BhGMr">
@@ -271,12 +271,6 @@
           </node>
           <node concept="3_jBKm" id="41ReENB7mdz" role="tY25H" />
         </node>
-        <node concept="2q3Xmd" id="7LOBZQyfjsz" role="2qeo_x">
-          <node concept="3JAaGz" id="7LOBZQyfjsM" role="2q3XnM">
-            <property role="3JAaGd" value="0" />
-          </node>
-          <node concept="3_kjBL" id="7LOBZQyfjsJ" role="tY25H" />
-        </node>
       </node>
       <node concept="3JAEDO" id="5quRwEuxGJq" role="uyyl9">
         <node concept="3_jBKm" id="CFk$RNsovg" role="3ThHWB" />
@@ -357,6 +351,29 @@
             <property role="3JAaGd" value="0" />
           </node>
           <node concept="3_jBKm" id="7LOBZQycryo" role="tY25H" />
+        </node>
+      </node>
+    </node>
+    <node concept="bLLER" id="7LOBZQyi7kK" role="2b4fI3">
+      <ref role="bLOGX" node="7qC2F9XsRZX" resolve="0" />
+      <node concept="bOhLx" id="7LOBZQyi7kL" role="bOi_G">
+        <ref role="bOhLA" node="5quRwEuxGIB" resolve="$foo" />
+      </node>
+      <node concept="bOhLx" id="7LOBZQyi7kM" role="bOi_G">
+        <ref role="bOhLA" node="7qC2F9Xy05e" resolve="0" />
+      </node>
+      <node concept="77mDD" id="7LOBZQyi7kN" role="bLOGZ">
+        <node concept="2q3Xmd" id="7LOBZQyi7kO" role="2qeo_x">
+          <node concept="3JAaGz" id="7LOBZQyi7kP" role="2q3XnM">
+            <property role="3JAaGd" value="0" />
+          </node>
+          <node concept="3_jBKm" id="7LOBZQyi7kQ" role="tY25H" />
+        </node>
+        <node concept="2q3Xmd" id="7LOBZQyi7nU" role="2qeo_x">
+          <node concept="3JAaGz" id="7LOBZQyi7o9" role="2q3XnM">
+            <property role="3JAaGd" value="3" />
+          </node>
+          <node concept="3_kjBL" id="7LOBZQyi7o6" role="tY25H" />
         </node>
       </node>
     </node>
