@@ -35,6 +35,10 @@
       <concept id="3655016016377105843" name="WebAssembly.structure.Branch" flags="ng" index="2qf7g0">
         <reference id="4737472921530582361" name="block" index="3toyvs" />
       </concept>
+      <concept id="3655016016377105845" name="WebAssembly.structure.BranchTable" flags="ng" index="2qf7g6">
+        <reference id="4737472921530968663" name="default" index="3tn4zi" />
+        <child id="4737472921530968661" name="labels" index="3tn4zg" />
+      </concept>
       <concept id="3655016016377105844" name="WebAssembly.structure.BranchIf" flags="ng" index="2qf7g7">
         <reference id="4737472921530579198" name="block" index="3to_DV" />
       </concept>
@@ -209,6 +213,9 @@
       <concept id="8791998381326635401" name="WebAssembly.structure.TypeUse" flags="ng" index="1qMY9V">
         <reference id="6982209414176589396" name="type" index="1BxSKG" />
         <child id="3354811992909733180" name="functype" index="2b57a7" />
+      </concept>
+      <concept id="4737472921530968666" name="WebAssembly.structure.LabelReference" flags="ng" index="3tn4zv">
+        <reference id="4737472921530968667" name="instruction" index="3tn4zu" />
       </concept>
       <concept id="8967968669700357809" name="WebAssembly.structure.Data" flags="ng" index="3u9I5c">
         <reference id="8967968669700357816" name="memory" index="3u9I55" />
@@ -469,7 +476,18 @@
             <node concept="2qf7g7" id="46YSCmsRTpb" role="2qeo_x">
               <ref role="3to_DV" node="7LOBZQy6oOx" resolve="0" />
             </node>
-            <node concept="2qeo$8" id="7LOBZQyeMad" role="2qeo_x" />
+            <node concept="2qf7g6" id="46YSCmsTSZb" role="2qeo_x">
+              <ref role="3tn4zi" node="6JgniV5AXaV" resolve="$a" />
+              <node concept="3tn4zv" id="46YSCmsTY6H" role="3tn4zg">
+                <ref role="3tn4zu" node="7LOBZQy6oOx" resolve="0" />
+              </node>
+              <node concept="3tn4zv" id="46YSCmsUnGY" role="3tn4zg">
+                <ref role="3tn4zu" node="6JgniV5AXaV" resolve="$a" />
+              </node>
+              <node concept="3tn4zv" id="46YSCmsUnH1" role="3tn4zg">
+                <ref role="3tn4zu" node="7LOBZQy6oOx" resolve="0" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="2BhjpR" id="41ReENBdd9o" role="2qeo_x">
