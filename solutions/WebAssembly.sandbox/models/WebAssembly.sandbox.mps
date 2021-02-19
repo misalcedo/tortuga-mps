@@ -354,8 +354,14 @@
       <node concept="bOhLx" id="7qC2F9Xy02P" role="bOi_G">
         <ref role="bOhLA" node="5quRwEuxGIB" resolve="$foo" />
       </node>
-      <node concept="bOhLx" id="7qC2F9Xy02R" role="bOi_G">
-        <ref role="bOhLA" node="7qC2F9Xy05e" resolve="0" />
+      <node concept="bOhLx" id="46YSCmsQYVY" role="bOi_G">
+        <ref role="bOhLA" node="7LOBZQyaD0v" resolve="3" />
+      </node>
+      <node concept="bOhLx" id="46YSCmsQYW1" role="bOi_G">
+        <ref role="bOhLA" node="7LOBZQyaD0v" resolve="3" />
+      </node>
+      <node concept="bOhLx" id="46YSCmsQYW5" role="bOi_G">
+        <ref role="bOhLA" node="7LOBZQyaCV4" resolve="2" />
       </node>
       <node concept="77mDD" id="7qC2F9XvaGa" role="bLOGZ">
         <node concept="2q3Xmd" id="7LOBZQycryi" role="2qeo_x">
