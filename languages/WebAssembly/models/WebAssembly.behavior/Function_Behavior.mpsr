@@ -213,37 +213,6 @@
               </node>
             </node>
           </node>
-          <node concept="3eNFk2" id="46YSCmsSoPB" role="3eNLev">
-            <node concept="2OqwBi" id="46YSCmsSpjZ" role="3eO9$A">
-              <node concept="37vLTw" id="46YSCmsSpce" role="2Oq$k0">
-                <ref role="3cqZAo" node="46YSCmsRTGx" resolve="kind" />
-              </node>
-              <node concept="2Zo12i" id="46YSCmsSpt$" role="2OqNvi">
-                <node concept="chp4Y" id="46YSCmsSp$4" role="2Zo12j">
-                  <ref role="cht4Q" to="aqb7:3aTereCwb2R" resolve="StructuredInstruction" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbS" id="46YSCmsSoPD" role="3eOfB_">
-              <node concept="3cpWs6" id="46YSCmsRTHx" role="3cqZAp">
-                <node concept="2YIFZM" id="46YSCmsRTP0" role="3cqZAk">
-                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                  <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
-                  <node concept="2OqwBi" id="46YSCmsSq5V" role="37wK5m">
-                    <node concept="2OqwBi" id="46YSCmsRVcW" role="2Oq$k0">
-                      <node concept="13iPFW" id="46YSCmsRTS_" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="46YSCmsSpVc" role="2OqNvi">
-                        <ref role="3Tt5mk" to="aqb7:1VhudopN1bg" resolve="body" />
-                      </node>
-                    </node>
-                    <node concept="3Tsc0h" id="46YSCmsSqok" role="2OqNvi">
-                      <ref role="3TtcxE" to="aqb7:3aTereCwb3i" resolve="instructions" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="9aQIb" id="46YSCmsSrak" role="9aQIa">
             <node concept="3clFbS" id="46YSCmsSral" role="9aQI4">
               <node concept="3cpWs6" id="46YSCmsSeV_" role="3cqZAp">
