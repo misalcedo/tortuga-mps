@@ -243,8 +243,8 @@
       <concept id="9194139242018769044" name="WebAssembly.structure.TableType" flags="ng" index="3JAyLT">
         <child id="9194139242018769063" name="lim" index="3JAyLa" />
       </concept>
-      <concept id="9194139242018768968" name="WebAssembly.structure.MinimumLimit" flags="ng" index="3JAyM_" />
       <concept id="9194139242018768963" name="WebAssembly.structure.Limit" flags="ng" index="3JAyMI">
+        <child id="8120434818167554083" name="max" index="69Hhi" />
         <child id="4888076528020218985" name="min" index="1Wh0Jt" />
       </concept>
       <concept id="9194139242018803353" name="WebAssembly.structure.ConstantGlobalType" flags="ng" index="3JAEDO" />
@@ -321,9 +321,12 @@
     </node>
     <node concept="uy0Se" id="7qC2F9XsRZX" role="2b4fI3">
       <node concept="3JAyLT" id="7qC2F9XsRZZ" role="uy0Sb">
-        <node concept="3JAyM_" id="7qC2F9XsS2i" role="3JAyLa">
-          <node concept="3JAaGz" id="7qC2F9XsS2l" role="1Wh0Jt">
+        <node concept="3JAyMI" id="72L_75QAPbJ" role="3JAyLa">
+          <node concept="3JAaGz" id="72L_75QAPbN" role="1Wh0Jt">
             <property role="3JAaGd" value="3" />
+          </node>
+          <node concept="3JAaGz" id="72L_75QBwHR" role="69Hhi">
+            <property role="3JAaGd" value="5" />
           </node>
         </node>
       </node>
@@ -429,17 +432,17 @@
         </node>
       </node>
     </node>
-    <node concept="2Z2jKx" id="7LOBZQymX9j" role="2b4fI3">
-      <node concept="3JAyLI" id="7LOBZQymX9l" role="2Z1kqB">
-        <node concept="3JAyM_" id="7LOBZQymXcz" role="3JAyLF">
-          <node concept="3JAaGz" id="7LOBZQymXcA" role="1Wh0Jt">
+    <node concept="2Z2jKx" id="72L_75QAL8W" role="2b4fI3">
+      <node concept="3JAyLI" id="72L_75QAL8Y" role="2Z1kqB">
+        <node concept="3JAyMI" id="72L_75QAL90" role="3JAyLF">
+          <node concept="3JAaGz" id="72L_75QALcM" role="1Wh0Jt">
             <property role="3JAaGd" value="1" />
           </node>
         </node>
       </node>
     </node>
     <node concept="3u9I5c" id="7LOBZQymX33" role="2b4fI3">
-      <ref role="3u9I55" node="7LOBZQymX9j" resolve="0" />
+      <ref role="3u9I55" node="72L_75QAL8W" resolve="0" />
       <node concept="77mDD" id="7LOBZQymX35" role="3u9I5f">
         <node concept="2q3Xmd" id="7LOBZQyncBT" role="2qeo_x">
           <node concept="3JAaGz" id="7LOBZQyncC2" role="2q3XnM">
@@ -453,7 +456,7 @@
       </node>
     </node>
     <node concept="3u9I5c" id="7LOBZQynG2u" role="2b4fI3">
-      <ref role="3u9I55" node="7LOBZQymX9j" resolve="0" />
+      <ref role="3u9I55" node="72L_75QAL8W" resolve="0" />
       <node concept="77mDD" id="7LOBZQynG2v" role="3u9I5f">
         <node concept="2q3Xmd" id="7LOBZQynG2w" role="2qeo_x">
           <node concept="3JAaGz" id="7LOBZQynG2x" role="2q3XnM">

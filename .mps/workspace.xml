@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Generate expression text in global.">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.behavior/StructuredInstruction_Behavior.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.behavior/StructuredInstruction_Behavior.mpsr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/.model" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/MinimumLimit_Editor.mpsr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/RangeLimit_Editor.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/Limit_Editor.mpsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/LabelReference.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/LabelReference.mpsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Limit.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Limit.mpsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/MinimumLimit.mpsr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/RangeLimit.mpsr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/MinimumLimit_TextGen.mpsr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/RangeLimit_TextGen.mpsr" beforeDir="false" afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/Limit_TextGen.mpsr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,16 +234,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -252,11 +248,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tables" />
+              <option name="myItemId" value="r:330e42d7-7372-467a-a6b9-88afa40a2ff5(WebAssembly.editor) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.editor]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,6 +263,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,6 +295,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:330e42d7-7372-467a-a6b9-88afa40a2ff5(WebAssembly.editor) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.editor]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.textGen]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAssembly" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,44 +382,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:330e42d7-7372-467a-a6b9-88afa40a2ff5(WebAssembly.editor) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.editor]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tables" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebAssembly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
@@ -354,15 +392,15 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:330e42d7-7372-467a-a6b9-88afa40a2ff5(WebAssembly.editor) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.editor]" />
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tables" />
+              <option name="myItemId" value="types" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="8550095654287786393" />
+              <option name="myItemId" value="9194139242018769044" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -397,13 +435,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611063502786</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Fix bug with limiting a module to only one child of the start concept.">
-      <created>1612130814996</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1612130814996</updated>
     </task>
     <task id="LOCAL-00044" summary="Remove index types and replace with descriptions.">
       <created>1612147630412</created>
@@ -741,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614025056232</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Simplify the block scope.">
+      <created>1614030018463</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1614030018464</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -752,14 +790,11 @@
           <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
             <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
           </child>
-          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
-            <generated_finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
-          </child>
         </result_provider>
         <query>
           <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
           <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-            <node ref="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)/6446938150886823913" title="storage size of" />
+            <node ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3655016016376803511" title="StructuredInstruction" />
           </holder>
         </query>
         <usage_view>
@@ -778,18 +813,14 @@
                   <child caption="WebAssembly" excluded="false" isresult="false" results_section="false" module_ref="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="WebAssembly.textGen" excluded="false" isresult="false" results_section="false">
+                    <child caption="WebAssembly.structure" excluded="false" isresult="false" results_section="false">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="StorageSize_TextGen" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)/6446938150886823912" isRoot="true">
+                      <child caption="StructuredInstruction" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3655016016376803511" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="storage size of" info="(role: operation in: StorageSize_TextGen)" excluded="false" isresult="true" results_section="false" nodePtr="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)/6446938150886823913">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
+                        <role name="target" />
                       </child>
-                      <model uid="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)" />
+                      <model uid="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" />
                     </child>
                   </child>
                 </child>
@@ -803,18 +834,124 @@
                   <child caption="WebAssembly" excluded="false" isresult="false" results_section="true" module_ref="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="WebAssembly.textGen" excluded="false" isresult="false" results_section="true">
+                    <child caption="WebAssembly.behavior" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="MemoryLoadAndExtend_TextGen" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)/4645246054940656521" isRoot="true">
+                      <child caption="StructuredInstruction_Behavior" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior)/5478951778760369954" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                        <child caption="getScope(concept&lt; &gt;,node&lt;&gt;):Scope" info="(role: method in: StructuredInstruction_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior)/5478951778760369965">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="StructuredInstruction" info="(role: requestedConcept in: ofConcept)" excluded="false" isresult="true" results_section="true" nodePtr="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior)/595160883988267468">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                          <child caption="StructuredInstruction" info="(role: conceptArgument in: isSubConceptOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior)/5478951778760527076">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                        <child caption="getIdentifierContext():sequence&lt;node&lt;Identified&gt;&gt;" info="(role: method in: StructuredInstruction_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior)/595160883988170029">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="StructuredInstruction" info="(role: requestedConcept in: ofConcept)" excluded="false" isresult="true" results_section="true" nodePtr="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior)/595160883988759065">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior)" />
+                    </child>
+                    <child caption="WebAssembly.constraints" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="BranchIf_Constraints" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)/4737472921530767261" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="storage size of" info="(role: part in: append)" excluded="false" isresult="true" results_section="true" nodePtr="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)/4645246054940859709">
+                        <child caption="inherited" info="(role: searchScopeFactory in: link {block})" excluded="false" isresult="true" results_section="true" nodePtr="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)/4737472921530767264">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
                       </child>
-                      <model uid="r:d7c3ba26-3070-43a2-a10c-8d2bbf054a1b(WebAssembly.textGen)" />
+                      <child caption="BranchTable_Constraints" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)/4737472921531289558" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="inherited" info="(role: searchScopeFactory in: link {default})" excluded="false" isresult="true" results_section="true" nodePtr="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)/4737472921531289561">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="Branch_Constraints" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)/4737472921530767546" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="inherited" info="(role: searchScopeFactory in: link {block})" excluded="false" isresult="true" results_section="true" nodePtr="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)/4737472921530767549">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="LabelReference_Constraints" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)/4737472921530968671" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="inherited" info="(role: searchScopeFactory in: link {instruction})" excluded="false" isresult="true" results_section="true" nodePtr="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)/4737472921530968674">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="StructuredInstruction_Constraints" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)/3655016016377105850" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <model uid="r:913d0f7a-95cc-4351-acea-15878263b128(WebAssembly.constraints)" />
+                    </child>
+                    <child caption="WebAssembly.structure" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="Block" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3655016016377133611" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <child caption="Branch" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3655016016377105843" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="block" info="(role: linkDeclaration in: Branch)" excluded="false" isresult="true" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/4737472921530582361">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="BranchIf" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3655016016377105844" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="block" info="(role: linkDeclaration in: BranchIf)" excluded="false" isresult="true" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/4737472921530579198">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="BranchTable" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3655016016377105845" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="default" info="(role: linkDeclaration in: BranchTable)" excluded="false" isresult="true" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/4737472921530968663">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="If" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3655016016378283313" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <child caption="LabelReference" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/4737472921530968666" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="instruction" info="(role: linkDeclaration in: LabelReference)" excluded="false" isresult="true" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/4737472921530968667">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="Loop" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)/3655016016377566704" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <model uid="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" />
                     </child>
                   </child>
                 </child>
@@ -842,7 +979,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Only use 1 constant instead of 1 per value type.&#10;Fix type use check for matching types." />
     <MESSAGE value="Add memory arg to memory instructions." />
     <MESSAGE value="Add memory arg to memory store instruction." />
     <MESSAGE value="Add storage size to memory instructions." />
@@ -869,6 +1005,7 @@
     <MESSAGE value="Correct scope for labels, but still need to fix identifiers for locals and labels." />
     <MESSAGE value="Fix index and name check for locals." />
     <MESSAGE value="Attempt to fix labels. Still unable to fix the implicit transfroamtion menu for references." />
-    <option name="LAST_COMMIT_MESSAGE" value="Attempt to fix labels. Still unable to fix the implicit transfroamtion menu for references." />
+    <MESSAGE value="Simplify the block scope." />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplify the block scope." />
   </component>
 </project>

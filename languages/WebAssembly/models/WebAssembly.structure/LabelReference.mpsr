@@ -35,8 +35,8 @@
     <property role="EcuMT" value="4737472921530968666" />
     <property role="3GE5qa" value="instructions.control" />
     <property role="TrG5h" value="LabelReference" />
-    <property role="34LRSv" value="labelidx" />
     <property role="R4oN_" value="Label index of a structured control instruction." />
+    <property role="34LRSv" value="labelidx" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="46YSCmsSEDr" role="1TKVEi">
       <property role="IQ2ns" value="4737472921530968667" />
