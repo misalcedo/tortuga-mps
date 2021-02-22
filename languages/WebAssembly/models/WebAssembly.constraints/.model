@@ -20,6 +20,7 @@
     <import index="aqb7" ref="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="fhke" ref="r:3c88a241-a733-45bd-86ef-c4f3f5d018a1(WebAssembly.behavior)" implicit="true" />
   </imports>
 </model>
 
