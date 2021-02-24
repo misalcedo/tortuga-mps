@@ -189,6 +189,11 @@
         <child id="2532384738331312186" name="type" index="2TZLqU" />
       </concept>
       <concept id="1553610340930335870" name="WebAssembly.structure.Memory" flags="ng" index="2Z2jKx" />
+      <concept id="3748737278945288543" name="WebAssembly.structure.Comment" flags="ng" index="2ZM_7I">
+        <property id="3748737278945288546" name="content" index="2ZM_7j" />
+      </concept>
+      <concept id="3748737278945288542" name="WebAssembly.structure.LineComment" flags="ng" index="2ZM_7J" />
+      <concept id="3748737278945628239" name="WebAssembly.structure.BlockComment" flags="ng" index="2ZPU3Y" />
       <concept id="2168606229993768499" name="WebAssembly.structure.Type" flags="ng" index="12oyBj">
         <child id="7915396312917237776" name="ft" index="y1Oci" />
       </concept>
@@ -303,6 +308,12 @@
       <node concept="20XRx3" id="5quRwEuxGKf" role="2whVRh">
         <property role="20XRxs" value="b" />
       </node>
+    </node>
+    <node concept="2ZM_7J" id="3g6cb6bO9iU" role="2b4fI3">
+      <property role="2ZM_7j" value="hello world" />
+    </node>
+    <node concept="2ZPU3Y" id="3g6cb6bP6i9" role="2b4fI3">
+      <property role="2ZM_7j" value="hello world" />
     </node>
     <node concept="1JSq7w" id="7qC2F9Xy05e" role="2b4fI3">
       <node concept="3JAaGW" id="7qC2F9Xy05g" role="1JSgEF">
