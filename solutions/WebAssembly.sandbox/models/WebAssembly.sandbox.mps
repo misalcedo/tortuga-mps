@@ -204,6 +204,15 @@
         <child id="3748737278946240370" name="to" index="2ZRdv3" />
       </concept>
       <concept id="3748737278946053515" name="WebAssembly.structure.ConvertByExtension" flags="ng" index="2ZRzOU" />
+      <concept id="3748737278946701437" name="WebAssembly.structure.Reinterpret" flags="ng" index="2ZTW3c">
+        <child id="3748737278946701440" name="from" index="2ZTW0L" />
+      </concept>
+      <concept id="3748737278947569583" name="WebAssembly.structure.ConvertToFloat" flags="ng" index="2ZUhWu">
+        <child id="3748737278947569589" name="from" index="2ZUhW4" />
+        <child id="3748737278947569588" name="to" index="2ZUhW5" />
+      </concept>
+      <concept id="3748737278947574670" name="WebAssembly.structure.Demote" flags="ng" index="2ZUncZ" />
+      <concept id="3748737278947574562" name="WebAssembly.structure.Promote" flags="ng" index="2ZUnej" />
       <concept id="2168606229993768499" name="WebAssembly.structure.Type" flags="ng" index="12oyBj">
         <child id="7915396312917237776" name="ft" index="y1Oci" />
       </concept>
@@ -590,6 +599,23 @@
           <node concept="3TnuRC" id="3g6cb6bSv1U" role="2ZQct3" />
           <node concept="3_kjBL" id="3g6cb6bSv1R" role="2ZQct5" />
           <node concept="tZLl2" id="3g6cb6bSuZ_" role="tWqxn">
+            <property role="tZLl1" value="5_S81t4xKzk/Unsigned" />
+          </node>
+        </node>
+        <node concept="2ZTW3c" id="3g6cb6bVkrg" role="2qeo_x">
+          <node concept="3_jBKm" id="3g6cb6bVrLl" role="tY25H" />
+          <node concept="3TnuRC" id="3g6cb6bVMTP" role="2ZTW0L" />
+        </node>
+        <node concept="2ZTW3c" id="3g6cb6bVMWd" role="2qeo_x">
+          <node concept="3_kjBL" id="3g6cb6bVMYG" role="2ZTW0L" />
+          <node concept="3Tnpbc" id="3g6cb6bVMYD" role="tY25H" />
+        </node>
+        <node concept="2ZUncZ" id="3g6cb6bW$_$" role="2qeo_x" />
+        <node concept="2ZUnej" id="3g6cb6bW$Em" role="2qeo_x" />
+        <node concept="2ZUhWu" id="3g6cb6bW$Ja" role="2qeo_x">
+          <node concept="3_jBKm" id="3g6cb6bW$LL" role="2ZUhW4" />
+          <node concept="3Tnpbc" id="3g6cb6bW$LI" role="2ZUhW5" />
+          <node concept="tZLl2" id="3g6cb6bW$Jg" role="tWqxn">
             <property role="tZLl1" value="5_S81t4xKzk/Unsigned" />
           </node>
         </node>
