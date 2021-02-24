@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Generate expression text in global.">
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/BlockComment_Editor.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/LineComment_Editor.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/BlockComment.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Comment.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/LineComment.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/BlockComment_TextGen.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/LineComment_TextGen.mpsr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.typesystem/check_BlockComment.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/ConvertAndTruncate_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/ConvertByExtension_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.editor/Wrap_Editor.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/ConvertAndTruncate.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/ConvertAndTruncateWithSaturation.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/ConvertByExtension.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.structure/Wrap.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/ConvertAndTruncate_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/ConvertByExtension_TextGen.mpsr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/WebAssembly/models/WebAssembly.textGen/Wrap_TextGen.mpsr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps" afterDir="false" />
     </list>
@@ -206,49 +208,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:330e42d7-7372-467a-a6b9-88afa40a2ff5(WebAssembly.editor) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.editor]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebAssembly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:a1b35e87-0013-4dd8-bfa2-3a76ff8ae093(WebAssembly.sandbox) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,7 +230,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="comments" />
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numeric" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,10 +249,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:330e42d7-7372-467a-a6b9-88afa40a2ff5(WebAssembly.editor) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.editor]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,10 +273,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebAssembly" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,12 +309,8 @@
               <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
@@ -371,11 +327,57 @@
               <option name="myItemId" value="r:a1b35e87-0013-4dd8-bfa2-3a76ff8ae093(WebAssembly.sandbox) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/solutions/WebAssembly.sandbox/models/WebAssembly.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="6122158696450454316" />
+              <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:330e42d7-7372-467a-a6b9-88afa40a2ff5(WebAssembly.editor) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.editor]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797(WebAssembly)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c0f59883-361d-4b09-be24-39e7ad8052de(WebAssembly.structure) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/WebAssembly/models/WebAssembly.structure]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="FileSystem">
@@ -435,13 +437,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611063502786</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Enforce exports as not duplicated.">
-      <created>1612148420323</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1612148420323</updated>
     </task>
     <task id="LOCAL-00046" summary="Define import description.&#10;Export names are unique per module.">
       <created>1612317663274</created>
@@ -779,7 +774,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614031395336</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Add support for comments.">
+      <created>1614176743407</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1614176743408</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -979,7 +981,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add memory arg to memory store instruction." />
     <MESSAGE value="Add storage size to memory instructions." />
     <MESSAGE value="Add sign extensions to memory load." />
     <MESSAGE value="Implement all binary operations on integers and floats." />
@@ -1006,6 +1007,7 @@
     <MESSAGE value="Attempt to fix labels. Still unable to fix the implicit transfroamtion menu for references." />
     <MESSAGE value="Simplify the block scope." />
     <MESSAGE value="Ensure elements are limited by the table size." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ensure elements are limited by the table size." />
+    <MESSAGE value="Add support for comments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add support for comments." />
   </component>
 </project>
