@@ -48,6 +48,12 @@
     <node concept="PrWs8" id="2HITqhtcOcJ" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyj" id="3g6cb6bWBfR" role="1TKVEi">
+      <property role="IQ2ns" value="3748737278947783671" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="children" />
+      <ref role="20lvS9" node="3g6cb6bW_cG" resolve="ActorReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lq$j_IynTB">
     <property role="EcuMT" value="3844544907767807591" />
@@ -67,6 +73,31 @@
     <property role="TrG5h" value="Message" />
     <property role="34LRSv" value="message" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3g6cb6bW$Yg">
+    <property role="EcuMT" value="3748737278947774352" />
+    <property role="TrG5h" value="System" />
+    <property role="34LRSv" value="system" />
+    <property role="R4oN_" value="A system of actors." />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3g6cb6bW$Yh" role="1TKVEi">
+      <property role="IQ2ns" value="3748737278947774353" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="actors" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3g6cb6bW_cG" resolve="ActorReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3g6cb6bW_cG">
+    <property role="EcuMT" value="3748737278947775276" />
+    <property role="TrG5h" value="ActorReference" />
+    <node concept="1TJgyj" id="3g6cb6bW_cH" role="1TKVEi">
+      <property role="20lbJX" value="fLJekj4/1" />
+      <property role="IQ2ns" value="3748737278947775277" />
+      <property role="20kJfa" value="actor" />
+      <ref role="20lvS9" node="2HITqhtcOcI" resolve="Actor" />
+    </node>
   </node>
 </model>
 
