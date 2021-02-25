@@ -31,6 +31,7 @@
       </concept>
       <concept id="3129691285170111278" name="Tortuga.structure.Actor" flags="ng" index="1Qnqqa">
         <reference id="7624291582677112674" name="default" index="3KHFII" />
+        <child id="3748737278947783671" name="children" index="2ZX4d6" />
         <child id="7624291582677096738" name="intentions" index="3KHJnI" />
       </concept>
     </language>
@@ -50,11 +51,31 @@
         </node>
       </node>
     </node>
+    <node concept="2ZX6et" id="1yPM_KET5J6" role="2ZX4d6">
+      <ref role="2ZX6es" node="1yPM_KET5J2" resolve="childA" />
+    </node>
+    <node concept="2ZX6et" id="1yPM_KET5Jb" role="2ZX4d6">
+      <ref role="2ZX6es" node="1yPM_KET5J4" resolve="childB" />
+    </node>
   </node>
   <node concept="2ZX7Wx" id="3g6cb6bW_cC">
     <property role="TrG5h" value="test" />
     <node concept="2ZX6et" id="3g6cb6bWBfF" role="2ZX7Ww">
       <ref role="2ZX6es" node="2HITqhtcYhK" resolve="echo" />
+    </node>
+  </node>
+  <node concept="1Qnqqa" id="1yPM_KET5J2">
+    <property role="TrG5h" value="childA" />
+    <ref role="3KHFII" node="1yPM_KET5J3" resolve="f" />
+    <node concept="3KI6Jj" id="1yPM_KET5J3" role="3KHJnI">
+      <property role="TrG5h" value="f" />
+    </node>
+  </node>
+  <node concept="1Qnqqa" id="1yPM_KET5J4">
+    <property role="TrG5h" value="childB" />
+    <ref role="3KHFII" node="1yPM_KET5J5" resolve="b" />
+    <node concept="3KI6Jj" id="1yPM_KET5J5" role="3KHJnI">
+      <property role="TrG5h" value="b" />
     </node>
   </node>
 </model>

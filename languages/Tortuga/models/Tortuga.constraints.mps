@@ -40,5 +40,11 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="1yPM_KETcGV">
+    <ref role="1M2myG" to="xp42:3g6cb6bW_cG" resolve="ActorReference" />
+    <node concept="1N5Pfh" id="1yPM_KETcGW" role="1Mr941">
+      <ref role="1N5Vy1" to="xp42:3g6cb6bW_cH" resolve="actor" />
+    </node>
+  </node>
 </model>
 
