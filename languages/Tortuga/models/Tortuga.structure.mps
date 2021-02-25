@@ -56,6 +56,7 @@
       <property role="IQ2ns" value="3748737278947783671" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="children" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3g6cb6bW_cG" resolve="ActorReference" />
     </node>
     <node concept="1TJgyj" id="6BeVcMpu1$y" role="1TKVEi">
