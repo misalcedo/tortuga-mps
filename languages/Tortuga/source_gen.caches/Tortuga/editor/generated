@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-19x9aomknutm749l2ern8vdmevqilej">
-  <files names="ActorReference_Editor.java:ActorReference_EditorBuilder_a.java:ActorReference_SubstituteMenu.java:Actor_Editor.java:Actor_EditorBuilder_a.java:EditorAspectDescriptorImpl.java" />
+<product version="3" modelHash="-e8fpd3gql0ac055ufzjul7ozccw0d9d">
+  <files names="ActorReference_Editor.java:ActorReference_EditorBuilder_a.java:ActorReference_SubstituteMenu.java:EditorAspectDescriptorImpl.java:IntentReference_Editor.java:IntentReference_EditorBuilder_a.java:IntentReference_SubstituteMenu.java" />
 </product>
 

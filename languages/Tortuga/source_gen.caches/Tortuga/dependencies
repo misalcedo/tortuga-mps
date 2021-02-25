@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="Tortuga.Language">
+    <classNode dependClassName="Tortuga.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="Tortuga.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="Tortuga.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="Tortuga.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="Tortuga.structure.StructureAspectDescriptor" />
@@ -11,7 +13,9 @@
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.language.LanguageExtensions" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />

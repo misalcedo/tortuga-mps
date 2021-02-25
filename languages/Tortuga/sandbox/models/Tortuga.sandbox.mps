@@ -18,13 +18,41 @@
       <concept id="3748737278947774352" name="Tortuga.structure.System" flags="ng" index="2ZX7Wx">
         <child id="3748737278947774353" name="actors" index="2ZX7Ww" />
       </concept>
-      <concept id="3129691285170111278" name="Tortuga.structure.Actor" flags="ng" index="1Qnqqa" />
+      <concept id="3844544907767807592" name="Tortuga.structure.Message" flags="ng" index="1rOYXh" />
+      <concept id="3844544907767807591" name="Tortuga.structure.Send" flags="ng" index="1rOYXu">
+        <child id="3844544907767807593" name="message" index="1rOYXg" />
+        <child id="7624291582676993816" name="recipient" index="3KI6Jk" />
+      </concept>
+      <concept id="7624291582676993823" name="Tortuga.structure.Intent" flags="ng" index="3KI6Jj">
+        <child id="7624291582676993824" name="actions" index="3KI6JG" />
+      </concept>
+      <concept id="7624291582676993819" name="Tortuga.structure.Reply" flags="ng" index="3KI6Jn">
+        <child id="7624291582676993820" name="message" index="3KI6Jg" />
+      </concept>
+      <concept id="3129691285170111278" name="Tortuga.structure.Actor" flags="ng" index="1Qnqqa">
+        <reference id="7624291582677112674" name="default" index="3KHFII" />
+        <child id="7624291582677096738" name="intentions" index="3KHJnI" />
+      </concept>
     </language>
   </registry>
   <node concept="1Qnqqa" id="2HITqhtcYhK">
     <property role="TrG5h" value="echo" />
+    <ref role="3KHFII" node="6BeVcMpu1Vr" resolve="new" />
+    <node concept="3KI6Jj" id="6BeVcMpu1Vr" role="3KHJnI">
+      <property role="TrG5h" value="new" />
+      <node concept="3KI6Jn" id="6BeVcMpu1Vt" role="3KI6JG">
+        <node concept="1rOYXh" id="6BeVcMpu1Vu" role="3KI6Jg" />
+      </node>
+      <node concept="1rOYXu" id="6BeVcMpu3b9" role="3KI6JG">
+        <node concept="1rOYXh" id="6BeVcMpu3bb" role="1rOYXg" />
+        <node concept="2ZX6et" id="6BeVcMpu3bk" role="3KI6Jk">
+          <ref role="2ZX6es" node="2HITqhtcYhK" resolve="echo" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2ZX7Wx" id="3g6cb6bW_cC">
+    <property role="TrG5h" value="test" />
     <node concept="2ZX6et" id="3g6cb6bWBfF" role="2ZX7Ww">
       <ref role="2ZX6es" node="2HITqhtcYhK" resolve="echo" />
     </node>

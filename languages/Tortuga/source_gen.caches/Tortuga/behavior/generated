@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-8vka9kmn7c3whq410xkl871pf2mpbfw" />
+<product version="3" modelHash="79jy9rjkya8onm6r5f7vl97zgmzludl">
+  <files names="Actor__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:Intent__BehaviorDescriptor.java" />
+</product>
 

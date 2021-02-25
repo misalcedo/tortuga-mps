@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Generate expression text in global.">
-      <change afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +176,7 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1" />
+    <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
       <pane id="FileSystem">
         <subPane>
@@ -226,20 +225,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="80c61a4c-b816-4604-ad1a-01daf4b4011b" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -254,16 +239,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="80c61a4c-b816-4604-ad1a-01daf4b4011b" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -273,35 +248,7 @@
               <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="80c61a4c-b816-4604-ad1a-01daf4b4011b" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:187731f6-b27d-4509-9547-4d6da405fcf7(Tortuga.sandbox) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/sandbox/models/Tortuga.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e6613359-fb87-406e-9cdd-06d7eb9dfcb2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
         </subPane>
       </pane>
     </panes>
@@ -333,13 +280,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611063502786</updated>
-    </task>
-    <task id="LOCAL-00049" summary="imports have the index of the contrusct they represent.">
-      <created>1612324749147</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1612324749147</updated>
     </task>
     <task id="LOCAL-00050" summary="Fix broken reference to the construct.">
       <created>1612326527553</created>
@@ -677,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614182981769</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Introduce a README.">
+      <created>1614270390877</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1614270390878</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -877,7 +824,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Implement all relational operations on integers and floats." />
     <MESSAGE value="split load into 2 instruction." />
     <MESSAGE value="Update all numeric instructions to use Typed interface." />
     <MESSAGE value="Define constant instructions and limit globals to constant expressions." />
@@ -904,6 +850,7 @@
     <MESSAGE value="Implement int to int and float to integer conversion." />
     <MESSAGE value="Implement integer to float to conversion and float to float." />
     <MESSAGE value="Define a system and actor reference concept." />
-    <option name="LAST_COMMIT_MESSAGE" value="Define a system and actor reference concept." />
+    <MESSAGE value="Introduce a README." />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduce a README." />
   </component>
 </project>

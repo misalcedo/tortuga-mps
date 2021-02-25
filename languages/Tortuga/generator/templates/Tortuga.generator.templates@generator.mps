@@ -17,58 +17,7 @@
       <concept id="6944554116686773103" name="WebAssembly.structure.Identifier" flags="ng" index="20XRx3">
         <property id="6944554116686773104" name="value" index="20XRxs" />
       </concept>
-      <concept id="5332635540775670910" name="WebAssembly.structure.MemoryExportDescription" flags="ng" index="uzWuV">
-        <reference id="5332635540775670911" name="memory" index="uzWuU" />
-      </concept>
-      <concept id="5332635540775790493" name="WebAssembly.structure.Export" flags="ng" index="u$jho">
-        <child id="5332635540775790538" name="description" index="u$jgf" />
-        <child id="5332635540775790496" name="name" index="u$jh_" />
-      </concept>
-      <concept id="3687465748074807126" name="WebAssembly.structure.Identified" flags="ng" index="2whVRp">
-        <child id="3687465748074807134" name="id" index="2whVRh" />
-      </concept>
-      <concept id="105156629472723441" name="WebAssembly.structure.Parameter" flags="ng" index="2S2_qk">
-        <property id="4888076528020360554" name="type" index="1Wgubu" />
-      </concept>
-      <concept id="2532384738331398965" name="WebAssembly.structure.IMemory" flags="ng" index="2TYsmP">
-        <child id="1553610340930604792" name="type" index="2Z1kqB" />
-      </concept>
-      <concept id="2532384738331312185" name="WebAssembly.structure.IFunction" flags="ng" index="2TZLqT">
-        <child id="2532384738331312186" name="type" index="2TZLqU" />
-      </concept>
-      <concept id="1553610340930335870" name="WebAssembly.structure.Memory" flags="ng" index="2Z2jKx" />
-      <concept id="2168606229993768499" name="WebAssembly.structure.Type" flags="ng" index="12oyBj">
-        <child id="7915396312917237776" name="ft" index="y1Oci" />
-      </concept>
-      <concept id="8791998381326397060" name="WebAssembly.structure.FunctionType" flags="ng" index="1qLTPQ">
-        <child id="8791998381326397084" name="parameters" index="1qLTPI" />
-      </concept>
-      <concept id="8791998381326635401" name="WebAssembly.structure.TypeUse" flags="ng" index="1qMY9V">
-        <reference id="6982209414176589396" name="type" index="1BxSKG" />
-      </concept>
-      <concept id="9194139242018672590" name="WebAssembly.structure.Integer" flags="ng" index="3JAaGz">
-        <property id="9194139242018672608" name="value" index="3JAaGd" />
-      </concept>
-      <concept id="9194139242018672593" name="WebAssembly.structure.Name" flags="ng" index="3JAaGW">
-        <child id="9194139242018672594" name="value" index="3JAaGZ" />
-      </concept>
-      <concept id="9194139242018672592" name="WebAssembly.structure.String" flags="ng" index="3JAaGX">
-        <property id="9194139242018672636" name="value" index="3JAaGh" />
-      </concept>
-      <concept id="9194139242018769027" name="WebAssembly.structure.MemoryType" flags="ng" index="3JAyLI">
-        <child id="9194139242018769030" name="lim" index="3JAyLF" />
-      </concept>
-      <concept id="9194139242018768968" name="WebAssembly.structure.MinimumLimit" flags="ng" index="3JAyM_" />
-      <concept id="9194139242018768963" name="WebAssembly.structure.Limit" flags="ng" index="3JAyMI">
-        <child id="4888076528020218985" name="min" index="1Wh0Jt" />
-      </concept>
-      <concept id="7054688705394917546" name="WebAssembly.structure.Import" flags="ng" index="1JSgEE">
-        <child id="7054688705394917547" name="module" index="1JSgEF" />
-        <child id="7054688705394917549" name="name" index="1JSgEH" />
-      </concept>
-      <concept id="7054688705394961376" name="WebAssembly.structure.FunctionImport" flags="ng" index="1JSq7w" />
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
-        <child id="3354811992909960248" name="fields" index="2b4fI3" />
         <child id="4888076528020804589" name="id" index="1WjNLp" />
       </concept>
     </language>
@@ -132,6 +81,10 @@
       <ref role="30HIoZ" to="xp42:2HITqhtcOcI" resolve="Actor" />
       <ref role="3lhOvi" node="6Itp1kvB_Gd" resolve="map_Actor" />
     </node>
+    <node concept="3lhOvk" id="6BeVcMpu9FQ" role="3lj3bC">
+      <ref role="30HIoZ" to="xp42:3g6cb6bW$Yg" resolve="System" />
+      <ref role="3lhOvi" node="6BeVcMpu9MJ" resolve="map_System" />
+    </node>
   </node>
   <node concept="1Qnqup" id="6Itp1kvB_Gd">
     <node concept="n94m4" id="6Itp1kvB_Ge" role="lGtFl">
@@ -156,67 +109,28 @@
         </node>
       </node>
     </node>
-    <node concept="12oyBj" id="6Itp1kvBBxI" role="2b4fI3">
-      <node concept="1qLTPQ" id="6Itp1kvBBxK" role="y1Oci">
-        <node concept="2S2_qk" id="6Itp1kvBByv" role="1qLTPI">
-          <property role="1Wgubu" value="1SorY1su$oB/i64" />
-          <node concept="20XRx3" id="6Itp1kvBByx" role="2whVRh">
-            <property role="20XRxs" value="to" />
-          </node>
-        </node>
-        <node concept="2S2_qk" id="5quRwEuwjJV" role="1qLTPI">
-          <node concept="20XRx3" id="5quRwEuwjK8" role="2whVRh">
-            <property role="20XRxs" value="offset" />
-          </node>
-        </node>
-        <node concept="2S2_qk" id="5quRwEuwjK1" role="1qLTPI">
-          <node concept="20XRx3" id="5quRwEuwjKa" role="2whVRh">
-            <property role="20XRxs" value="size" />
-          </node>
-        </node>
-      </node>
-      <node concept="20XRx3" id="6Itp1kvBByt" role="2whVRh">
-        <property role="20XRxs" value="send" />
-      </node>
+  </node>
+  <node concept="1Qnqup" id="6BeVcMpu9MJ">
+    <node concept="n94m4" id="6BeVcMpu9MK" role="lGtFl">
+      <ref role="n9lRv" to="xp42:3g6cb6bW$Yg" resolve="System" />
     </node>
-    <node concept="1JSq7w" id="6Itp1kvBBk9" role="2b4fI3">
-      <node concept="3JAaGW" id="6Itp1kvBBka" role="1JSgEF">
-        <node concept="3JAaGX" id="6Itp1kvBBkb" role="3JAaGZ">
-          <property role="3JAaGh" value="system" />
-        </node>
-      </node>
-      <node concept="3JAaGW" id="6Itp1kvBBkc" role="1JSgEH">
-        <node concept="3JAaGX" id="6Itp1kvBBkd" role="3JAaGZ">
-          <property role="3JAaGh" value="send" />
-        </node>
-      </node>
-      <node concept="1qMY9V" id="6Itp1kvBBke" role="2TZLqU">
-        <ref role="1BxSKG" node="6Itp1kvBBxI" resolve="$send" />
-      </node>
-      <node concept="20XRx3" id="6Itp1kvBBqW" role="2whVRh">
-        <property role="20XRxs" value="send" />
-      </node>
-    </node>
-    <node concept="2Z2jKx" id="5quRwEuwk08" role="2b4fI3">
-      <node concept="3JAyLI" id="5quRwEuwk0a" role="2Z1kqB">
-        <node concept="3JAyM_" id="5quRwEuwk18" role="3JAyLF">
-          <node concept="3JAaGz" id="5quRwEuwk1b" role="1Wh0Jt">
-            <property role="3JAaGd" value="1" />
+    <node concept="20XRx3" id="6BeVcMpu9ML" role="1WjNLp">
+      <property role="20XRxs" value="map_System" />
+      <node concept="17Uvod" id="6BeVcMpu9MM" role="lGtFl">
+        <property role="2qtEX9" value="value" />
+        <property role="P4ACc" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797/6944554116686773103/6944554116686773104" />
+        <node concept="3zFVjK" id="6BeVcMpu9MN" role="3zH0cK">
+          <node concept="3clFbS" id="6BeVcMpu9MO" role="2VODD2">
+            <node concept="3clFbF" id="6BeVcMpu9MP" role="3cqZAp">
+              <node concept="2OqwBi" id="6BeVcMpu9MQ" role="3clFbG">
+                <node concept="30H73N" id="6BeVcMpu9MR" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6BeVcMpu9MS" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
-      </node>
-      <node concept="20XRx3" id="5quRwEuwk16" role="2whVRh">
-        <property role="20XRxs" value="io" />
-      </node>
-    </node>
-    <node concept="u$jho" id="5quRwEuwk29" role="2b4fI3">
-      <node concept="3JAaGW" id="5quRwEuwk2b" role="u$jh_">
-        <node concept="3JAaGX" id="5quRwEuwk2d" role="3JAaGZ">
-          <property role="3JAaGh" value="io" />
-        </node>
-      </node>
-      <node concept="uzWuV" id="5quRwEuwk3c" role="u$jgf">
-        <ref role="uzWuU" node="5quRwEuwk08" resolve="$io" />
       </node>
     </node>
   </node>
