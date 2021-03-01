@@ -196,5 +196,19 @@
       <ref role="20lvS9" node="6BeVcMptCsv" resolve="Intent" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3efPeEy$fT4">
+    <property role="EcuMT" value="3715422321818795588" />
+    <property role="TrG5h" value="SendToSelf" />
+    <property role="34LRSv" value="send to self" />
+    <property role="R4oN_" value="Send a message to the current actor." />
+    <ref role="1TJDcQ" node="6BeVcMptCsl" resolve="Action" />
+    <node concept="1TJgyj" id="3efPeEy$fT5" role="1TKVEi">
+      <property role="IQ2ns" value="3715422321818795589" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="message" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lq$j_IynTC" resolve="Message" />
+    </node>
+  </node>
 </model>
 

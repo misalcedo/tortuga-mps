@@ -12,6 +12,9 @@
       </concept>
     </language>
     <language id="2a90d038-c7ad-4f8d-953f-88cc17cd1112" name="Tortuga">
+      <concept id="3715422321818795588" name="Tortuga.structure.SendToSelf" flags="ng" index="2h7MEI">
+        <child id="3715422321818795589" name="message" index="2h7MEJ" />
+      </concept>
       <concept id="3748737278947775276" name="Tortuga.structure.ActorReference" flags="ng" index="2ZX6et">
         <reference id="3748737278947775277" name="actor" index="2ZX6es" />
       </concept>
@@ -46,9 +49,12 @@
       </node>
       <node concept="1rOYXu" id="3efPeEy$3IU" role="3KI6JG">
         <node concept="1rOYXh" id="3efPeEy$3IW" role="1rOYXg" />
-        <node concept="2ZX6et" id="3efPeEy$3J5" role="3KI6Jk">
-          <ref role="2ZX6es" node="1yPM_KET5J4" resolve="childB" />
+        <node concept="2ZX6et" id="3efPeEy$hNc" role="3KI6Jk">
+          <ref role="2ZX6es" node="1yPM_KET5J2" resolve="childA" />
         </node>
+      </node>
+      <node concept="2h7MEI" id="3efPeEy$hNm" role="3KI6JG">
+        <node concept="1rOYXh" id="3efPeEy$hNo" role="2h7MEJ" />
       </node>
     </node>
     <node concept="2ZX6et" id="1yPM_KET5J6" role="2ZX4d6">

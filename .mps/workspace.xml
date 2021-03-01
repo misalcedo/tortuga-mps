@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="bfcc4d5b-4280-4572-9910-51e045280c8e" name="Default Changelist" comment="Generate expression text in global.">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/models/Tortuga.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/models/Tortuga.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/models/Tortuga.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/models/Tortuga.constraints.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/models/Tortuga.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/models/Tortuga.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/sandbox/models/Tortuga.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/sandbox/models/Tortuga.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/source_gen.caches/Tortuga/behavior/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/source_gen.caches/Tortuga/behavior/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/source_gen.caches/Tortuga/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/source_gen.caches/Tortuga/behavior/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/source_gen.caches/Tortuga/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/source_gen.caches/Tortuga/constraints/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/source_gen.caches/Tortuga/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/source_gen.caches/Tortuga/constraints/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/source_gen/Tortuga/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/source_gen/Tortuga/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/source_gen/Tortuga/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/source_gen/Tortuga/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Tortuga/source_gen/Tortuga/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Tortuga/source_gen/Tortuga/constraints/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +29,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="5188ad3f-6cfe-439e-82da-d1fa8068cde7/r:fe83e510-ef8a-473f-92e9-2b61a995a4d3(TempModule5188ad3f-6cfe-439e-82da-d1fa8068cde7/ConsoleModel_23420926890608)">
+            <model ref="00a7dcc7-0c81-47b8-9d97-10bb5d4e95db/r:ccc4eddf-c3c1-47d9-b6b2-7b63cbc8d019(TempModule00a7dcc7-0c81-47b8-9d97-10bb5d4e95db/ConsoleModel_8693895304968)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -38,11 +49,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="1yPM_KERaQY">
-                <node concept="3balQm" id="1yPM_KERaQZ" role="aymYE" />
-                <node concept="2Clz$F" id="1yPM_KERaR0" role="aymYO" />
-                <node concept="2_V_lH" id="1yPM_KERaR1" role="1PhJh3">
-                  <ref role="2_V_lI" node="1yPM_KERaR0" resolve="CommandHolder" />
+              <node concept="aymSD" id="3efPeEyzDEe">
+                <node concept="3balQm" id="3efPeEyzDEf" role="aymYE" />
+                <node concept="2Clz$F" id="3efPeEyzDEg" role="aymYO" />
+                <node concept="2_V_lH" id="3efPeEyzDEh" role="1PhJh3">
+                  <ref role="2_V_lI" node="3efPeEyzDEg" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -178,8 +189,141 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Open Files'; set:Open Files; class com.intellij.openapi.fileEditor.impl.OpenFilesScope">
+          <expand>
+            <path>
+              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tortuga.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tortuga" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:1a3fcaf2-cf10-4063-bf28-f1a364482448(Tortuga.generator.templates@generator) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/generator/templates/Tortuga.generator.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7624291582677130415" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tortuga.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tortuga.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tortuga" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:1a3fcaf2-cf10-4063-bf28-f1a364482448(Tortuga.generator.templates@generator) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/generator/templates/Tortuga.generator.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7754464175289424653" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tortuga.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tortuga" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tortuga-mps" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
@@ -193,6 +337,22 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tortuga.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tortuga" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:1a3fcaf2-cf10-4063-bf28-f1a364482448(Tortuga.generator.templates@generator) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/generator/templates/Tortuga.generator.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3129691285170109695" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,11 +376,15 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
+              <option name="myItemId" value="80c61a4c-b816-4604-ad1a-01daf4b4011b" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:85d78cd1-74ef-47bd-985a-be16e8e9ad52(Tortuga.editor) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/models/Tortuga.editor.mps]" />
+              <option name="myItemId" value="Tortuga" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:187731f6-b27d-4509-9547-4d6da405fcf7(Tortuga.sandbox) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/sandbox/models/Tortuga.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,11 +398,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga" />
+              <option name="myItemId" value="r:85d78cd1-74ef-47bd-985a-be16e8e9ad52(Tortuga.editor) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/models/Tortuga.editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,77 +444,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="80c61a4c-b816-4604-ad1a-01daf4b4011b" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:1a3fcaf2-cf10-4063-bf28-f1a364482448(Tortuga.generator.templates@generator) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/generator/templates/Tortuga.generator.templates@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7754464175289424653" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:1a3fcaf2-cf10-4063-bf28-f1a364482448(Tortuga.generator.templates@generator) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/generator/templates/Tortuga.generator.templates@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7624291582677130415" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
+          <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="tortuga-mps" />
               <option name="myItemType" value="" />
@@ -371,98 +465,11 @@
               <option name="myItemId" value="r:187731f6-b27d-4509-9547-4d6da405fcf7(Tortuga.sandbox) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/sandbox/models/Tortuga.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:1a3fcaf2-cf10-4063-bf28-f1a364482448(Tortuga.generator.templates@generator) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/generator/templates/Tortuga.generator.templates@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3129691285170109695" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tortuga-mps" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2a90d038-c7ad-4f8d-953f-88cc17cd1112(Tortuga)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tortuga" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:1a3fcaf2-cf10-4063-bf28-f1a364482448(Tortuga.generator.templates@generator) in IdeaFile[path: /Users/misalcedo/MPSProjects/tortuga-mps/languages/Tortuga/generator/templates/Tortuga.generator.templates@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7754464175289424653" />
+              <option name="myItemId" value="3748737278947775272" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Open Files'; set:Open Files; class com.intellij.openapi.fileEditor.impl.OpenFilesScope">
-          <expand>
-            <path>
-              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="tortuga-mps" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="tortuga-mps" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
         </subPane>
       </pane>
     </panes>
@@ -494,13 +501,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611063502786</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Fix imports before local concepts and textgen for everything.">
-      <created>1612557119204</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1612557119204</updated>
     </task>
     <task id="LOCAL-00054" summary="Define some of the plain instructions.">
       <created>1612664906984</created>
@@ -838,7 +838,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614291063318</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Disallow self as a child actor.">
+      <created>1614616513451</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1614616513451</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -1038,7 +1045,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add integer unary ops to echo module." />
     <MESSAGE value="Implement extend." />
     <MESSAGE value="Implement unary operators for floating point numbers." />
     <MESSAGE value="Add newline for expression in the parent concept." />
@@ -1064,6 +1070,7 @@
     <MESSAGE value="Add basic structure of a Tortuga program." />
     <MESSAGE value="Redefine template for map_Actor to import nodes." />
     <MESSAGE value="Add children to echo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add children to echo." />
+    <MESSAGE value="Disallow self as a child actor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Disallow self as a child actor." />
   </component>
 </project>
