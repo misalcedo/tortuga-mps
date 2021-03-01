@@ -17,6 +17,19 @@
       <concept id="6944554116686773103" name="WebAssembly.structure.Identifier" flags="ng" index="20XRx3">
         <property id="6944554116686773104" name="value" index="20XRxs" />
       </concept>
+      <concept id="2220688952221504191" name="WebAssembly.structure.Expression" flags="ng" index="77mDD">
+        <child id="3655016016376803538" name="instructions" index="2qeo_x" />
+      </concept>
+      <concept id="8550095654287773701" name="WebAssembly.structure.Element" flags="ng" index="bLLER">
+        <reference id="8550095654287786383" name="table" index="bLOGX" />
+        <child id="8550095654287786381" name="offset" index="bLOGZ" />
+      </concept>
+      <concept id="3655016016380357694" name="WebAssembly.structure.Constant" flags="ng" index="2q3Xmd">
+        <child id="3655016016380357697" name="value" index="2q3XnM" />
+      </concept>
+      <concept id="6446938150886441337" name="WebAssembly.structure.Typed" flags="ng" index="tY25I">
+        <child id="6446938150886441338" name="type" index="tY25H" />
+      </concept>
       <concept id="3687465748074807126" name="WebAssembly.structure.Identified" flags="ng" index="2whVRp">
         <child id="3687465748074807134" name="id" index="2whVRh" />
       </concept>
@@ -35,6 +48,10 @@
       <concept id="2532384738331312185" name="WebAssembly.structure.IFunction" flags="ng" index="2TZLqT">
         <child id="2532384738331312186" name="type" index="2TZLqU" />
       </concept>
+      <concept id="3748737278945288543" name="WebAssembly.structure.Comment" flags="ng" index="2ZM_7I">
+        <property id="3748737278945288546" name="content" index="2ZM_7j" />
+      </concept>
+      <concept id="3748737278945288542" name="WebAssembly.structure.LineComment" flags="ng" index="2ZM_7J" />
       <concept id="2168606229993768499" name="WebAssembly.structure.Type" flags="ng" index="12oyBj">
         <child id="7915396312917237776" name="ft" index="y1Oci" />
       </concept>
@@ -78,6 +95,9 @@
       <concept id="3129691285170111037" name="WebAssembly.structure.Module" flags="ng" index="1Qnqup">
         <child id="3354811992909960248" name="fields" index="2b4fI3" />
         <child id="4888076528020804589" name="id" index="1WjNLp" />
+      </concept>
+      <concept id="4888076528022086024" name="WebAssembly.structure.Function" flags="ng" index="1WuSSW">
+        <child id="2220688952221504208" name="body" index="77mC6" />
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -186,6 +206,9 @@
         </node>
       </node>
     </node>
+    <node concept="2ZM_7J" id="3efPeEy$sLb" role="2b4fI3">
+      <property role="2ZM_7j" value="Import all resources depended on by the host system." />
+    </node>
     <node concept="1JSq7p" id="1yPM_KERgd8" role="2b4fI3">
       <node concept="3JAaGW" id="1yPM_KERgd9" role="1JSgEF">
         <node concept="3JAaGX" id="1yPM_KERgda" role="3JAaGZ">
@@ -285,6 +308,30 @@
         <property role="20XRxs" value="reply" />
       </node>
     </node>
+    <node concept="2ZM_7J" id="3efPeEy$sjN" role="2b4fI3">
+      <property role="2ZM_7j" value="Send a message to self. Different naming scheme to avoid conflict with child actors." />
+    </node>
+    <node concept="1JSq7w" id="3efPeEy$iEt" role="2b4fI3">
+      <node concept="3JAaGW" id="3efPeEy$iEu" role="1JSgEF">
+        <node concept="3JAaGX" id="3efPeEy$iEv" role="3JAaGZ">
+          <property role="3JAaGh" value="system" />
+        </node>
+      </node>
+      <node concept="3JAaGW" id="3efPeEy$iEw" role="1JSgEH">
+        <node concept="3JAaGX" id="3efPeEy$iEx" role="3JAaGZ">
+          <property role="3JAaGh" value="self_send" />
+        </node>
+      </node>
+      <node concept="1qMY9V" id="3efPeEy$iEy" role="2TZLqU">
+        <ref role="1BxSKG" node="1yPM_KERgy3" resolve="$send" />
+      </node>
+      <node concept="20XRx3" id="3efPeEy$iEz" role="2whVRh">
+        <property role="20XRxs" value="self_send" />
+      </node>
+    </node>
+    <node concept="2ZM_7J" id="3efPeEy$rMg" role="2b4fI3">
+      <property role="2ZM_7j" value="Define import to send messages to child actors." />
+    </node>
     <node concept="1JSq7w" id="1yPM_KET1lG" role="2b4fI3">
       <node concept="3JAaGW" id="1yPM_KET1lH" role="1JSgEF">
         <node concept="3JAaGX" id="1yPM_KET1lI" role="3JAaGZ">
@@ -366,6 +413,78 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ZM_7J" id="3efPeEy$rgJ" role="2b4fI3">
+      <property role="2ZM_7j" value="Define functions for each intent." />
+    </node>
+    <node concept="12oyBj" id="3efPeEy$pjR" role="2b4fI3">
+      <node concept="1qLTPQ" id="3efPeEy$pjT" role="y1Oci">
+        <node concept="2S2_qk" id="3efPeEy$ppw" role="1qLTPI">
+          <node concept="3_jBKm" id="3efPeEy$ppD" role="3ThHWX" />
+          <node concept="20XRx3" id="3efPeEy$ppR" role="2whVRh">
+            <property role="20XRxs" value="offset" />
+          </node>
+        </node>
+        <node concept="2S2_qk" id="3efPeEy$ppG" role="1qLTPI">
+          <node concept="3_jBKm" id="3efPeEy$ppM" role="3ThHWX" />
+          <node concept="20XRx3" id="3efPeEy$ppP" role="2whVRh">
+            <property role="20XRxs" value="length" />
+          </node>
+        </node>
+      </node>
+      <node concept="20XRx3" id="3efPeEy$ppu" role="2whVRh">
+        <property role="20XRxs" value="intention" />
+      </node>
+    </node>
+    <node concept="1WuSSW" id="3efPeEy$p8H" role="2b4fI3">
+      <node concept="77mDD" id="3efPeEy$p8J" role="77mC6" />
+      <node concept="1qMY9V" id="3efPeEy$p8L" role="2TZLqU">
+        <ref role="1BxSKG" node="3efPeEy$pjR" resolve="$intention" />
+      </node>
+      <node concept="1WS0z7" id="3efPeEy$pTL" role="lGtFl">
+        <node concept="3JmXsc" id="3efPeEy$pTO" role="3Jn$fo">
+          <node concept="3clFbS" id="3efPeEy$pTP" role="2VODD2">
+            <node concept="3clFbF" id="3efPeEy$pTV" role="3cqZAp">
+              <node concept="2OqwBi" id="3efPeEy$pTQ" role="3clFbG">
+                <node concept="3Tsc0h" id="3efPeEy$pTT" role="2OqNvi">
+                  <ref role="3TtcxE" to="xp42:6BeVcMpu1$y" resolve="intentions" />
+                </node>
+                <node concept="30H73N" id="3efPeEy$pTU" role="2Oq$k0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="20XRx3" id="3efPeEy$q04" role="2whVRh">
+        <property role="20XRxs" value="itent" />
+        <node concept="17Uvod" id="3efPeEy$q8P" role="lGtFl">
+          <property role="2qtEX9" value="value" />
+          <property role="P4ACc" value="3858ffa4-4214-44ac-9998-4ee1e7b8b797/6944554116686773103/6944554116686773104" />
+          <node concept="3zFVjK" id="3efPeEy$q8Q" role="3zH0cK">
+            <node concept="3clFbS" id="3efPeEy$q8R" role="2VODD2">
+              <node concept="3clFbF" id="3efPeEy$q9k" role="3cqZAp">
+                <node concept="2OqwBi" id="3efPeEy$qmP" role="3clFbG">
+                  <node concept="30H73N" id="3efPeEy$q9j" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3efPeEy$qEg" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="bLLER" id="3efPeEy$sTe" role="2b4fI3">
+      <ref role="bLOGX" node="1yPM_KERgn9" resolve="$intentions" />
+      <node concept="77mDD" id="3efPeEy$sTg" role="bLOGZ">
+        <node concept="2q3Xmd" id="3efPeEy$tkO" role="2qeo_x">
+          <node concept="3JAaGz" id="3efPeEy$tkX" role="2q3XnM">
+            <property role="3JAaGd" value="0" />
+          </node>
+          <node concept="3_jBKm" id="3efPeEy$tkU" role="tY25H" />
         </node>
       </node>
     </node>
