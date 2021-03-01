@@ -14,26 +14,50 @@
   </root>
   <root nodeRef="r:7f780c3d-4e0c-458c-8505-8ab05782d06a(Tortuga.constraints)/1780551724900338491">
     <file name="ActorReference_Constraints.java">
-      <node id="1780551724900338491" at="15,39,16,38" concept="6" />
-      <node id="1780551724900338492" at="20,90,21,109" concept="3" />
-      <node id="1780551724900338491" at="21,109,22,131" concept="3" />
-      <node id="1780551724900338492" at="22,131,23,42" concept="1" />
-      <node id="1780551724900338491" at="23,42,24,22" concept="4" />
-      <node id="1780551724900338491" at="28,0,29,0" concept="5" trace="ActorReference$mw" />
-      <node id="1780551724900338491" at="32,0,33,0" concept="5" trace="actor$TFn" />
-      <node id="1780551724900338491" at="15,0,18,0" concept="0" trace="ActorReference_Constraints#()V" />
-      <node id="1780551724900338491" at="19,0,26,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
-      <scope id="1780551724900338491" at="15,39,16,38" />
-      <scope id="1780551724900338491" at="15,0,18,0" />
-      <scope id="1780551724900338491" at="20,90,24,22">
+      <node id="1780551724900338491" at="23,39,24,38" concept="6" />
+      <node id="1780551724900338492" at="31,44,32,20" concept="4" />
+      <node id="1780551724900338492" at="39,63,40,57" concept="4" />
+      <node id="1780551724900338492" at="43,80,44,142" concept="3" />
+      <node id="1780551724900338492" at="44,142,45,62" concept="4" />
+      <node id="1780551724900338491" at="49,6,50,131" concept="3" />
+      <node id="1780551724900338492" at="50,131,51,42" concept="1" />
+      <node id="1780551724900338491" at="51,42,52,22" concept="4" />
+      <node id="1780551724900338491" at="54,0,55,0" concept="5" trace="breakingNode_lu6fxi_a0a0a0a0a1a0a0a0c" />
+      <node id="1780551724900338491" at="57,0,58,0" concept="5" trace="ActorReference$mw" />
+      <node id="1780551724900338491" at="58,0,59,0" concept="5" trace="Actor$Ni" />
+      <node id="1780551724900338491" at="62,0,63,0" concept="5" trace="actor$TFn" />
+      <node id="1780551724900338491" at="23,0,26,0" concept="0" trace="ActorReference_Constraints#()V" />
+      <node id="1780551724900338492" at="30,0,34,0" concept="2" trace="hasOwnScopeProvider#()Z" />
+      <node id="1780551724900338492" at="38,0,42,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1780551724900338492" at="42,0,47,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1780551724900338492" at="36,56,47,10" concept="4" />
+      <node id="1780551724900338492" at="34,0,49,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1780551724900338492" at="28,90,49,6" concept="3" />
+      <node id="1780551724900338491" at="27,0,54,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1780551724900338491" at="23,39,24,38" />
+      <scope id="1780551724900338492" at="31,44,32,20" />
+      <scope id="1780551724900338492" at="39,63,40,57" />
+      <scope id="1780551724900338492" at="43,80,45,62">
+        <var name="scope" id="1780551724900338492" />
+      </scope>
+      <scope id="1780551724900338491" at="23,0,26,0" />
+      <scope id="1780551724900338492" at="30,0,34,0" />
+      <scope id="1780551724900338492" at="38,0,42,0" />
+      <scope id="1780551724900338492" at="42,0,47,0">
+        <var name="_context" id="1780551724900338492" />
+      </scope>
+      <scope id="1780551724900338492" at="36,56,47,10" />
+      <scope id="1780551724900338492" at="34,0,49,0" />
+      <scope id="1780551724900338491" at="28,90,52,22">
         <var name="d0" id="1780551724900338492" />
         <var name="references" id="1780551724900338491" />
       </scope>
-      <scope id="1780551724900338491" at="19,0,26,0" />
-      <unit id="1780551724900338492" at="21,48,21,108" name="Tortuga.constraints.ActorReference_Constraints$1" />
-      <unit id="1780551724900338491" at="27,0,30,0" name="Tortuga.constraints.ActorReference_Constraints$CONCEPTS" />
-      <unit id="1780551724900338491" at="31,0,34,0" name="Tortuga.constraints.ActorReference_Constraints$LINKS" />
-      <unit id="1780551724900338491" at="14,0,35,0" name="Tortuga.constraints.ActorReference_Constraints" />
+      <scope id="1780551724900338491" at="27,0,54,0" />
+      <unit id="1780551724900338491" at="61,0,64,0" name="Tortuga.constraints.ActorReference_Constraints$LINKS" />
+      <unit id="1780551724900338491" at="56,0,60,0" name="Tortuga.constraints.ActorReference_Constraints$CONCEPTS" />
+      <unit id="1780551724900338492" at="37,19,47,9" name="Tortuga.constraints.ActorReference_Constraints$1$1" />
+      <unit id="1780551724900338492" at="29,48,49,5" name="Tortuga.constraints.ActorReference_Constraints$1" />
+      <unit id="1780551724900338491" at="22,0,65,0" name="Tortuga.constraints.ActorReference_Constraints" />
     </file>
   </root>
   <root nodeRef="r:7f780c3d-4e0c-458c-8505-8ab05782d06a(Tortuga.constraints)/7624291582677128571">
