@@ -53,9 +53,18 @@
           <ref role="2ZX6es" node="1yPM_KET5J2" resolve="childA" />
         </node>
       </node>
+      <node concept="1rOYXu" id="7DFtFJI44Rv" role="3KI6JG">
+        <node concept="1rOYXh" id="7DFtFJI44Rx" role="1rOYXg" />
+        <node concept="2ZX6et" id="7DFtFJI44RJ" role="3KI6Jk">
+          <ref role="2ZX6es" node="1yPM_KET5J4" resolve="childB" />
+        </node>
+      </node>
       <node concept="2h7MEI" id="3efPeEy$hNm" role="3KI6JG">
         <node concept="1rOYXh" id="3efPeEy$hNo" role="2h7MEJ" />
       </node>
+    </node>
+    <node concept="3KI6Jj" id="7DFtFJI3zUr" role="3KHJnI">
+      <property role="TrG5h" value="test" />
     </node>
     <node concept="2ZX6et" id="1yPM_KET5J6" role="2ZX4d6">
       <ref role="2ZX6es" node="1yPM_KET5J2" resolve="childA" />
